@@ -15,6 +15,13 @@ bun run cf-typegen       # Generate Cloudflare Worker types
 
 Add shadcn components with: `pnpm dlx shadcn@latest add <component>`
 
+```bash
+bun run parse                        # Parse all region sheets
+bun run parse -- --region 인천        # Parse specific region
+bun run parse -- --region 인천,서울   # Parse multiple regions
+bun run parse:list                   # List available sheets
+```
+
 ## Architecture
 
 **TanStack Start** full-stack React app deployed to **Cloudflare Workers**.
@@ -40,3 +47,5 @@ Route files use dot-notation for nesting (e.g., `start.ssr.spa-mode.tsx` → `/d
 - `src/components/ui/` — shadcn/ui components (auto-generated, do not manually edit)
 - `src/lib/utils.ts` — `cn()` utility for merging Tailwind classes
 - `src/routes/demo/` — demo/starter routes (prefixed with `demo`, safe to delete)
+- `scripts/parse-sheets.ts` — Playwright-based Google Sheets parser (extracts restaurant data per region)
+- `data/` — parsed restaurant JSON files (`{region}.json`, `restaurants-all.json`)

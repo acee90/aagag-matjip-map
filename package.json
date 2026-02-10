@@ -8,7 +8,9 @@
     "preview": "vite preview",
     "deploy": "bun run build && wrangler deploy",
     "cf-typegen": "wrangler types",
-    "test": "vitest run"
+    "test": "vitest run",
+    "parse": "bun run scripts/parse-sheets.ts",
+    "parse:list": "bun run scripts/parse-sheets.ts --list"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.24.0",
@@ -37,8 +39,8 @@
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^5.0.4",
-    "cheerio": "^1.2.0",
     "jsdom": "^27.0.0",
+    "playwright": "^1.58.2",
     "typescript": "^5.7.2",
     "vite": "^7.1.7",
     "vitest": "^3.0.5",
