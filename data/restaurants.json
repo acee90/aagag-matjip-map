@@ -1,0 +1,928 @@
+[
+  {
+    "name": "성진물텀벙",
+    "address": "인천 미추홀구 독배로403번길 10",
+    "link": "https://map.naver.com/p/search/성짐물텀벙/place/11723876?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "맛있는 아구찜, 볶음밥은 조금만!",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "신한우왕국",
+    "address": "인천 부평구 백범로 538 규성빌딩 2층",
+    "link": "https://map.naver.com/p/search/한우왕국/place/251633759?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
+    "recommendation": "갈비탕 유명한 '동네맛집'",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "오구당당 부평본점",
+    "address": "인천 부평구 경원대로1377번길 47",
+    "link": "https://map.naver.com/p/search/오구당당/place/11719686?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "1996년 개업 쌈밥집, 예약 추천",
+    "categories": [
+      "체인",
+      "한식"
+    ]
+  },
+  {
+    "name": "강릉해변메밀막국수 부평점",
+    "address": "인천 부평구 주부토로150번길 22 1층",
+    "link": "https://map.naver.com/p/entry/place/35092977?c=15.00,0,0,0,dh",
+    "recommendation": "메밀 막국수, 전병",
+    "categories": [
+      "체인",
+      "한식"
+    ]
+  },
+  {
+    "name": "검암뒷고기숯불꼼장어",
+    "address": "인천 서구 승학로495번길 4-1 다복빌딩",
+    "link": "https://map.naver.com/p/entry/place/20594574?c=15.00,0,0,0,dh",
+    "recommendation": "고기는 가성비 좋으나 술이 비쌈",
+    "categories": [
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "시굴집",
+    "address": "인천 서구 서곶로 468 시굴집",
+    "link": "https://map.naver.com/p/search/시굴집/place/11887198?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "진한 국물의 삼계탕, 오리백숙 등",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "연락골 고추장추어탕 본점",
+    "address": "인천 계양구 오류길 2",
+    "link": "https://map.naver.com/p/search/연락골 고추장 추어탕/place/16661443?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "인천에만 3개 체인, 고추장 추어탕",
+    "categories": [
+      "체인",
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "유천가든",
+    "address": "인천 서구 아라로51번길 6-1 유천가든",
+    "link": "https://map.naver.com/p/entry/place/16672445?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "오리진흙구이, 주물럭 등 오리전문",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "촌장골 당하점",
+    "address": "인천 서구 서곶로 850 촌장골",
+    "link": "https://map.naver.com/p/search/검단 촌장골/place/20714820?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "양념구이 구워주는 고깃집",
+    "categories": [
+      "체인",
+      "한식"
+    ]
+  },
+  {
+    "name": "울능이버섯백숙",
+    "address": "인천 서구 청라에메랄드로163번길 3-9",
+    "link": "https://map.naver.com/p/entry/place/35086606?c=14.41,0,0,0,dh",
+    "recommendation": "능이 오리,닭 백숙",
+    "categories": [
+      "단체",
+      "술안주"
+    ]
+  },
+  {
+    "name": "동해막국수",
+    "address": "인천 계양구 학고개길 15-29",
+    "link": "https://map.naver.com/p/entry/place/19872935?c=14.41,0,0,0,dh",
+    "recommendation": "막국수와 수육 깔끔",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "송도막창구이연수본점",
+    "address": "인천 연수구 샘말로87번길 8",
+    "link": "https://map.naver.com/p/entry/place/16495380?c=15.00,0,0,0,dh",
+    "recommendation": "김치 맛있다고 소문난 집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "산동만두",
+    "address": "인천 중구 우현로49번길 33",
+    "link": "https://map.naver.com/p/entry/place/12025366",
+    "recommendation": "공갈빵 유명한 만두 맛집",
+    "categories": [
+      "체인",
+      "한식"
+    ]
+  },
+  {
+    "name": "부평막국수",
+    "address": "인천 부평구 부평대로63번길 10-8",
+    "link": "https://map.naver.com/p/search/부평막국수/place/12025444?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 크엉엉엉앙님 추천 막국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "송도갈비 본점",
+    "address": "인천 연수구 능허대로 16",
+    "link": "https://map.naver.com/p/entry/place/1793709502?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "가족 모임으로 가기 좋은 고깃집",
+    "categories": [
+      "단체",
+      "체인"
+    ]
+  },
+  {
+    "name": "오서방연탄석쇠구이",
+    "address": "인천 연수구 벚꽃로158번길 43",
+    "link": "https://map.naver.com/p/search/오서방 연탄석쇠구이/place/33039995?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
+    "recommendation": "멸치회, 생선구이, 꼼장어",
+    "categories": [
+      "한식",
+      "단체",
+      "술안주"
+    ]
+  },
+  {
+    "name": "황해해물칼국수1호점",
+    "address": "인천 중구 용유로21번길 3",
+    "link": "https://map.naver.com/p/search/황해해물칼국수/place/11726347?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "깔끔하고 진한 국물",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "은행나무집",
+    "address": "인천 중구 마시란로 9",
+    "link": "https://map.naver.com/p/search/은행나무집/place/11577491?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "굴 영양밥, 칼국수 등.. 다양한 한식집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "기와집담",
+    "address": "인천 중구 용유로21번길 65-17",
+    "link": "https://map.naver.com/p/search/기와집담/place/21860357?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "들깨버섯탕, 가족 식사 자리로 좋음",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "나들목 보쌈 한정식",
+    "address": "인천 중구 용유서로 472",
+    "link": "https://map.naver.com/p/search/소나무식당/place/1219918481?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "돌솥정식",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "소나무식당",
+    "address": "인천 중구 잠진도길 55",
+    "link": "https://map.naver.com/p/entry/place/37800687?c=15.00,0,0,0,dh",
+    "recommendation": "생선구이정식+조개찜 추천",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "슬기네",
+    "address": "인천 중구 영종해안남로 32",
+    "link": "https://map.naver.com/p/search/우리밀칼국수/place/37944159?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "횟집, 의외로 떡볶이 맛집?",
+    "categories": [
+      "단체",
+      "한식"
+    ]
+  },
+  {
+    "name": "우리밀칼국수",
+    "address": "인천 중구 용유로21번길 37",
+    "link": "https://map.naver.com/p/entry/place/13458575?c=15.00,0,0,0,dh",
+    "recommendation": "간판부터 맛집임",
+    "categories": [
+      "술안주",
+      "한식"
+    ]
+  },
+  {
+    "name": "용화반점",
+    "address": "인천 중구 참외전로174번길 7",
+    "link": "https://map.naver.com/p/entry/place/31342337?c=15.00,0,0,0,dh",
+    "recommendation": "볶음밥 맛있는 중식집",
+    "categories": [
+      "단체",
+      "데이트"
+    ]
+  },
+  {
+    "name": "다복집",
+    "address": "인천 중구 우현로39번길 8-2",
+    "link": "https://map.naver.com/p/entry/place/36004070?c=15.00,0,0,0,dh",
+    "recommendation": "스지탕, 전요리 술집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "엘림칼국수",
+    "address": "인천 부평구 주부토로249번길 20",
+    "link": "https://map.naver.com/p/entry/place/16508313?c=14.95,0,0,0,dh",
+    "recommendation": "애객러 슈퍼초흰둥이님 추천 칼국수집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "연희보쌈",
+    "address": "인천 부평구 평천로 333",
+    "link": "https://map.naver.com/p/search/부평 돼지코/place/38381526?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 슈퍼초흰둥이님 추천 보쌈집",
+    "categories": [
+      "단체",
+      "술안주"
+    ]
+  },
+  {
+    "name": "삼미당",
+    "address": "인천 부평구 부평문화로72번길 10-5",
+    "link": "https://map.naver.com/p/entry/place/1719851115?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 이승만님 추천 라멘집",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "웨스턴스테이크",
+    "address": "인천 부평구 부평대로32번길 2",
+    "link": "https://map.naver.com/p/entry/place/16804804?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 이승만님 추천 고기집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "돼지코회조개구이",
+    "address": "인천 부평구 경원대로1377번길 29-5 1층",
+    "link": "https://map.naver.com/p/entry/place/38548090?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 거짓말입니다님 추천 조개구이집",
+    "categories": [
+      "술안주"
+    ]
+  },
+  {
+    "name": "기찻길 닭숯불구이",
+    "address": "인천 부평구 길주로585번길 26-1 1층",
+    "link": "https://map.naver.com/p/entry/place/1223381063?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 거짓말입니다님 추천 닭구이집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "신진말",
+    "address": "인천 서구 원적로7번길 1",
+    "link": "https://map.naver.com/p/entry/place/1432507570?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 이승만님 추천 고기집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "파운드 바베큐",
+    "address": "인천 서구 원적로 1 파운드 바베큐",
+    "link": "https://map.naver.com/p/entry/place/36943634?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 이승만님 추천 고기집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "학운정",
+    "address": "인천 미추홀구 소성로 193-22 1층",
+    "link": "https://map.naver.com/p/entry/place/120887961?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 이승만님 추천 간장게장집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "모녀떡볶이",
+    "address": "인천 부평구 광장로 16 부평민자역사",
+    "link": "https://map.naver.com/p/entry/place/1446754688?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 이승만님 추천 분식집",
+    "categories": [
+      "분식"
+    ]
+  },
+  {
+    "name": "북새통",
+    "address": "인천 부평구 갈월서로 6 대우빌딩",
+    "link": "https://map.naver.com/p/search/해민면옥/place/1294233117?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 슈퍼초흰둥이님 추천 분식집",
+    "categories": [
+      "분식",
+      "한식"
+    ]
+  },
+  {
+    "name": "홍명숙 황해 닭강정 부평점",
+    "address": "인천 부평구 시장로51번길 24",
+    "link": "https://map.naver.com/p/entry/place/34053073?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 이승만님 추천 닭강정집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "큰마당 녹두빈대떡",
+    "address": "인천 부평구 부평대로87번길 3",
+    "link": "https://map.naver.com/p/search/까치기사식당/place/11712147?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 이승만님 추천 빈대떡집",
+    "categories": [
+      "술안주"
+    ]
+  },
+  {
+    "name": "해민면옥",
+    "address": "인천 부평구 부평대로38번길 4 1층",
+    "link": "https://map.naver.com/p/entry/place/32862604?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 이승만님 추천 냉면집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "무교동 낙지전문점",
+    "address": "인천 부평구 신트리로6번길 3",
+    "link": "https://map.naver.com/p/search/만복짬뽕집/place/1389210298?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 이승만님 추천 낙지집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "까치기사식당",
+    "address": "인천 부평구 백범로 526 1층",
+    "link": "https://map.naver.com/p/search/인천 미추홀구 인주대로211번길 49-26/place/16408342?c=19.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 이승만님 추천 한식집",
+    "categories": [
+      "한식",
+      "중식"
+    ]
+  },
+  {
+    "name": "산동포자",
+    "address": "인천 부평구 마장로 75 대경빌딩",
+    "link": "https://map.naver.com/p/entry/place/37469683?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 거짓말입니다님 추천 중식집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "만복짬뽕집",
+    "address": "인천 계양구 벌말로 618",
+    "link": "https://map.naver.com/p/search/마을회관포차/place/1206329103?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 정예인님 추천 짬뽕 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "공원장",
+    "address": "인천 미추홀구 인주대로211번길 49-26",
+    "link": "https://map.naver.com/p/entry/place/1151229029?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 정예인님 추천 냉짬뽕 맛집",
+    "categories": [
+      "양식"
+    ]
+  },
+  {
+    "name": "화레무 송도신도시 본점",
+    "address": "인천 연수구 신송로125번길 13",
+    "link": "https://map.naver.com/p/entry/place/670854712?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 acho님 추천 고기 맛집",
+    "categories": [
+      "데이트"
+    ]
+  },
+  {
+    "name": "마을회관 포차",
+    "address": "인천 연수구 옥련로99번길 44",
+    "link": "https://map.naver.com/p/entry/place/21613104?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 노모야동님 추천 술집",
+    "categories": [
+      "데이트",
+      "술안주"
+    ]
+  },
+  {
+    "name": "동해식당",
+    "address": "인천 중구 축항대로2번길 55",
+    "link": "https://map.naver.com/p/entry/place/893593923?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 노모야동님 추천 꽃게백반 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "대연",
+    "address": "인천 미추홀구 주안로 190",
+    "link": "https://map.naver.com/p/entry/place/16537677?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 노모야동님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "신세계육칼",
+    "address": "인천 서구 신현로 40 원창아트빌 1층",
+    "link": "https://map.naver.com/p/entry/place/1851012442?c=14.50,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 노모야동님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "팔봉 막국수 등갈비찜",
+    "address": "인천 미추홀구 석정로376번길 18",
+    "link": "https://map.naver.com/p/search/황해수육 송도점/place/1748196221?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 노모야동님 추천 막국수, 등갈비 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "진천토종순대",
+    "address": "인천 연수구 능허대로446번길 64",
+    "link": "https://map.naver.com/p/search/신포동진순대국/place/16484616?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "",
+    "categories": []
+  },
+  {
+    "name": "황해수육 송도점",
+    "address": "인천 서구 신진말로 37 현신빌딩",
+    "link": "https://map.naver.com/p/search/고을순대국/place/21480727?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "",
+    "categories": []
+  },
+  {
+    "name": "신포동진순대국 본점",
+    "address": "인천 연수구 하모니로 144",
+    "link": "https://map.naver.com/p/entry/place/33025211?c=15.00,0,0,0,dh",
+    "recommendation": "",
+    "categories": []
+  },
+  {
+    "name": "고을순대국",
+    "address": "인천 남동구 하촌로 67",
+    "link": "https://map.naver.com/p/entry/place/1779451534?c=15.00,0,0,0,dh",
+    "recommendation": "",
+    "categories": []
+  },
+  {
+    "name": "황성얼큰오징어찌개",
+    "address": "인천 미추홀구 아암대로107번길 13",
+    "link": "https://m.blog.naver.com/felicidades1/222757290975",
+    "recommendation": "애객러 노모야동님 추천 찌개 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "복지식당",
+    "address": "인천 서구 가재울로 64 1층",
+    "link": "https://map.naver.com/p/entry/place/12057457?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 노모야동님 추천 김치찌개, 돌솥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "명인콩국수",
+    "address": "인천 연수구 앵고개로246번길 39-8",
+    "link": "https://map.naver.com/p/entry/place/19886103?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 노모야동님 추천 콩국수 맛집",
+    "categories": [
+      "체인"
+    ]
+  },
+  {
+    "name": "포사이공",
+    "address": "인천 부평구 경원대로 1419",
+    "link": "https://map.naver.com/p/entry/place/1294233117?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 노모야동님 추천 쌀국수 맛집",
+    "categories": [
+      "아시아"
+    ]
+  },
+  {
+    "name": "용대네국수",
+    "address": "인천 동구 수문통로 8",
+    "link": "https://map.naver.com/p/entry/place/85864216?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 노모야동님 추천 국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "인동잔치국수",
+    "address": "인천 계양구 효서로 31-1",
+    "link": "https://map.naver.com/p/entry/place/13202156?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 노모야동님 추천 국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "복댕이네 어묵",
+    "address": "인천 부평구 주부토로22번길 6",
+    "link": "https://map.naver.com/p/entry/place/16574300?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 노모야동님 추천 어묵 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "팟타이 리어카",
+    "address": "부평구 부평4동 222-19 노점상",
+    "link": "https://map.naver.com/p/entry/place/1854593359?c=15.00,0,0,0,adh",
+    "recommendation": "애객러 노모야동님 추천 팟타이 맛집",
+    "categories": [
+      "아시아"
+    ]
+  },
+  {
+    "name": "양평신내서울해장국 부평직영점",
+    "address": "인천 부평구 마장로 191",
+    "link": "https://map.naver.com/p/entry/place/32284194?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 노모야동님 추천 해장국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "별미칡냉면원조",
+    "address": "인천 부평구 주부토로145번길 28",
+    "link": "https://map.naver.com/p/search/효정통닭/place/1248500186?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
+    "recommendation": "애객러 노모야동님 추천 냉면 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "해민면옥",
+    "address": "인천 부평구 부평대로38번길 4 1층",
+    "link": "https://map.naver.com/p/entry/place/1911830399?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 노모야동님 추천 평양냉면 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "미광",
+    "address": "인천 중구 참외전로13번길 15-4",
+    "link": "https://map.naver.com/p/entry/place/1285554956?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 노모야동님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "대성각",
+    "address": "인천 동구 송림3.5동 69-6",
+    "link": "https://map.naver.com/p/entry/place/1192495583?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 노모야동님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "경미루",
+    "address": "인천 중구 제물량로113번길 22-11",
+    "link": "https://map.naver.com/p/search/선녀풍/place/13502872?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 노모야동님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "동강어탕국수",
+    "address": "인천 미추홀구 인하로266번길 10",
+    "link": "https://map.naver.com/p/search/우진 부대찌게/place/16422563?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 노모야동님 추천 국수 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "흥륜사쉼터",
+    "address": "인천 연수구 청량로70번길 40-17",
+    "link": "https://map.naver.com/p/entry/place/1277229734?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 노모야동님 추천 국수 파전 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "효정닭집",
+    "address": "인천 서구 가정로126번길 16",
+    "link": "https://map.naver.com/p/search/개성손만두요리전문점/place/35014104?c=13.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 노모야동님 추천 통닭 맛집",
+    "categories": [
+      "술안주",
+      "한식"
+    ]
+  },
+  {
+    "name": "대박 치킨",
+    "address": "인천 서구 석남로 117 122호",
+    "link": "https://map.naver.com/p/search/얼레꼴레만두/place/19878385?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 노모야동님 추천 통닭 맛집",
+    "categories": [
+      "술안주",
+      "한식"
+    ]
+  },
+  {
+    "name": "원조닭강정",
+    "address": "인천 미추홀구 장천로112번길 5 원조닭강정",
+    "link": "https://map.naver.com/p/search/미락초밥/place/11860769?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 노모야동님 추천 치킨 맛집",
+    "categories": [
+      "술안주"
+    ]
+  },
+  {
+    "name": "은식당 검암점",
+    "address": "인천 서구 검암로10번길 39 상가 1층",
+    "link": "https://map.naver.com/p/entry/place/1569638970?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 노모야동님 추천 돈까스 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "선녀풍",
+    "address": "인천 중구 선녀바위로 41",
+    "link": "https://map.naver.com/p/entry/place/1049076381?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 이승만님 추천 물회 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "우진삼계탕부대찌개",
+    "address": "인천 남동구 남동서로 226 공단공구상가",
+    "link": "https://map.naver.com/p/search/현대식당/place/36004059?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 생산관리님 추천 부대찌개 맛집",
+    "categories": [
+      "데이트"
+    ]
+  },
+  {
+    "name": "대발관",
+    "address": "인천 계양구 길마로88번길 1",
+    "link": "https://map.naver.com/p/entry/place/1386698669?c=15.00,0,0,0,dh",
+    "recommendation": "계양구 중식연합에 맞서 싸우는 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "개성손만두요리전문점",
+    "address": "인천 미추홀구 매소홀로 435",
+    "link": "https://map.naver.com/p/entry/place/1775386322?c=17.40,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 만두요리 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "얼레꼴레만두",
+    "address": "인천 미추홀구 한나루로 420 월드타워 1층",
+    "link": "https://map.naver.com/p/search/부평막국수/place/12025444?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 네모대가리님 추천 만두요리 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "미략초밥",
+    "address": "인천 미추홀구 용정공원로83번길 49 2층",
+    "link": "https://map.naver.com/p/search/호남한식부페/place/1156916770?c=12.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 네모대가리님 추천 초밥 맛집",
+    "categories": [
+      "일식",
+      "한식"
+    ]
+  },
+  {
+    "name": "언양닭칼국수 용현점",
+    "address": "인천 미추홀구 독배로403번길 60 1층",
+    "link": "https://map.naver.com/p/entry/place/960106026?c=18.94,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 닭칼국수 맛집",
+    "categories": [
+      "체인",
+      "중식"
+    ]
+  },
+  {
+    "name": "삼일반점",
+    "address": "인천 미추홀구 독배로 440",
+    "link": "https://map.naver.com/p/search/인천경화루/place/1361040594?c=15.00,0,0,0,dh&placePath=/home?entry=bmp&from=map&fromPanelNum=2&timestamp=202510142041&locale=ko&svcName=map_pcv5&searchText=인천경화루",
+    "recommendation": "애객러 네모대가리님 추천 중식 맛집",
+    "categories": [
+      "단체"
+    ]
+  },
+  {
+    "name": "현대식당",
+    "address": "인천 미추홀구 미추로36번길 19-1",
+    "link": "https://map.naver.com/p/entry/place/1737561612?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510142042&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 네모대가리님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "은미회수산",
+    "address": "인천 미추홀구 낙섬중로 129 용현동 685-12",
+    "link": "https://map.naver.com/p/entry/place/1433893692?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510142103&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 네모대가리님 추천 회 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "남동공단떡볶이",
+    "address": "인천 남동구 남동서로 226",
+    "link": "https://map.naver.com/p/search/복춘원/place/1016326184?c=15.00,0,0,0,dh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510142044&locale=ko&svcName=map_pcv5&searchText=복춘원",
+    "recommendation": "인천 떡볶이 3대장",
+    "categories": [
+      "분식"
+    ]
+  },
+  {
+    "name": "부평막국수",
+    "address": "인천 부평구 부평대로63번길 10-8",
+    "link": "https://map.naver.com/p/entry/place/1179762620?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510142044&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 크엉엉엉앙님 추천 막국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "호남한식부페",
+    "address": "인천 서구 원당대로 683",
+    "link": "https://map.naver.com/p/entry/place/1734704992?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510142045&locale=ko&svcName=map_pcv5",
+    "recommendation": "9000원 대패 삼겹 무한 리필",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "참만두",
+    "address": "인천 부평구 부흥로304번길 9",
+    "link": "https://map.naver.com/p/search/미%28?%29정통옛날/place/1203430061?c=15.00,0,0,0,dh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510142047&locale=ko&svcName=map_pcv5&searchText=미%28?%29정통옛날",
+    "recommendation": "만두 + 칼국수 가성비 좋음!",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "경화루",
+    "address": "인천 부평구 원길로 34 203호",
+    "link": "https://map.naver.com/p/entry/place/427296962?c=17.29,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510142048&locale=ko&svcName=map_pcv5",
+    "recommendation": "간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "관가",
+    "address": "인천 서구 발산로 41 정석프라자 2층 204호",
+    "link": "https://map.naver.com/p/search/양자강 원적로/place/21791492?c=17.28,0,0,0,dh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510142049&locale=ko&svcName=map_pcv5&searchText=양자강 원적로",
+    "recommendation": "간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "화양연화",
+    "address": "인천 부평구 부평대로17번길 28",
+    "link": "https://map.naver.com/p/entry/place/1596307155?c=17.28,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510142050&locale=ko&svcName=map_pcv5",
+    "recommendation": "간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "복춘원",
+    "address": "인천 부평구 동수로 57",
+    "link": "https://map.naver.com/p/search/샹그라중화요리/place/1288676788?c=15.00,0,0,0,dh&placePath=/home?entry=bmp&from=map&fromPanelNum=2&timestamp=202510142053&locale=ko&svcName=map_pcv5&searchText=샹그라중화요리",
+    "recommendation": "간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "동승루",
+    "address": "인천 계양구 양지로 148 3충 301호",
+    "link": "https://map.naver.com/p/entry/place/1770483352?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510142054&locale=ko&svcName=map_pcv5",
+    "recommendation": "간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "도원",
+    "address": "인천 부평구 부평문화로 201 거보맨션 1층 102호",
+    "link": "",
+    "recommendation": "간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "미 정통옛날짜장",
+    "address": "인천 계양구 오조산로7번길 4 105,106호",
+    "link": "",
+    "recommendation": "간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "용해루",
+    "address": "인천 계양구 까치말로 22 . 101호",
+    "link": "",
+    "recommendation": "간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "양자강",
+    "address": "인천 서구 원적로 91 현대상가 1층",
+    "link": "",
+    "recommendation": "간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "취란",
+    "address": "인천 서구 염곡로498번안길 11-14 1층",
+    "link": "",
+    "recommendation": "간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "샹그라 중화요리",
+    "address": "인천 서구 검단로445번길 16-1 상선빌딩 2층",
+    "link": "",
+    "recommendation": "간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "순정반점 당하점",
+    "address": "인천 서구 서곶로 846 1층 일부호",
+    "link": "",
+    "recommendation": "간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  }
+]
