@@ -1,0 +1,57 @@
+import type { MapBounds, Restaurant } from '@/types/restaurant'
+
+/** Haversine distance in km between two points */
+export function getDistance(
+  lat1: number,
+  lng1: number,
+  lat2: number,
+  lng2: number
+): number {
+  const R = 6371
+  const dLat = toRad(lat2 - lat1)
+  const dLng = toRad(lng2 - lng1)
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) ** 2
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+}
+
+function toRad(deg: number) {
+  return (deg * Math.PI) / 180
+}
+
+/** Filter restaurants within map bounds */
+export function filterByBounds(
+  restaurants: Restaurant[],
+  bounds: MapBounds
+): Restaurant[] {
+  return restaurants.filter(
+    (r) =>
+      r.lat >= bounds.south &&
+      r.lat <= bounds.north &&
+      r.lng >= bounds.west &&
+      r.lng <= bounds.east
+  )
+}
+
+/** Filter restaurants by selected categories */
+export function filterByCategories(
+  restaurants: Restaurant[],
+  categories: string[]
+): Restaurant[] {
+  if (categories.length === 0) return restaurants
+  return restaurants.filter((r) =>
+    r.categories.some((c) => categories.includes(c))
+  )
+}
+
+/** Extract unique categories from restaurant list */
+export function extractCategories(restaurants: Restaurant[]): string[] {
+  const set = new Set<string>()
+  restaurants.forEach((r) => r.categories.forEach((c) => set.add(c)))
+  return Array.from(set).sort()
+}
+
+/** Default center: Incheon city center */
+export const INCHEON_CENTER = { lat: 37.4563, lng: 126.7052 }
+export const DEFAULT_ZOOM = 12

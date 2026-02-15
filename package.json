@@ -10,7 +10,8 @@
     "cf-typegen": "wrangler types",
     "test": "vitest run",
     "parse": "bun run scripts/parse-sheets.ts",
-    "parse:list": "bun run scripts/parse-sheets.ts --list"
+    "parse:list": "bun run scripts/parse-sheets.ts --list",
+    "geocode": "bun run scripts/geocode-restaurants.ts"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.24.0",
@@ -24,8 +25,10 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.561.0",
+    "radix-ui": "^1.4.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-naver-maps": "^0.1.4",
     "tailwind-merge": "^3.0.2",
     "tailwindcss": "^4.0.6",
     "tw-animate-css": "^1.3.6",

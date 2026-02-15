@@ -1,118 +1,154 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { useState, useMemo, useCallback, useEffect } from 'react'
+import { NavermapsProvider } from 'react-naver-maps'
+import { getRestaurants } from '@/data/restaurants'
+import { MapView } from '@/components/MapView'
+import { RestaurantList } from '@/components/RestaurantList'
 import {
-  Zap,
-  Server,
-  Route as RouteIcon,
-  Shield,
-  Waves,
-  Sparkles,
-} from 'lucide-react'
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetDescription,
+} from '@/components/ui/sheet'
+import { useGeolocation } from '@/hooks/useGeolocation'
+import {
+  filterByBounds,
+  filterByCategories,
+  extractCategories,
+} from '@/lib/geo-utils'
+import type { Restaurant, MapBounds } from '@/types/restaurant'
+import { List, UtensilsCrossed } from 'lucide-react'
 
-export const Route = createFileRoute('/')({ component: App })
+export const Route = createFileRoute('/')({
+  loader: () => getRestaurants(),
+  component: App,
+})
 
 function App() {
-  const features = [
-    {
-      icon: <Zap className="w-12 h-12 text-cyan-400" />,
-      title: 'Powerful Server Functions',
-      description:
-        'Write server-side code that seamlessly integrates with your client components. Type-safe, secure, and simple.',
-    },
-    {
-      icon: <Server className="w-12 h-12 text-cyan-400" />,
-      title: 'Flexible Server Side Rendering',
-      description:
-        'Full-document SSR, streaming, and progressive enhancement out of the box. Control exactly what renders where.',
-    },
-    {
-      icon: <RouteIcon className="w-12 h-12 text-cyan-400" />,
-      title: 'API Routes',
-      description:
-        'Build type-safe API endpoints alongside your application. No separate backend needed.',
-    },
-    {
-      icon: <Shield className="w-12 h-12 text-cyan-400" />,
-      title: 'Strongly Typed Everything',
-      description:
-        'End-to-end type safety from server to client. Catch errors before they reach production.',
-    },
-    {
-      icon: <Waves className="w-12 h-12 text-cyan-400" />,
-      title: 'Full Streaming Support',
-      description:
-        'Stream data from server to client progressively. Perfect for AI applications and real-time updates.',
-    },
-    {
-      icon: <Sparkles className="w-12 h-12 text-cyan-400" />,
-      title: 'Next Generation Ready',
-      description:
-        'Built from the ground up for modern web applications. Deploy anywhere JavaScript runs.',
-    },
-  ]
+  const allRestaurants = Route.useLoaderData()
+
+  const [mapBounds, setMapBounds] = useState<MapBounds | null>(null)
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([])
+  const [selectedRestaurant, setSelectedRestaurant] =
+    useState<Restaurant | null>(null)
+  const [mobileListOpen, setMobileListOpen] = useState(false)
+
+  const { lat: userLat, lng: userLng, loading: locationLoading, requestLocation } =
+    useGeolocation()
+
+  const allCategories = useMemo(
+    () => extractCategories(allRestaurants),
+    [allRestaurants]
+  )
+
+  // Apply filters: categories → bounds
+  const filteredRestaurants = useMemo(() => {
+    let result = filterByCategories(allRestaurants, selectedCategories)
+    if (mapBounds) {
+      result = filterByBounds(result, mapBounds)
+    }
+    return result
+  }, [allRestaurants, selectedCategories, mapBounds])
+
+  const handleBoundsChange = useCallback((bounds: MapBounds) => {
+    setMapBounds(bounds)
+  }, [])
+
+  const handleSelectRestaurant = useCallback((restaurant: Restaurant) => {
+    setSelectedRestaurant(restaurant)
+  }, [])
+
+  const handleSelectFromList = useCallback((restaurant: Restaurant) => {
+    setSelectedRestaurant(restaurant)
+    setMobileListOpen(false)
+  }, [])
+
+  // Client-only rendering guard for NavermapsProvider
+  const [isClient, setIsClient] = useState(false)
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
+
+  if (!isClient) {
+    return (
+      <div className="flex h-dvh items-center justify-center bg-background">
+        <div className="flex flex-col items-center gap-3">
+          <UtensilsCrossed className="size-8 text-orange-500 animate-pulse" />
+          <p className="text-sm text-muted-foreground">지도를 불러오는 중...</p>
+        </div>
+      </div>
+    )
+  }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
-      <section className="relative py-20 px-6 text-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 via-blue-500/10 to-purple-500/10"></div>
-        <div className="relative max-w-5xl mx-auto">
-          <div className="flex items-center justify-center gap-6 mb-6">
-            <img
-              src="/tanstack-circle-logo.png"
-              alt="TanStack Logo"
-              className="w-24 h-24 md:w-32 md:h-32"
-            />
-            <h1 className="text-6xl md:text-7xl font-black text-white [letter-spacing:-0.08em]">
-              <span className="text-gray-300">TANSTACK</span>{' '}
-              <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-                START
-              </span>
-            </h1>
+    <NavermapsProvider ncpKeyId={import.meta.env.VITE_NAVER_MAP_CLIENT_ID}>
+      <div className="flex h-dvh flex-col">
+        {/* Header */}
+        <header className="shrink-0 flex items-center justify-between border-b bg-white px-4 py-2.5 z-20">
+          <div className="flex items-center gap-2">
+            <UtensilsCrossed className="size-5 text-orange-500" />
+            <h1 className="font-bold text-base">아가그 인천 맛집</h1>
           </div>
-          <p className="text-2xl md:text-3xl text-gray-300 mb-4 font-light">
-            The framework for next generation AI applications
-          </p>
-          <p className="text-lg text-gray-400 max-w-3xl mx-auto mb-8">
-            Full-stack framework powered by TanStack Router for React and Solid.
-            Build modern applications with server functions, streaming, and type
-            safety.
-          </p>
-          <div className="flex flex-col items-center gap-4">
-            <a
-              href="https://tanstack.com/start"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-3 bg-cyan-500 hover:bg-cyan-600 text-white font-semibold rounded-lg transition-colors shadow-lg shadow-cyan-500/50"
-            >
-              Documentation
-            </a>
-            <p className="text-gray-400 text-sm mt-2">
-              Begin your TanStack Start journey by editing{' '}
-              <code className="px-2 py-1 bg-slate-700 rounded text-cyan-400">
-                /src/routes/index.tsx
-              </code>
-            </p>
-          </div>
-        </div>
-      </section>
+          {/* Mobile list toggle */}
+          <button
+            className="flex items-center gap-1.5 rounded-lg bg-orange-50 px-3 py-1.5 text-sm font-medium text-orange-600 hover:bg-orange-100 transition-colors md:hidden"
+            onClick={() => setMobileListOpen(true)}
+          >
+            <List className="size-4" />
+            목록 {filteredRestaurants.length}
+          </button>
+        </header>
 
-      <section className="py-16 px-6 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {features.map((feature, index) => (
-            <div
-              key={index}
-              className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-cyan-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/10"
-            >
-              <div className="mb-4">{feature.icon}</div>
-              <h3 className="text-xl font-semibold text-white mb-3">
-                {feature.title}
-              </h3>
-              <p className="text-gray-400 leading-relaxed">
-                {feature.description}
-              </p>
-            </div>
-          ))}
+        {/* Main content */}
+        <div className="flex flex-1 overflow-hidden">
+          {/* Map */}
+          <div className="flex-1 relative">
+            <MapView
+              restaurants={filteredRestaurants}
+              selectedRestaurant={selectedRestaurant}
+              onSelectRestaurant={handleSelectRestaurant}
+              onBoundsChange={handleBoundsChange}
+              locationLoading={locationLoading}
+              onRequestLocation={requestLocation}
+            />
+          </div>
+
+          {/* Desktop sidebar */}
+          <aside className="hidden md:flex w-80 lg:w-96 shrink-0 border-l bg-white">
+            <RestaurantList
+              restaurants={filteredRestaurants}
+              categories={allCategories}
+              selectedCategories={selectedCategories}
+              onCategoriesChange={setSelectedCategories}
+              selectedRestaurant={selectedRestaurant}
+              onSelectRestaurant={handleSelectFromList}
+              userLat={userLat}
+              userLng={userLng}
+            />
+          </aside>
         </div>
-      </section>
-    </div>
+
+        {/* Mobile bottom sheet */}
+        <Sheet open={mobileListOpen} onOpenChange={setMobileListOpen}>
+          <SheetContent side="bottom" className="h-[70dvh] md:hidden p-0">
+            <SheetHeader className="sr-only">
+              <SheetTitle>맛집 목록</SheetTitle>
+              <SheetDescription>지도 영역 내 맛집 목록</SheetDescription>
+            </SheetHeader>
+            <RestaurantList
+              restaurants={filteredRestaurants}
+              categories={allCategories}
+              selectedCategories={selectedCategories}
+              onCategoriesChange={setSelectedCategories}
+              selectedRestaurant={selectedRestaurant}
+              onSelectRestaurant={handleSelectFromList}
+              userLat={userLat}
+              userLng={userLng}
+            />
+          </SheetContent>
+        </Sheet>
+      </div>
+    </NavermapsProvider>
   )
 }
