@@ -1,0 +1,222 @@
+[
+  {
+    "name": "이어도",
+    "address": "울산 남구 달삼로76번길 5",
+    "link": "https://map.naver.com/p/entry/place/13571578?c=15.00,0,0,0,dh",
+    "recommendation": "복국집인데 아구탕으로 유명함",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "미풍향",
+    "address": "울산 울주군 범서읍 곡연2길 34",
+    "link": "",
+    "recommendation": "가든식 백숙집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "미진돌곱창",
+    "address": "울산 남구 남산로26번길 10",
+    "link": "",
+    "recommendation": "애객러 하악하악님 추천 곱창 맛집",
+    "categories": [
+      "한식",
+      "술안주",
+      "데이트"
+    ]
+  },
+  {
+    "name": "거부돌곱창",
+    "address": "울산 남구 봉월로8번길 9-1",
+    "link": "https://map.naver.com/p/entry/place/16513955?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 하악하악님 추천 곱창 맛집",
+    "categories": [
+      "한식",
+      "술안주",
+      "데이트"
+    ]
+  },
+  {
+    "name": "원조 대구막창 1번지",
+    "address": "울산 중구 곽남1길 35",
+    "link": "https://map.naver.com/p/search/병영 대구막창/place/13571056?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 하악하악님 추천 막창 맛집",
+    "categories": [
+      "한식",
+      "술안주",
+      "데이트"
+    ]
+  },
+  {
+    "name": "저수지휴게실",
+    "address": "울산 울주군 청량읍 상보두현길 53",
+    "link": "https://map.naver.com/p/search/율리 저수지휴게실/place/16525096?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 하악하악님 추천 수제비 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "덤",
+    "address": "울산 남구 대학로84번길 5-5",
+    "link": "https://map.naver.com/p/entry/place/171694321?c=19.00,0,0,0,dh",
+    "recommendation": "애객러 하악하악님 추천 냉칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "민들레분식",
+    "address": "울산 동구 꽃바위로 326",
+    "link": "https://map.naver.com/p/search/민들레분식/place/32512021?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 울산맛집님 추천 김밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "하동식당",
+    "address": "울산 동구 동해안로 30-7",
+    "link": "https://map.naver.com/p/search/하동식당/place/11603617?c=15.00,0,0,0,dh&placePath=?entry=bmp",
+    "recommendation": "애객러 울산맛집님 추천 국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "소문난원조즉석김밥",
+    "address": "울산 동구 남목17길 4",
+    "link": "https://map.naver.com/p/entry/place/16484319?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 울산맛집님 추천 김밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "신토불이 왕족발",
+    "address": "울산 동구 대송1길 41",
+    "link": "https://map.naver.com/p/entry/place/16478336?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 울산맛집님 추천 족발 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "시골돼지볶음찌개전문점",
+    "address": "울산 중구 해오름길 13-6",
+    "link": "https://map.naver.com/p/entry/place/16361464?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 울산맛집님 추천 돼지찌개 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "복산 돈까스",
+    "address": "울산 중구 손골2길 17-6 상가동 1층",
+    "link": "https://map.naver.com/p/entry/place/1767347372?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 울산맛집님 추천 돈까스 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "진영숯불갈비",
+    "address": "울산 중구 신기길 15",
+    "link": "https://map.naver.com/p/entry/place/21530597?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 울산맛집님 추천 갈비 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "생식본능",
+    "address": "울산 중구 유곡로 62 단독주택",
+    "link": "https://map.naver.com/p/search/생식본능/place/1309114094?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 울산맛집님 추천 곱창 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "오시오막창 본점",
+    "address": "울산 중구 곽남1길 26",
+    "link": "https://map.naver.com/p/entry/place/12884258?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 울산맛집님 추천 막창 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "남도막창 본점",
+    "address": "울산 중구 곽남1길 27",
+    "link": "https://map.naver.com/p/search/남도막창 본점/place/13571582?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 울산맛집님 추천 막창 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "강원도 해장국",
+    "address": "울산 중구 북부순환도로 864",
+    "link": "https://map.naver.com/p/search/울산 강원도해장국/place/16355646?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 울산맛집님 추천 해장국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "뚱이 한우국밥",
+    "address": "울산 중구 번영로 595",
+    "link": "https://map.naver.com/p/search/뚱이 한우국밥/place/1692766897?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 울산맛집님 추천 국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "행루즈수제버거",
+    "address": "울산 남구 월평로187번길 14 1층",
+    "link": "https://map.naver.com/p/entry/place/1315168969?c=15.44,0,0,0,dh",
+    "recommendation": "애객러 무릎어깨님 추천 버거 맛집",
+    "categories": [
+      "양식"
+    ]
+  },
+  {
+    "name": "함경면옥 신정점",
+    "address": "울산 남구 돋질로183번길 24",
+    "link": "https://map.naver.com/p/entry/place/13571256?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 난알아요님 추천 냉면 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "동해식당",
+    "address": "울산 울주군 언양읍 동부6길 3",
+    "link": "https://map.naver.com/p/entry/place/30915637?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "아침 식사 가능한 숨은 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "진미만두",
+    "address": "울산 동구 녹수7길 57",
+    "link": "https://map.naver.com/p/entry/place/16490834?c=15.00,0,0,2,dh",
+    "recommendation": "정주영 회장 방문한다는 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

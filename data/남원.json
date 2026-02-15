@@ -1,0 +1,29 @@
+[
+  {
+    "name": "꽃돼지식당",
+    "address": "전북 남원시 고샘길 28",
+    "link": "https://map.naver.com/p/search/꽃돼지식당 남원/place/32676214?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "밑반찬 푸짐(맛있는)한 가성비 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "동막골",
+    "address": "전북 남원시 요천로 1537",
+    "link": "https://map.naver.com/p/entry/place/17331600?c=15.00,0,0,0,dh",
+    "recommendation": "연탄 돼지갈비 (및반찬 많음)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "25시뼈다귀탕",
+    "address": "전북 남원시 시청로 34-1",
+    "link": "https://map.naver.com/p/entry/place/17342525?c=15.00,0,0,0,dh",
+    "recommendation": "칼칼한 시래기 해장국",
+    "categories": [
+      "한식"
+    ]
+  }
+]

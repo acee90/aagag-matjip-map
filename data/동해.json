@@ -1,0 +1,113 @@
+[
+  {
+    "name": "소복소복",
+    "address": "강원 동해시 평원5길 8-5 1층",
+    "link": "https://map.naver.com/p/entry/place/1053133212?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "새우 튀김 소바 맛집",
+    "categories": [
+      "일식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "덕취원",
+    "address": "강원 동해시 대동로 118",
+    "link": "https://map.naver.com/p/entry/place/15425300?c=15.00,0,0,0,dh",
+    "recommendation": "전통을 자랑하는 중국집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "대우칼국수",
+    "address": "강원 동해시 일출로 10",
+    "link": "https://map.naver.com/p/entry/place/15420031?c=15.00,0,0,0,dh",
+    "recommendation": "고추장 칼국수",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "동북횟집",
+    "address": "강원 동해시 일출로 95",
+    "link": "https://map.naver.com/p/entry/place/15430857?c=15.00,0,0,0,dh",
+    "recommendation": "물회",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "동원막국수",
+    "address": "강원 동해시 동굴로 154-1",
+    "link": "https://map.naver.com/p/entry/place/15397197?c=15.00,0,0,0,dh",
+    "recommendation": "막국수 + 수육",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "부흥회집",
+    "address": "강원 동해시 일출로 93 부흥횟집",
+    "link": "https://map.naver.com/p/entry/place/20361843?c=14.99,0,0,0,dh",
+    "recommendation": "물회",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "선창 횟집",
+    "address": "강원 동해시 일출로 233",
+    "link": "https://map.naver.com/p/entry/place/1906435788?c=14.99,0,0,0,dh",
+    "recommendation": "모듬회",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "소나무식당",
+    "address": "강원 동해시 한섬로 61-9",
+    "link": "https://map.naver.com/p/entry/place/15400756?c=14.99,0,0,0,dh&placePath=/home",
+    "recommendation": "오리 불고기, 로스",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "유정청국장",
+    "address": "강원 동해시 천곡2길 7",
+    "link": "https://map.naver.com/p/entry/place/15393830?c=14.99,0,0,0,dh&placePath=/home",
+    "recommendation": "청국장 불고기 쌈밥 단일메뉴",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "평릉한우설렁탕",
+    "address": "강원 동해시 평원1길 98 1층",
+    "link": "https://map.naver.com/p/entry/place/1629448232?c=14.99,0,0,0,dh",
+    "recommendation": "설렁탕 , 도가니, 우족탕",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "홍대포 본점",
+    "address": "강원 동해시 감추로 6-1",
+    "link": "https://map.naver.com/p/entry/place/21175897?c=14.99,0,0,0,dh",
+    "recommendation": "푸짐하고 깔끔한 국물 맛",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "행복식당",
+    "address": "강원 동해시 묵호시장길 18",
+    "link": "https://map.naver.com/p/search/동해 행복식당/place/1620020255?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 무릎어깨님 추천 장치조림 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  }
+]

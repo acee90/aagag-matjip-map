@@ -1,0 +1,66 @@
+[
+  {
+    "name": "고삼묵밥",
+    "address": "경기 안성시 고삼면 무수막안길 2-8",
+    "link": "https://map.naver.com/p/entry/place/20043139?c=15.00,0,0,0,dh",
+    "recommendation": "직접 만든 묵 (후기 호불호)",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "북경반점",
+    "address": "경기 안성시 안성맞춤대로 1047-1",
+    "link": "https://map.naver.com/p/entry/place/37921639?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 응니얼구르님 추천 간짜장, 볶음밥 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "그때그집",
+    "address": "경기 안성시 안성맞춤대로 1052-1",
+    "link": "https://map.naver.com/p/entry/place/18531264?c=17.69,0,0,0,dh",
+    "recommendation": "애객러 응니얼구르님 추천 순대국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "안일옥",
+    "address": "경기도 안성시 중앙로411번길 20",
+    "link": "https://map.naver.com/p/search/경기 안성시 중앙로411번길 20/place/11820896?c=17.25,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 응니얼구르님 추천 국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "그루터기",
+    "address": "경기 안성시 공도읍 덕봉서원로 265",
+    "link": "https://map.naver.com/p/entry/place/1596514256?c=17.36,0,0,0,dh",
+    "recommendation": "애객러 응니얼구르님 추천 어죽,해물파전 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "안성장터국밥",
+    "address": "경기 안성시 미양면 구례골길 170-17",
+    "link": "https://map.naver.com/p/entry/place/12041900?c=17.01,0,0,0,dh",
+    "recommendation": "애객러 응니얼구르님 추천 소고기 국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "우정집",
+    "address": "경기 안성시 낙원길 43",
+    "link": "https://map.naver.com/p/search/안성우정집/place/1701887535?c=15.00,0,0,0,dh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507041104&locale=ko&svcName=map_pcv5&searchText=안성우정집",
+    "recommendation": "애객러 후두리찹님 추천 냉면 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

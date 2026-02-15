@@ -1,0 +1,117 @@
+[
+  {
+    "name": "진주은성게장",
+    "address": "경남 진주시 향교로8번길 4",
+    "link": "https://map.naver.com/p/entry/place/19485369?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "허영만 출연 게장맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "하연옥 본점",
+    "address": "경남 진주시 진주대로 1317-20",
+    "link": "https://map.naver.com/p/entry/place/20149432?c=15.00,0,0,0,dh",
+    "recommendation": "진주 냉면의 원조",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "성지원",
+    "address": "경남 진주시 내동면 칠봉산길 170",
+    "link": "https://map.naver.com/p/entry/place/32739061?c=15.00,0,0,0,dh",
+    "recommendation": "갈비탕과 삼계탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "천수식당",
+    "address": "경남 진주시 향교로8번길 3",
+    "link": "https://map.naver.com/p/entry/place/15449662?c=15.00,0,0,0,dh",
+    "recommendation": "육회비빔밥,불고기 추천 (공기밥2천원에바)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "신토불이 가든",
+    "address": "경남 진주시 내동면 삼계로 298-5",
+    "link": "https://map.naver.com/p/entry/place/15750794?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "촌닭, 옻닭, 닭도리탕",
+    "categories": []
+  },
+  {
+    "name": "한정식 아리랑",
+    "address": "경남 진주시 남강로471번길 5",
+    "link": "https://map.naver.com/p/entry/place/12943723?c=15.00,0,0,0,dh",
+    "recommendation": "숨어있는 정갈한 한정식 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "황포냉면",
+    "address": "경남 진주시 호탄길34번길 10",
+    "link": "https://map.naver.com/p/entry/place/15525285?c=15.00,0,0,0,dh",
+    "recommendation": "냉면 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "천황식당",
+    "address": "경남 진주시 촉석로207번길 3",
+    "link": "https://map.naver.com/p/entry/place/11710336?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "육회비빔밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "제일식당",
+    "address": "경남 진주시 중앙시장길 37-8",
+    "link": "https://map.naver.com/p/entry/place/11816470?c=15.00,0,0,0,dh",
+    "recommendation": "육회비빔밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "명성반점",
+    "address": "경남 진주시 일반성면 동부로1960번길 4",
+    "link": "https://map.naver.com/p/search/경남 진주시 일반성면 동부로1960번길 4/place/154065686?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 난알아요님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "순토해송돌판닭찜",
+    "address": "경남 진주시 호탄길13번길 10",
+    "link": "https://map.naver.com/p/entry/place/15524893?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 Gagaa님 추천 찜닭 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "락영루",
+    "address": "경남 진주시 석갑로 132 신안국제맨션 상가5호",
+    "link": "https://map.naver.com/p/entry/place/15498258?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507071436&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 Gagaa님 추천 탕수육 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "진주냉면산홍 본점",
+    "address": "경남 진주시 금산면 금산로 62",
+    "link": "https://map.naver.com/p/entry/place/38567228?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507071435&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 해모수님 추천 냉면 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

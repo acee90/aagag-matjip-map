@@ -1,0 +1,234 @@
+[
+  {
+    "name": "곤드레말",
+    "address": "세종 장군면 월현윗길 47",
+    "link": "https://map.naver.com/p/entry/place/33962756?c=15.00,0,0,0,dh",
+    "recommendation": "가든식 추어탕 집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "도가네매운탕",
+    "address": "세종 연서면 도신고복로 585",
+    "link": "https://map.naver.com/p/search/도가네 메기 매운탕/place/17549339?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "웨이팅 있는 소문난 맛집",
+    "categories": [
+      "한식",
+      "단체",
+      "술안주"
+    ]
+  },
+  {
+    "name": "뒤웅박고을",
+    "address": "세종 전동면 배일길 90-43",
+    "link": "https://map.naver.com/p/entry/place/13272841?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "깔끔한 한정식집 (고추장 구매필수)",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "석곡오리촌 조치원점",
+    "address": "세종 조치원읍 행복길 19",
+    "link": "https://map.naver.com/p/search/석곡 오리촌/place/11669635?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "\"어릴때 부모님 따라갔다 지금은 직장인이에요\"",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "어씨네본가",
+    "address": "충남 공주시 반포면 창벽로 714",
+    "link": "https://map.naver.com/p/search/어씨네 본가 장어/place/11867355?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "장어 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "부강옥 세종부강본점",
+    "address": "세종 부강면 부강외천로 103 1층",
+    "link": "https://map.naver.com/p/search/부강옥/place/1982933000?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 집요정님 추천 순대국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "코이라멘 새롬점",
+    "address": "세종 새롬로 26 B158호",
+    "link": "https://map.naver.com/p/entry/place/1274333799?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 집요정님 추천 라멘 맛집",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "부산면관 세종청사점",
+    "address": "세종 가름로 180 1층 124호",
+    "link": "https://map.naver.com/p/entry/place/1486786793?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 집요정님 추천 냉면 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "세종복칼국수",
+    "address": "세종 금남면 신촌1길 3-4",
+    "link": "https://map.naver.com/p/entry/place/34015545?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 집요정님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "인생냉면",
+    "address": "세종 금남면 용포로 42-3 1층",
+    "link": "https://map.naver.com/p/entry/place/1784514678?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 집요정님 추천 냉면 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "돌솥순두부",
+    "address": "세종특별자치 금남면 발산1길 57 2층",
+    "link": "https://map.naver.com/p/entry/place/1504204735?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 집요정님 추천 순두부 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "원조감자탕",
+    "address": "세종 금남면 신촌1길 3-4",
+    "link": "https://map.naver.com/p/entry/place/32791705?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 집요정님 추천 감자탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "려원풍천민물장어",
+    "address": "세종 나성북로 15 1층 101-104호",
+    "link": "https://map.naver.com/p/entry/place/1588791338?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 집요정님 추천 장어 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "워커스버거",
+    "address": "세종 절재로 194 1층 130호",
+    "link": "https://map.naver.com/p/entry/place/1609928068?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 집요정님 추천 수제버거 맛집",
+    "categories": [
+      "양식"
+    ]
+  },
+  {
+    "name": "다이너 세종점",
+    "address": "세종 마음안1로 137 2층 DNER",
+    "link": "",
+    "recommendation": "애객러 집요정님 추천 양식 맛집",
+    "categories": [
+      "양식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "진본가",
+    "address": "세종 장군면 월현윗길 39-1 1층",
+    "link": "https://map.naver.com/p/entry/place/1744105116?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 집요정님 추천 비빔밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "고등어밥상",
+    "address": "세종 장군면 월현윗길 38-7",
+    "link": "https://map.naver.com/p/entry/place/1885411411?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 집요정님 추천 고등어 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "돈스",
+    "address": "세종 조치원읍 돌마루7길 6",
+    "link": "https://map.naver.com/p/entry/place/11833144?c=19.00,0,0,0,adh&placePath=/home",
+    "recommendation": "�동네 주민이라면 다 아는 웨이팅 돈가스집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "수구레국밥",
+    "address": "세종 조치원읍 새내9길 7",
+    "link": "https://map.naver.com/p/entry/place/31022623?c=19.00,0,0,0,dh",
+    "recommendation": "내배카로뽕따사먹음님 추천 국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "부뚜막",
+    "address": "세종 조치원읍 건너말고샅길 31-15",
+    "link": "https://map.naver.com/p/entry/place/1530176564?c=14.87,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 Enterkey님 추천 김치찜 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "주문리메밀동치미막국수",
+    "address": "세종 연기면 당산로 201",
+    "link": "https://map.naver.com/p/entry/place/37682906?c=16.49,0,0,0,dh",
+    "recommendation": "애객러 Enterkey님 추천 막국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "큰집뼈대있는짬뽕",
+    "address": "세종 노을3로 19 첫마을2단지 201동 1층상가",
+    "link": "https://map.naver.com/p/search/큰집뼈대있는짬뽕/place/35177502?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "참아라제발눈팅만해라님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "갈비가좋아 조치원점",
+    "address": "세종 조치원읍 행복4길 35",
+    "link": "https://map.naver.com/p/entry/place/21230589?c=16.49,0,0,0,dh",
+    "recommendation": "너는난독증이지님 추천 갈비찜 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "산장가든",
+    "address": "세종 연서면 도신고복로 1131-7",
+    "link": "https://map.naver.com/p/search/산장가든 /place/11664351?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 해롱이님 추천 석갈비 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "세종냉면콩국수",
+    "address": "세종 보듬7로 76",
+    "link": "",
+    "recommendation": "진한 콩국수",
+    "categories": [
+      "한식"
+    ]
+  }
+]

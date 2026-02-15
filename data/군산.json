@@ -1,0 +1,122 @@
+[
+  {
+    "name": "계곡가든꽃게장",
+    "address": "전북 군산시 개정면 금강로 470",
+    "link": "https://map.naver.com/p/entry/place/11785035?c=15.00,0,0,0,dh",
+    "recommendation": "직접 만드는 게장 양념",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "뽀빠이냉면",
+    "address": "전북 군산시 장재길 12-4",
+    "link": "https://map.naver.com/p/entry/place/32237219?c=15.01,0,0,0,dh",
+    "recommendation": "60년 넘게 이어지는 전통 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "노조미라멘본점",
+    "address": "전북 군산시 효자길 31-1",
+    "link": "https://map.naver.com/p/entry/place/36886258?c=15.01,0,0,0,dh",
+    "recommendation": "내가 군산가면 항상 가는 라멘집",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "안동집",
+    "address": "전북 군산시 아리랑로 39",
+    "link": "https://map.naver.com/p/search/안동집/place/17142502?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "가면 제육 먹는편인데 삼겹+볶음밥도 잘나감",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "예인촌",
+    "address": "전북 군산시 구영6길 50",
+    "link": "https://map.naver.com/p/search/닭볶음탕/place/1037116060?c=14.25,0,0,0,dh&placePath=/home",
+    "recommendation": "닭볶음탕 맵고 달아서 맛있음",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "유성가든",
+    "address": "전북 군산시 성산면 철새로 6-1",
+    "link": "https://map.naver.com/p/search/유성가든/place/17190828?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "손질 게장 + 돌솥밥",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "국제반점",
+    "address": "전북 군산시 구영6길 100",
+    "link": "https://map.naver.com/p/entry/place/17145237?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 판다를판다님 추천 중식 맛집",
+    "categories": []
+  },
+  {
+    "name": "형제반점",
+    "address": "전북 군산시 축동안길 69",
+    "link": "https://map.naver.com/p/entry/place/17163860?c=15.00,0,0,0,dh",
+    "recommendation": "옛날 전통 중식집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "빈해원",
+    "address": "전북 군산시 동령길 57",
+    "link": "https://map.naver.com/p/entry/place/19985662?c=15.00,0,0,2,dh",
+    "recommendation": "수타, 중국집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "돼지코 생곱창갈비 본점",
+    "address": "전북 군산시 신설로 15",
+    "link": "https://map.naver.com/p/entry/place/31895985?c=17.90,0,0,2,dh",
+    "recommendation": "나리곱창 사장님이 차린 가게",
+    "categories": [
+      "한식",
+      "술안주",
+      "데이트"
+    ]
+  },
+  {
+    "name": "또또생곱창",
+    "address": "전북 군산시 하나운안2길 15-4",
+    "link": "https://map.naver.com/p/entry/place/13053016?c=17.90,0,0,2,dh",
+    "recommendation": "나리곱창 직원이 차린 가게",
+    "categories": [
+      "한식",
+      "데이트",
+      "술안주"
+    ]
+  },
+  {
+    "name": "가나순대",
+    "address": "전북 군산시 신평길 15",
+    "link": "",
+    "recommendation": "애객러 하늘3님 추천 순대국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "만흥집",
+    "address": "전북 군산시 동신영길 21",
+    "link": "https://map.naver.com/p/entry/place/17147968?c=18.59,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202506021103&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 하늘3님 추천 순대국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

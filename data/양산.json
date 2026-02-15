@@ -1,0 +1,63 @@
+[
+  {
+    "name": "해초 양산본점",
+    "address": "경남 양산시 삼성3길 17-12",
+    "link": "https://map.naver.com/p/entry/place/13199841?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "물회 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "삼정메밀소바",
+    "address": "경남 양산시 하북면 지산로 25",
+    "link": "https://map.naver.com/p/search/삼정메밀소바/place/387445634?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "생활의 달인 나온 소바 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "가촌가마솥추어탕",
+    "address": "경남 양산시 물금읍 가촌로 118 동아체육관",
+    "link": "https://map.naver.com/p/entry/place/15658194?c=15.00,0,0,0,dh",
+    "recommendation": "진한 국물의 추어탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "해양산국밥 양산증산점",
+    "address": "경남 양산시 물금읍 증산역로 163",
+    "link": "https://map.naver.com/p/entry/place/38309839?c=14.92,0,0,0,dh",
+    "recommendation": "유퀴즈 나온 국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "원조매콤이와순진이",
+    "address": "경남 양산시 양주2길 33",
+    "link": "https://map.naver.com/p/search/매콤이&순진이 칼국수/place/36097871?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "어탕식 칼국수 (오래걸림)",
+    "categories": []
+  },
+  {
+    "name": "우리농원",
+    "address": "경남 양산시 중앙로 300",
+    "link": "https://map.naver.com/p/entry/place/15637857?c=15.00,0,0,0,dh",
+    "recommendation": "갈비탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "기장꼼장어",
+    "address": "경남 양산시 삼성5길 28",
+    "link": "https://map.naver.com/p/search/기장꼼장어 양산/place/21740743?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 네모대가리님 추천 꼼장어 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

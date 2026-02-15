@@ -1,0 +1,83 @@
+[
+  {
+    "name": "망향식당",
+    "address": "경기 안산시 상록구 충장로 110",
+    "link": "https://map.naver.com/p/entry/place/1523039977?c=12.08,0,0,0,dh&placePath=/home",
+    "recommendation": "잔치국수, 비빔국수",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "명가노가나네교동짬뽕",
+    "address": "경기 안산시 단원구 산단로 326 지하 라-12호",
+    "link": "https://map.naver.com/p/search/명가 노가나네 교동짬뽕/place/1454351552?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "진한 국물",
+    "categories": []
+  },
+  {
+    "name": "송탄 나여사 부대찌개",
+    "address": "경기 안산시 단원구 원포공원2로 24",
+    "link": "https://map.naver.com/p/search/송탄 나여사 부대찌개/place/33312988?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "햄 듬뿍 부대찌개",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "양푼애등갈비",
+    "address": "경기 안산시 상록구 송호3길 8 1층",
+    "link": "https://map.naver.com/p/search/양푼애등갈비/place/355655616?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "3단계 맵기 조절, 양 많은 등갈비찜",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "여러분덕",
+    "address": "경기 안산시 단원구 오정각길 11",
+    "link": "https://map.naver.com/p/entry/place/19030807?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "줄서서 먹는 오리고기",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "해미청",
+    "address": "경기 안산시 상록구 각골로 47",
+    "link": "https://map.naver.com/p/entry/place/18101660?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "해물찜 (맛집인데 변했다는 의견 다수)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "산골미꾸라지매운탕",
+    "address": "경기 안산시 단원구 소바위길 12",
+    "link": "https://map.naver.com/p/entry/place/33232489?c=15.00,0,0,0,dh",
+    "recommendation": "추어매운탕",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "솔밭칼국수",
+    "address": "경기 안산시 단원구 대부황금로 1516-8",
+    "link": "https://map.naver.com/p/entry/place/19029433?c=15.00,0,0,0,dh",
+    "recommendation": "바지락 칼국수",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "마마교자관",
+    "address": "경기 안산시 단원구 원곡로 34 1층",
+    "link": "https://map.naver.com/p/search/마마교자관/place/1188709063?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "중국 출신, 물만두 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

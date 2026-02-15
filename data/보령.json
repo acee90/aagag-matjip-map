@@ -1,0 +1,77 @@
+[
+  {
+    "name": "가와 레스토랑",
+    "address": "충남 보령시 청라면 시궁골길 317",
+    "link": "https://map.naver.com/p/entry/place/17501948?c=19.00,0,0,0,dh",
+    "recommendation": "산골 산장, 스테이크 파는 양식집",
+    "categories": [
+      "양식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "황해원",
+    "address": "충남 보령시 성주면 심원계곡로 6",
+    "link": "https://map.naver.com/p/entry/place/17504316?c=19.00,0,0,0,dh",
+    "recommendation": "전통 짬뽕 강자",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "남포집",
+    "address": "충남 보령시 성주면 성주중앙길 69-4",
+    "link": "https://map.naver.com/p/entry/place/17504230?c=19.00,0,0,0,dh",
+    "recommendation": "짬뽕 별로면 칼칼한 칼국수",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "민들레보리밥",
+    "address": "충남 보령시 주포면 역말길 39",
+    "link": "https://map.naver.com/p/entry/place/1051897113?c=19.00,0,0,0,dh",
+    "recommendation": "숨은 보리밥 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "바닷가탕집",
+    "address": "충남 보령시 해안로 417",
+    "link": "https://map.naver.com/p/entry/place/17490846?c=19.00,0,0,0,dh",
+    "recommendation": "간재미탕, 술안주",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "신평화식당",
+    "address": "충남 보령시 큰오랏6길 50 신평화식당",
+    "link": "https://map.naver.com/p/search/신평화식당/place/17481103?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "낚지철판볶음 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "오양손칼국수",
+    "address": "충남 보령시 옥마역길 77",
+    "link": "https://map.naver.com/p/search/오양손칼국수/place/1969439971?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 망망대해님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "성지",
+    "address": "충남 보령시 주포면 보령읍성길 80-28",
+    "link": "https://map.naver.com/p/search/성지 중국집/place/1096461319?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 망망대해님 추천 간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "name": "파주옥 평택본점",
+    "address": "경기 평택시 중앙2로 3",
+    "link": "https://map.naver.com/p/entry/place/11848058?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "평택역 바로 앞 노포 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "울엄마통돼지",
+    "address": "경기 평택시 진위면 엘지로 117",
+    "link": "https://map.naver.com/p/entry/place/20668355?placePath=/home&c=15.00,0,0,0,dh",
+    "recommendation": "애객러 정예인님 추천 찌개 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "세모분식",
+    "address": "경기 평택시 중앙시장로9번길 22-4",
+    "link": "https://map.naver.com/p/entry/place/17913887?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 정예인님 추천 떡볶이 맛집",
+    "categories": [
+      "분식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "츠바오",
+    "address": "경기 평택시 고덕면 안재홍로 193 1층",
+    "link": "https://map.naver.com/p/entry/place/1397457435?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 정예인님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "제주모련",
+    "address": "경기 평택시 평택5로 27-3",
+    "link": "https://map.naver.com/p/entry/place/1632674396?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 정예인님 추천 고기 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "딸부자고추장삼겹살",
+    "address": "경기 평택시 평택5로 79",
+    "link": "https://map.naver.com/p/search/딸부자고추장삼겹살/place/17994294?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
+    "recommendation": "애객러 정예인님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "이탈리안테이블",
+    "address": "경기 평택시 함박산8길 21 1층 101호",
+    "link": "https://naver.me/FHAbw5Er",
+    "recommendation": "애객러 정예인님 추천 양식 맛집",
+    "categories": [
+      "양식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "군계폐계닭",
+    "address": "경기 평택시 자유로 22",
+    "link": "https://map.naver.com/p/entry/place/1558009294?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 닭 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "초이참치",
+    "address": "경기 평택시 비전5로 20-10 1층",
+    "link": "https://map.naver.com/p/search/초이참치/place/1065645406?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 네모대가리님 추천 참치 맛집",
+    "categories": [
+      "일식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "호호왕만두",
+    "address": "경기 평택시 탄현로 48",
+    "link": "https://map.naver.com/p/entry/place/1489409455?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 치킨나래미래공주님 추천 만두 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "예만두",
+    "address": "경기 평택시 포승읍 여술2길 15",
+    "link": "https://map.naver.com/p/search/포승 예만두/place/1119405860?c=15.00,0,0,2,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 치치냥냥님 추천 만두 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "개화식당",
+    "address": "경기 평택시 통복시장로6번길 2",
+    "link": "https://naver.me/5bds1j0N",
+    "recommendation": "105년 전통 중식당",
+    "categories": [
+      "중식"
+    ]
+  }
+]

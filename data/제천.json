@@ -1,0 +1,58 @@
+[
+  {
+    "name": "제천빨간오뎅",
+    "address": "충북 제천시 의병대로18길 2",
+    "link": "https://map.naver.com/p/search/제천빨간오뎅/place/20785883?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "오뎅, 튀김, 닭꼬치 등 전통분식집",
+    "categories": [
+      "분식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "공갈박식당",
+    "address": "충북 제천시 신백로 49",
+    "link": "https://map.naver.com/p/search/공갈박식당/place/1602945161?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "집밥처럼 나오는 식당",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "늘솔길",
+    "address": "충북 제천시 용두대로 9",
+    "link": "https://map.naver.com/p/entry/place/31800164?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "삼겹살 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "오성통닭 본점",
+    "address": "충북 제천시 신백로12길 16",
+    "link": "https://map.naver.com/p/entry/place/17630637?c=15.00,0,0,0,dh",
+    "recommendation": "통마늘 야채통닭 추천",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "시골순두부",
+    "address": "충북 제천시 중말8길 22",
+    "link": "https://map.naver.com/p/entry/place/17629642?c=15.00,0,0,0,dh",
+    "recommendation": "로컬 맛집, 두부 찌개",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "카우보이그릴",
+    "address": "충북 제천시 청풍면 학현소야로 415-24",
+    "link": "https://map.naver.com/p/entry/place/1579662033?c=19.00,0,0,0,dh",
+    "recommendation": "텍사스 바베큐",
+    "categories": [
+      "양식",
+      "데이트"
+    ]
+  }
+]

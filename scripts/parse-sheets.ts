@@ -287,70 +287,53 @@ async function parseSheet(page: Page, region: string, gid: string): Promise<Pars
       }> = [];
       const errors: ParseError[] = [];
 
-      // 비어있지 않은 행 인덱스 수집
-      const nonEmptyIndices: number[] = [];
-      for (let i = 0; i < rows.length; i++) {
-        const cells = Array.from(rows[i].querySelectorAll("td, th")).slice(1);
-        if (cells.some((c) => c.textContent?.trim())) {
-          nonEmptyIndices.push(i);
-        }
-      }
+      // 시스템 라벨 패턴 (블록 시작행이 아닌 행들)
+      const SYSTEM_RE = /^(추천사유|카테고리 분류|카테고리|바로가기|오류|A|등산|검색|IMG)$/;
+      const CAT_SET = new Set(knownCategories);
 
-      // 이름 행 탐지: "카테고리 분류", "추천사유", "바로가기", 헤더가 아닌 데이터 행
-      // 블록 시작 행은 첫 번째 데이터 행 (보통 Row 28)
-      // 패턴: 블록 간격 = 29행
-
-      // 첫 번째 데이터 블록 시작점 찾기
-      let firstBlockStart = -1;
+      // 동적 블록 시작점 탐지: 모든 이름 행을 개별 탐색
+      const blockStarts: number[] = [];
       for (let i = 20; i < rows.length; i++) {
         const cells = Array.from(rows[i].querySelectorAll("td, th")).slice(1);
-        const texts = cells.map((c) => c.textContent?.trim() || "").filter(Boolean);
-        if (
-          texts.length >= 1 &&
-          !texts[0].match(/^(추천사유|카테고리|바로가기|오류|A|등산|검색|한식|중식|일식|양식|아시아|지중해|분식|간식|단체|데이트|술안주|체인점)$/)
-        ) {
-          // 다음 +2 행에 주소가 있는지 확인
-          const addrRow = rows[i + 2];
-          if (addrRow) {
-            const addrCells = Array.from(addrRow.querySelectorAll("td, th")).slice(1);
-            const addrTexts = addrCells.map((c) => c.textContent?.trim() || "").filter(Boolean);
-            if (addrTexts.length >= 1) {
-              firstBlockStart = i;
-              break;
-            }
+        const texts = cells.slice(1, 6).map((c) => c.textContent?.trim() || "");
+        const nonEmpty = texts.filter((t) => t && !SYSTEM_RE.test(t) && !CAT_SET.has(t));
+        if (nonEmpty.length === 0) continue;
+
+        // +2 행에 주소가 있는지 확인
+        const addrRow = rows[i + 2];
+        if (!addrRow) continue;
+        const addrCells = Array.from(addrRow.querySelectorAll("td, th")).slice(1);
+        const addrTexts = addrCells.slice(1, 6).map((c) => c.textContent?.trim() || "");
+        const hasAddr = addrTexts.some((t) => t.length > 3);
+        if (!hasAddr) continue;
+
+        // +4 행에 "바로가기" 링크가 있는지 확인
+        const linkRow = rows[i + 4];
+        if (linkRow) {
+          const linkCells = Array.from(linkRow.querySelectorAll("td, th")).slice(1);
+          const linkTexts = linkCells.slice(1, 6).map((c) => c.textContent?.trim() || "");
+          if (linkTexts.some((t) => t === "바로가기")) {
+            blockStarts.push(i);
+            // 다음 블록은 최소 15행 뒤에 있으므로 스킵
+            i += 14;
+            continue;
           }
+        }
+
+        // 링크행 확인이 안되면 주소 패턴으로 판단
+        if (hasAddr) {
+          blockStarts.push(i);
+          i += 14;
         }
       }
 
-      if (firstBlockStart === -1) {
+      if (blockStarts.length === 0) {
         errors.push({ rowIdx: -1, colIdx: -1, field: "block", message: "No data blocks found" });
         return { restaurants, errors };
       }
 
-      // 블록 간격 자동 감지
-      let blockInterval = 29; // 기본값
-      // 두 번째 블록 시작점 찾기
-      for (let i = firstBlockStart + 15; i < Math.min(firstBlockStart + 40, rows.length); i++) {
-        const cells = Array.from(rows[i].querySelectorAll("td, th")).slice(1);
-        const texts = cells.map((c) => c.textContent?.trim() || "").filter(Boolean);
-        if (
-          texts.length >= 1 &&
-          !texts[0].match(/^(추천사유|카테고리|바로가기|오류|A|등산|검색|한식|중식|일식|양식|아시아|지중해|분식|간식|단체|데이트|술안주|체인점|IMG)$/)
-        ) {
-          const addrRow = rows[i + 2];
-          if (addrRow) {
-            const addrCells = Array.from(addrRow.querySelectorAll("td, th")).slice(1);
-            const addrTexts = addrCells.map((c) => c.textContent?.trim() || "").filter(Boolean);
-            if (addrTexts.length >= 1) {
-              blockInterval = i - firstBlockStart;
-              break;
-            }
-          }
-        }
-      }
-
       // 블록 순회
-      for (let blockStart = firstBlockStart; blockStart < rows.length; blockStart += blockInterval) {
+      for (const blockStart of blockStarts) {
         const nameRow = rows[blockStart];
         const addrRow = rows[blockStart + 2];
         const linkRow = rows[blockStart + 4];
@@ -409,7 +392,7 @@ async function parseSheet(page: Page, region: string, gid: string): Promise<Pars
   );
 
   // 후처리
-  const restaurants: Restaurant[] = result.restaurants.map((r) => ({
+  const allRestaurants: Restaurant[] = result.restaurants.map((r) => ({
     name: r.name,
     address: r.address,
     link: extractRealUrl(r.link),
@@ -419,17 +402,34 @@ async function parseSheet(page: Page, region: string, gid: string): Promise<Pars
 
   const errors: ParseError[] = [...result.errors];
 
+  // 시스템 라벨 필터링 — 블록 간격 드리프트로 잘못 파싱된 행 제거
+  const SYSTEM_LABELS = ["바로가기", "추천사유", "카테고리 분류", "오류", "검색", "IMG"];
+  const CATEGORY_NAMES = new Set(KNOWN_CATEGORIES);
+
+  const restaurants = allRestaurants.filter((r) => {
+    // name이 시스템 라벨이면 제거
+    if (SYSTEM_LABELS.includes(r.name)) return false;
+    // name이 카테고리명이면 제거 (예: "한식", "데이트")
+    if (CATEGORY_NAMES.has(r.name)) return false;
+    // address가 시스템 라벨이면 제거 (주소행이 이름으로 밀린 경우)
+    if (SYSTEM_LABELS.includes(r.address)) return false;
+    // address가 카테고리명이면 제거
+    if (CATEGORY_NAMES.has(r.address)) return false;
+    // name에 "맛집"이 포함되고 link가 없으면 추천사유 텍스트가 이름으로 밀린 것
+    if (r.name.includes("맛집") && !r.link) return false;
+    return true;
+  });
+
   // 유효성 검증
   restaurants.forEach((r, i) => {
-    const raw = result.restaurants[i];
     if (!r.name || r.name.length < 2) {
-      errors.push({ rowIdx: raw.rowIdx, colIdx: raw.colIdx, field: "name", message: `Invalid name: "${r.name}"`, raw: r.name });
+      errors.push({ rowIdx: -1, colIdx: -1, field: "name", message: `Invalid name: "${r.name}"`, raw: r.name });
     }
     if (!r.address) {
-      errors.push({ rowIdx: raw.rowIdx, colIdx: raw.colIdx, field: "address", message: `Missing address for "${r.name}"` });
+      errors.push({ rowIdx: -1, colIdx: -1, field: "address", message: `Missing address for "${r.name}"` });
     }
     if (r.categories.length === 0) {
-      errors.push({ rowIdx: raw.rowIdx, colIdx: raw.colIdx, field: "categories", message: `No categories for "${r.name}"` });
+      errors.push({ rowIdx: -1, colIdx: -1, field: "categories", message: `No categories for "${r.name}"` });
     }
   });
 

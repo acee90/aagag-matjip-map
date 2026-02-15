@@ -1,0 +1,72 @@
+[
+  {
+    "name": "양남해물칼국수",
+    "address": "경북 경주시 양남면 동해안로 472",
+    "link": "https://map.naver.com/p/entry/place/36432519?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 LK-99님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "홍두깨국시",
+    "address": "경북 경주시 원효로 42",
+    "link": "https://map.naver.com/p/search/경주 홍두깨/place/15220689?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 울산맛집님 추천 국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "청온채",
+    "address": "경북 경주시 포석로1079번길 8-5",
+    "link": "https://map.naver.com/p/entry/place/1335800249?c=15.44,0,0,0,dh",
+    "recommendation": "애객러 무릎어깨님 추천 미나리 닭한마리 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "내사랑터키",
+    "address": "경북 경주시 현곡면 상구길 10",
+    "link": "https://map.naver.com/p/entry/place/1726370006?c=15.00,0,0,2,dh",
+    "recommendation": "터키 가정식, 카이막 등 대표메뉴 4 추천",
+    "categories": [
+      "아시아"
+    ]
+  },
+  {
+    "name": "기와해물집칼국수",
+    "address": "경북 경주시 양남면 동해안로 367",
+    "link": "https://map.naver.com/p/entry/place/20511234?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507241531&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 털팬티님 추천 칼&콩국수 맛집",
+    "categories": []
+  },
+  {
+    "name": "박신우제면소",
+    "address": "경북 경주시 원효로 130 1층",
+    "link": "https://map.naver.com/p/entry/place/1803011937?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202508121655&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 왕만두님 추천 우동 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "한봉순 할매 순두부",
+    "address": "경북 경주시 북군길 3-2",
+    "link": "https://map.naver.com/p/entry/place/15263060?c=17.88,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510181240&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 레게노님 추천 순두부 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "네코짱",
+    "address": "경북 경주시 계림로 79",
+    "link": "https://map.naver.com/p/entry/place/20698329?c=16.89,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510181242&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 레게노님 추천 라멘 맛집",
+    "categories": [
+      "일식"
+    ]
+  }
+]

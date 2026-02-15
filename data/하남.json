@@ -1,0 +1,87 @@
+[
+  {
+    "name": "강변손두부",
+    "address": "경기 하남시 미사동로 105-1",
+    "link": "https://map.naver.com/p/entry/place/19065167?c=15.00,0,0,0,dh",
+    "recommendation": "두부 정식 맛집",
+    "categories": [
+      "한식",
+      "데이트",
+      "단체"
+    ]
+  },
+  {
+    "name": "소나무집",
+    "address": "경기 하남시 검단산로 342-13 2,3층",
+    "link": "https://map.naver.com/p/entry/place/13446044?c=15.00,0,0,0,dh",
+    "recommendation": "엄나무 누룽지 백숙 건강한 맛",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "(구.자성화) 어부네코다리 하남미사점",
+    "address": "경기 하남시 월호로 62 1층",
+    "link": "https://map.naver.com/p/search/자성화맛집코다리네/place/1746858301?c=13.00,0,0,0,dh&placePath=/home",
+    "recommendation": "코다리찜",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "만두집",
+    "address": "경기 하남시 미사대로 672",
+    "link": "https://map.naver.com/p/entry/place/1175005334?c=15.00,0,0,0,dh&placePath=/menu",
+    "recommendation": "애객러 무릎어깨님 추천 만두전골 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "미사리밀빛 초계국수",
+    "address": "경기 하남시 미사대로 608",
+    "link": "https://map.naver.com/p/entry/place/13330268?c=15.00,0,0,0,dh",
+    "recommendation": "웨이팅, 초계국수 맛집 중부지방 체인",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "하남양곱창 본점",
+    "address": "경기 하남시 신장로154번길 69 1층",
+    "link": "https://map.naver.com/p/entry/place/1825758697?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 무릎어깨님 추천 곱창 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "족발당",
+    "address": "경기 하남시 미사강변한강로 290-3",
+    "link": "https://map.naver.com/p/search/족발당/place/1885173956?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 무릎어깨님 추천 족발 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "어부의 술상",
+    "address": "경기 하남시 신장1로 36 1층 101호",
+    "link": "https://map.naver.com/p/entry/place/1560947450?placePath=/home&c=15.00,0,0,0,dh",
+    "recommendation": "애객러 무릎어깨님 추천 생선회 맛집",
+    "categories": [
+      "술안주"
+    ]
+  },
+  {
+    "name": "산아래 우렁쌈정식",
+    "address": "경기 하남시 감이남로40번길 47-22",
+    "link": "https://map.naver.com/p/entry/place/1367268788?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 777님 추천 우렁쌈정식 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

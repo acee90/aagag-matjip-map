@@ -1,0 +1,20 @@
+[
+  {
+    "name": "번지농장돌판아구찜 본점",
+    "address": "전북 완주군 화산면 화산남로 218-83",
+    "link": "https://map.naver.com/p/search/화산돌판아귀찜/place/13095238?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "단일 메뉴, 아구찜",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "유성식당",
+    "address": "전북 완주군 삼례읍 동학로 29",
+    "link": "https://map.naver.com/p/search/완주 유성식당/place/17358910?c=16.40,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "순대국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

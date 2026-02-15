@@ -1,0 +1,181 @@
+[
+  {
+    "name": "강남박생태찌개",
+    "address": "경기 이천시 신둔면 원적로 438",
+    "link": "https://map.naver.com/p/entry/place/96744340?c=15.00,0,0,0,dh",
+    "recommendation": "동태탕, 생태찌개",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "대송버섯집",
+    "address": "경기 이천시 백사면 이여로 186",
+    "link": "https://map.naver.com/p/entry/place/19073249?c=15.00,0,0,0,dh",
+    "recommendation": "버섯 불고기, 버섯 탕",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "느티나무집",
+    "address": "경기 이천시 부악로 30-62",
+    "link": "https://map.naver.com/p/entry/place/18460828?c=15.00,0,0,0,dh",
+    "recommendation": "염소탕, 염소 전골 등 몸보신 집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "강민주의들밥 본점",
+    "address": "경기 이천시 마장면 지산로22번길 17",
+    "link": "https://map.naver.com/p/entry/place/13573708?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "이천 쌀밥 + 맛있는 반찬",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "오동추야",
+    "address": "경기 이천시 증신로 160",
+    "link": "",
+    "recommendation": "돼지 갈비 + 한우 물냉면",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "온정손만두 본점",
+    "address": "경기 이천시 애련정로 49-1 온정빌딩 1층",
+    "link": "https://map.naver.com/p/entry/place/19799014?c=14.56,0,0,0,dh",
+    "recommendation": "�만두국, 만두전골, 찐만두 등",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "외할머니집",
+    "address": "경기 이천시 모가면 사실로 646",
+    "link": "https://map.naver.com/p/entry/place/18519688?c=14.56,0,0,0,dh",
+    "recommendation": "1~4인상차림/ 할머니 밥상",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "우정식당",
+    "address": "경기 이천시 부발읍 가좌로61번길 92",
+    "link": "https://map.naver.com/p/entry/place/37871109?c=14.56,0,0,0,dh&placePath=/home",
+    "recommendation": "국밥과 소금구이 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "원조주막칡냉면",
+    "address": "경기 이천시 증신로 22-49",
+    "link": "https://map.naver.com/p/entry/place/13573717?c=14.56,0,0,0,dh&placePath=/home",
+    "recommendation": "칡 냉면, 들깨 칼국수, 만두 등",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "청 목",
+    "address": "경기 이천시 경충대로 3046",
+    "link": "https://map.naver.com/p/entry/place/11687237?c=14.56,0,0,0,dh",
+    "recommendation": "이천 쌀, 한정식",
+    "categories": [
+      "한식",
+      "데이트",
+      "단체"
+    ]
+  },
+  {
+    "name": "희망의숲가든",
+    "address": "경기 이천시 부발읍 무촌로 68-67",
+    "link": "https://map.naver.com/p/entry/place/32083143?c=14.56,0,0,0,dh",
+    "recommendation": "하우스에서 먹는 흑돼지",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "모가명품한우촌",
+    "address": "경기 이천시 모가면 사실로1012번길 20-11",
+    "link": "https://map.naver.com/p/search/모가명품한우촌/place/20121663?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 acho님 추천 고기 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "점촌해장국",
+    "address": "경기 이천시 백사면 이여로88번길 30 1호",
+    "link": "https://map.naver.com/p/search/이천 점촌해장국/place/1033928951?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 바이올린해장국님 추천 해장국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "호운",
+    "address": "경기 이천시 신둔면 황무로 200",
+    "link": "https://map.naver.com/p/search/이천호운/place/1417314194?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 도둑고양이님 추천 생선구이 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "승우 돈까스",
+    "address": "경기 이천시 부발읍 가좌로 123 1층 101호",
+    "link": "https://map.naver.com/p/search/승우돈까스/place/1030544414?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 도둑고양이님 추천 돈까스 맛집",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "이천돌솥밥",
+    "address": "경기 이천시 신둔면 경충대로 3194",
+    "link": "https://map.naver.com/p/entry/place/13301852?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 도둑고양이님 추천 한정식 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "신갈미추어탕생선국수",
+    "address": "경기 이천시 경충대로 2494",
+    "link": "https://map.naver.com/p/search/신갈미추어탕/place/13189696?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 도둑고양이님 추천 추어탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "온정 손만두 본점",
+    "address": "경기 이천시 애련정로 49-1",
+    "link": "https://map.naver.com/p/entry/place/19799014?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 도둑고양이님 추천 만두 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "또또한식부페",
+    "address": "경기 이천시 마장면 둔터로 3",
+    "link": "https://map.naver.com/p/search/또또한식부페/place/1255755273?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 도둑고양이님 추천 한식 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

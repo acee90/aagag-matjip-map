@@ -1,0 +1,20 @@
+[
+  {
+    "name": "2대 국밥",
+    "address": "경북 청도군 청도읍 청도시장1길 21",
+    "link": "https://map.naver.com/p/search/청도 국밥/place/513722771?c=16.08,0,0,0,dh&placePath=/menu?entry=bmp&from=map&fromPanelNum=2&timestamp=202507091004&locale=ko&svcName=map_pcv5&searchText=청도 국밥&from=map&fromPanelNum=2&timestamp=202507091004&locale=ko&svcName=map_pcv5&searchText=청도 국밥",
+    "recommendation": "다른곳과 남다른 선지의 식감 (위생 민감 비추)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "오경통닭 옹치기",
+    "address": "경북 청도군 청도읍 청도시장3길 2-8",
+    "link": "https://map.naver.com/p/entry/place/15234765?c=16.08,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507091002&locale=ko&svcName=map_pcv5",
+    "recommendation": "푹 찐, 찜닭, 양념이 특이한맛 (밥은 좀 적게나옴)",
+    "categories": [
+      "한식"
+    ]
+  }
+]

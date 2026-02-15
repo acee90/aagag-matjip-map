@@ -1,0 +1,606 @@
+[
+  {
+    "name": "더 비스트로 조선",
+    "address": "고양시 일산서구 탄중로101번길 41",
+    "link": "https://map.naver.com/p/search/더 비스트로 조선/place/37069186?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "적당한 분위기의 퓨전 음싣집",
+    "categories": [
+      "단체",
+      "데이트",
+      "술안주"
+    ]
+  },
+  {
+    "name": "마구로야",
+    "address": "덕양구 은빛로 43 은하수빌딩 101, 102호",
+    "link": "https://map.naver.com/p/search/마구로야/place/535488679?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "동네 맛집으로 알려져있음",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "설참치 일산백석본점",
+    "address": "고양시 일산동구 강송로73번길 53-4 1층",
+    "link": "https://map.naver.com/p/entry/place/12831699?c=15.00,0,0,0,dh",
+    "recommendation": "스끼다시 다양, 가성비 좋음",
+    "categories": [
+      "일식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "스시윤",
+    "address": "고양시 일산서구 대산로226번길 7-5 1층",
+    "link": "https://map.naver.com/p/entry/place/1906142433?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "먹자골목 오래된 맛집",
+    "categories": [
+      "일식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "청사초롱",
+    "address": "경기 고양시 일산동구 강송로87번길 53-4 1층",
+    "link": "https://map.naver.com/p/search/경기 고양시 일산동구 강송로87번길 53-4 1층 /place/1879911213?c=17.43,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "해물파전 등 전통주점",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "뿅의전설 일산점",
+    "address": "경기 고양시 일산동구 경의로 521",
+    "link": "https://map.naver.com/p/entry/place/19048739?c=13.00,0,0,0,dh",
+    "recommendation": "맛집으로 유명한집 배달 X",
+    "categories": [
+      "중식",
+      "단체"
+    ]
+  },
+  {
+    "name": "장가계",
+    "address": "경기 고양시 덕양구 권율대로 753-1",
+    "link": "https://map.naver.com/p/entry/place/35285604?c=13.00,0,0,0,dh",
+    "recommendation": "짜장면, 짬뽕 단체 가능",
+    "categories": [
+      "중식",
+      "단체"
+    ]
+  },
+  {
+    "name": "가야밀면돼지국밥 일산본점",
+    "address": "고양시 일산서구 호수로856번길 8-9",
+    "link": "https://map.naver.com/p/search/가야밀면돼지국밥/place/1590592351?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "깔끔한 밑반찬, 잡곡밥, 깊은 육수",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "경남식당",
+    "address": "경기 고양시 덕양구 일영로 154",
+    "link": "https://map.naver.com/p/entry/place/12762055?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "살 꽉찬 부드러운 아구찜",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "고자리냉면칼만두 본점",
+    "address": "경기 고양시 덕양구 호국로 915-45",
+    "link": "https://map.naver.com/p/entry/place/19877725?c=15.00,0,0,0,dh",
+    "recommendation": "양 많은 가성비맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "구산정 청국장집",
+    "address": "경기 고양시 일산서구 송산로 228",
+    "link": "https://map.naver.com/p/entry/place/1119088948?c=14.99,0,0,0,dh",
+    "recommendation": "청국장 맛있고 나물이 다양함",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "굴토리",
+    "address": "고양시 일산서구 호수로856번길 7-13 1층",
+    "link": "https://map.naver.com/p/entry/place/36237713?c=14.99,0,0,0,dh",
+    "recommendation": "굴 국밥, 굴 솥밥",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "단이네 벌교꼬막",
+    "address": "경기 고양시 일산동구 하늘마을1로 16-10",
+    "link": "https://map.naver.com/p/search/단이네 벌교꼬막/place/1455254634?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "꼬막 비빔밥, 무침 술안주",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "두리원 손두부",
+    "address": "고양시 일산동구 장진천길46번길 22-11",
+    "link": "https://map.naver.com/p/entry/place/20136339?c=15.00,0,0,0,dh",
+    "recommendation": "영업시간 짧은 순두부 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "마이갈비탄현본점",
+    "address": "경기 고양시 일산서구 산현로 106",
+    "link": "https://map.naver.com/p/entry/place/11576366?c=15.00,0,0,0,dh",
+    "recommendation": "양 많고 맛있는 칼집 갈비 (냉면 추가 추천)",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "먹쇠",
+    "address": "경기 고양시 일산동구 고양대로 864-7 2층",
+    "link": "https://map.naver.com/p/entry/place/1968759647?c=13.00,0,0,0,dh",
+    "recommendation": "가성비 좋은 소고기집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "백년족발보쌈",
+    "address": "경기 고양시 일산서구 일현로41번길 8-1",
+    "link": "https://map.naver.com/p/entry/place/36952142?c=13.00,0,0,0,dh",
+    "recommendation": "살 부드러운 족발 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "별미진미",
+    "address": "경기 고양시 일산동구 강촌로26번길 7-13 1층",
+    "link": "https://map.naver.com/p/entry/place/152425892?c=13.00,0,0,0,dh",
+    "recommendation": "게장, 양념꽃게 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "숫돌골",
+    "address": "경기 고양시 덕양구 삼송로193번길 13",
+    "link": "https://map.naver.com/p/entry/place/1509642440?c=13.00,0,0,0,dh",
+    "recommendation": "두껍고 큰 해물파전",
+    "categories": [
+      "술안주",
+      "데이트",
+      "한식"
+    ]
+  },
+  {
+    "name": "신호등 장작구이",
+    "address": "경기 고양시 덕양구 서오릉로 396-14",
+    "link": "",
+    "recommendation": "통닭구이",
+    "categories": [
+      "한식",
+      "단체",
+      "술안주"
+    ]
+  },
+  {
+    "name": "아리랑면옥 본점",
+    "address": "경기 고양시 일산서구 경의로 953",
+    "link": "https://map.naver.com/p/entry/place/929235965?c=13.00,0,0,0,dh",
+    "recommendation": "회냉면, 갈비찜 맛집",
+    "categories": [
+      "단체"
+    ]
+  },
+  {
+    "name": "오실장 강남면옥 탄현점",
+    "address": "경기 고양시 일산서구 현중로26번길 45-2",
+    "link": "https://map.naver.com/p/entry/place/37026662?c=13.00,0,0,0,dh",
+    "recommendation": "코다리냉면, 매운갈비찜",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "일산교자",
+    "address": "경기 고양시 덕양구 원당로 289",
+    "link": "https://map.naver.com/p/entry/place/18230776?c=13.00,0,0,0,dh",
+    "recommendation": "줄서서먹는 닭칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "장충동한양할머니족발",
+    "address": "경기 고양시 일산동구 백석로72번길 5-5",
+    "link": "https://map.naver.com/p/search/장충동 한양할머니 족발/place/11853454?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "부드러운 고기 맛, 클래식한 맛",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "제주 도야지",
+    "address": "경기 고양시 일산동구 호수로 358-25",
+    "link": "https://map.naver.com/p/entry/place/1753415102?c=15.00,0,0,0,dh",
+    "recommendation": "흑돼지 삼겹살",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "제주 오라방",
+    "address": "고양시 일산서구 대산로211번길 7-13 1층",
+    "link": "https://map.naver.com/p/entry/place/1211390270?c=15.00,0,0,0,dh",
+    "recommendation": "고기와 조개찜을 동시에",
+    "categories": [
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "이경 양식당",
+    "address": "경기 고양시 일산동구 산두로 167-25",
+    "link": "https://map.naver.com/p/entry/place/1376620448?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "퓨전 한식집",
+    "categories": [
+      "한식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "애니골주막",
+    "address": "경기 고양시 일산동구 애니골길 20",
+    "link": "https://map.naver.com/p/entry/place/13531096?c=15.00,0,0,0,dh",
+    "recommendation": "털레기 수제비, 게르마늄 솥밥, 쭈꾸미",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "대장골 메밀막국수 어탕국수",
+    "address": "경기 고양시 덕양구 흥도로 368",
+    "link": "https://map.naver.com/p/search/어탕국수/place/1659720744?c=12.48,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "어탕국수, 메밀막국수",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "철원양평해장국",
+    "address": "경기 고양시 덕양구 원당로 457-1",
+    "link": "https://map.naver.com/p/entry/place/18230823?c=12.48,0,0,0,dh",
+    "recommendation": "해장국, 내장탕 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "화정 최현숙족발보쌈 본점",
+    "address": "경기 고양시 덕양구 화신로272번길 29",
+    "link": "https://map.naver.com/p/search/최현숙 족발보쌈/place/35287691?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "막국수 껍데기 서비스",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "청담 추어정",
+    "address": "경기 고양시 일산서구 경의로 932",
+    "link": "https://map.naver.com/p/entry/place/13137322?c=15.00,0,0,0,dh",
+    "recommendation": "추어탕 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "태기산 더덕순대국",
+    "address": "경기 고양시 일산서구 경의로 828",
+    "link": "https://map.naver.com/p/entry/place/19578692?c=15.00,0,0,0,dh",
+    "recommendation": "�모듬 순대와 순대국 강추",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "팔당냉면",
+    "address": "경기 고양시 일산서구 덕이로 213",
+    "link": "https://map.naver.com/p/entry/place/38738290?c=15.00,0,0,0,dh",
+    "recommendation": "쭈꾸미와 냉면",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "대박각",
+    "address": "경기 고양시 일산서구 강성로 115 금강빌딩",
+    "link": "https://map.naver.com/p/search/고양 대박각/place/1199534829?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 무릎어깨님 추천 간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "훼미리부대찌개&곱창 일산대화점",
+    "address": "경기 고양시 일산서구 성저로38번길 61",
+    "link": "https://map.naver.com/p/entry/place/18414239?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "부대찌개",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "참이맛감자탕 행신 본점",
+    "address": "고양시 덕양구 중앙로 548 현대프라자 1층",
+    "link": "https://map.naver.com/p/search/참이맛 뼈다귀/place/11707041?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "고양에만 4개 체인점",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "장충당 행신본점",
+    "address": "고양 덕양구 충경로 52 남정시티프라자 102호",
+    "link": "https://map.naver.com/p/entry/place/1064214673?c=12.08,0,0,0,dh",
+    "recommendation": "동네 족발 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "서대순 특허 순대국",
+    "address": "경기 고양시 일산동구 중앙로 1123",
+    "link": "https://map.naver.com/p/entry/place/1659739721?c=15.00,0,0,0,dh",
+    "recommendation": "동네 오래 장사한 순대국집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "다람쥐마을 묵집 누릉지백숙",
+    "address": "경기 고양시 일산동구 애니골길43번길 48",
+    "link": "https://map.naver.com/p/search/다람쥐마을 묵집 누릉지백숙/place/20283536?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "웨이팅 있는 가게",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "민속마을 콩두부",
+    "address": "경기 고양시 일산동구 애니골길 100",
+    "link": "https://map.naver.com/p/search/민속마을 콩두부/place/18374833?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
+    "recommendation": "두부 요리 한정식",
+    "categories": [
+      "한식",
+      "데이트",
+      "단체"
+    ]
+  },
+  {
+    "name": "만돈",
+    "address": "경기 고양시 일산동구 정발산로 24",
+    "link": "https://map.naver.com/p/entry/place/1668099459?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 acho님 추천 돈까스 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "강강술래 늘봄농원점",
+    "address": "경기 고양시 덕양구 호국로 1526-3",
+    "link": "https://map.naver.com/p/search/강강술래 늘봄농원점/place/20762152?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 acho님 추천 고기 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "일산칼국수본점",
+    "address": "경기 고양시 일산동구 경의로 467",
+    "link": "https://map.naver.com/p/search/정발산 일산칼국수/place/11727528?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 옷씨1님 추천 닭칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "양촌리 아구",
+    "address": "경기 고양시 일산서구 대화2로 152",
+    "link": "https://map.naver.com/p/entry/place/36010976?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 옷씨1님 추천 아구찜 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "구산정 청국장집",
+    "address": "경기 고양시 일산서구 송산로 226",
+    "link": "https://map.naver.com/p/entry/place/1119088948?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 옷씨1님 추천 청국장 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "모전돼지갈비본점",
+    "address": "경기 고양시 일산동구 백석로86번길 6-12",
+    "link": "https://map.naver.com/p/search/백석모전갈비/place/33118447?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 옷씨1님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "일산물갈비 가야밀면 백석본점",
+    "address": "경기 고양시 일산동구 백석로72번길 46 1층",
+    "link": "https://map.naver.com/p/search/가야밀면/place/1349415344?c=13.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 옷씨1님 추천 밀면 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "청궁염소요리전문점 본점",
+    "address": "경기 고양시 일산동구 성석로 61",
+    "link": "https://map.naver.com/p/search/천궁 염소/place/18346207?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 옷씨1님 추천 염소전골 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "명계옥",
+    "address": "경기 고양시 일산동구 무궁화로 32-21 109호",
+    "link": "https://map.naver.com/p/entry/place/31088394?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 옷씨1님 추천 오리 전골 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "동화반점",
+    "address": "경기 고양시 일산동구 산두로229번길 36-1",
+    "link": "https://map.naver.com/p/search/밤가시짬뽕/place/18334921?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
+    "recommendation": "짬뽕 순두부 동네 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "낙지한마당",
+    "address": "경기 고양시 일산동구 강송로87번길 53-10 1층",
+    "link": "https://map.naver.com/p/entry/place/20951152?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 옷씨1님 추천 낙지 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "옥할머니집",
+    "address": "경기 고양시 일산동구 고봉로819번길 105",
+    "link": "https://map.naver.com/p/entry/place/13417491?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 배추도사님 추천 동태탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "실비타운",
+    "address": "경기 고양시 덕양구 토당로 66-23",
+    "link": "https://map.naver.com/p/search/실비타운/place/1291180654?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "8000원 백반집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "포폴로피자",
+    "address": "일산동구 정발산로 43-20 센트럴플라자",
+    "link": "https://map.naver.com/p/search/포폴로/place/38491290?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "일산에서 유명한 피자",
+    "categories": [
+      "양식"
+    ]
+  },
+  {
+    "name": "북경마라샹궈",
+    "address": "경기 고양시 일산서구 원일로 89 1층",
+    "link": "https://map.naver.com/p/search/ 북경마라샹궈/place/36823503?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "일산시장 마라탕, 훠궈, 꿔바로우 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "윤성피자 덕이동본점",
+    "address": "경기 고양시 일산서구 덕산로 321 1층 104호",
+    "link": "https://map.naver.com/p/entry/place/1691437829?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 피자 맛집",
+    "categories": []
+  },
+  {
+    "name": "행주산성 원조국수집",
+    "address": "경기 고양시 덕양구 행주로17번길 10",
+    "link": "https://map.naver.com/p/entry/place/20601267?c=16.93,0,0,0,dh",
+    "recommendation": "20년 단골이 추천하는 집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "본가갈비",
+    "address": "경기 고양시 일산서구 덕이로 84-14",
+    "link": "https://map.naver.com/p/search/본가갈비/place/13480106?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 armbedded님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "옛골 산더미감자탕순대국",
+    "address": "경기 고양시 일산동구 고일로 8 1층",
+    "link": "https://map.naver.com/p/search/옛골 산더미감자탕순대국/place/444418877?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 외노자핫산님 추천 감자탕 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "너른마당",
+    "address": "경기 고양시 덕양구 서삼릉길 233-4",
+    "link": "https://map.naver.com/p/search/너른마당\t\t \t\t/place/21697587?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 외노자 핫산님 추천 오리 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "탤런트 박철호의 덕이동주막",
+    "address": "경기 고양시 일산서구 하이파크3로 10",
+    "link": "https://map.naver.com/p/entry/place/38765916?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 외노자 핫산님 추천 털레기 수제비 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "덕이원조국수 일산본점",
+    "address": "경기 고양시 덕양구 호국로 1000",
+    "link": "https://map.naver.com/p/entry/place/1372169975?c=15.93,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507241201&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 빨가디안님 추천 콩국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

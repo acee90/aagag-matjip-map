@@ -1,0 +1,47 @@
+[
+  {
+    "name": "돼지고을부자가든",
+    "address": "경북 김천시 지례면 장터길 89",
+    "link": "https://map.naver.com/p/search/김천 부자가든/place/15339605?c=18.74,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
+    "recommendation": "불고기와 소금구이 둘다 베스트",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "지례순대",
+    "address": "경북 김천시 황금시장4길 12",
+    "link": "https://map.naver.com/p/entry/place/15309714?c=15.00,0,0,0,dh",
+    "recommendation": "다양한 순대를 맛보고, 중간중간 선지국 입가심",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "윤가네촌돼지",
+    "address": "경북 김천시 대항면 복전길 47 1층",
+    "link": "https://map.naver.com/p/entry/place/911933805?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202509191039&locale=ko&svcName=map_pcv5",
+    "recommendation": "식사ㄴㄴ 술안주O 볶음밥 비추",
+    "categories": [
+      "술안주"
+    ]
+  },
+  {
+    "name": "연 돈가스",
+    "address": "경북 김천시 영남대로 2105",
+    "link": "https://map.naver.com/p/search/김천연돈가스/place/1574570358?c=15.00,0,0,0,dh&placePath=/home?entry=bmp&from=map&fromPanelNum=2&timestamp=202509191038&locale=ko&svcName=map_pcv5&searchText=김천연돈가스",
+    "recommendation": "가성비 뛰어난 돈까스집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "중국만두",
+    "address": "경북 김천시 용머리5길 5",
+    "link": "https://map.naver.com/p/search/김천 중국만두/place/15296926?c=15.00,0,0,0,dh&placePath=/home?entry=bmp&fromPanelNum=2&timestamp=202509191035&locale=ko&svcName=map_pcv5&searchText=김천 중국만두&fromPanelNum=2&timestamp=202509191035&locale=ko&svcName=map_pcv5&searchText=김천 중국만두&from=map",
+    "recommendation": "애객러 G80님 추천 만두 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

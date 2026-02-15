@@ -1,0 +1,56 @@
+[
+  {
+    "name": "동광알탕",
+    "address": "경북 구미시 1공단로7길 86-9",
+    "link": "https://map.naver.com/p/entry/place/12948570?c=18.74,0,0,0,dh",
+    "recommendation": "식사로 먹는 알탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "윤쉐프의고기집",
+    "address": "경북 구미시 신시로14길 10",
+    "link": "https://map.naver.com/p/entry/place/21791323?c=18.74,0,0,0,dh",
+    "recommendation": "구미에서 소문난 고깃집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "박가네왕갈비찜",
+    "address": "경북 구미시 송원서로 21",
+    "link": "https://map.naver.com/p/entry/place/15445312?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 갈비찜 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "낭만쭈꾸미 본점",
+    "address": "경북 구미시 산업로 193-84",
+    "link": "https://map.naver.com/p/search/낭만쭈꾸미 본점/place/1875852273?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
+    "recommendation": "애객러 네모대가리님 추천 쭈꾸미 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "평양아바이순대국밥",
+    "address": "경북 구미시 고아읍 들성로 61 1층",
+    "link": "https://map.naver.com/p/entry/place/15844190?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 순대국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "명륜등심해장국 옥계점",
+    "address": "경북 구미시 옥계북로1길 3-9",
+    "link": "https://map.naver.com/p/entry/place/15523359?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 뼈찜 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

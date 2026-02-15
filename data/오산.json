@@ -1,0 +1,21 @@
+[
+  {
+    "name": "능이밥상 오산직영점",
+    "address": "경기 오산시 오산로 123-7 1층",
+    "link": "https://map.naver.com/p/entry/place/20757285?c=14.05,0,0,0,dh",
+    "recommendation": "능이 한방 오리 백숙",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "운봉숯불소갈비살전문점",
+    "address": "경기 오산시 문시로 109",
+    "link": "https://map.naver.com/p/entry/place/1863535871?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 acho님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

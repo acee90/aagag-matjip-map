@@ -1,0 +1,45 @@
+[
+  {
+    "name": "벅수다찌",
+    "address": "경남 통영시 동충2길 41-5",
+    "link": "https://map.naver.com/p/entry/place/32047718?c=15.00,0,0,0,dh",
+    "recommendation": "나물 비빔밥 추천",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "통영생선구이",
+    "address": "경남 통영시 용남면 동달안길 84",
+    "link": "https://map.naver.com/p/entry/place/31126013?c=15.00,0,0,0,dh",
+    "recommendation": "생선구이 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "미주뚝배기",
+    "address": "경남 통영시 통영해안로 227-2 2층",
+    "link": "https://map.naver.com/p/entry/place/15028093?c=15.00,0,0,0,dh",
+    "recommendation": "40년 해물뚝배기",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "한일김밥본점",
+    "address": "경남 통영시 통영해안로 319",
+    "link": "https://map.naver.com/p/entry/place/11698488?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "충무김밥",
+    "categories": []
+  },
+  {
+    "name": "심가네해물짬뽕",
+    "address": "경남 통영시 새터길 74-4",
+    "link": "https://map.naver.com/p/entry/place/36133774?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "백짬뽕도 가능",
+    "categories": [
+      "중식"
+    ]
+  }
+]

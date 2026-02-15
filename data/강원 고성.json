@@ -1,0 +1,38 @@
+[
+  {
+    "name": "동루골 막국수",
+    "address": "강원 고성군 토성면 성대로 188",
+    "link": "https://map.naver.com/p/entry/place/15070351?c=16.33,0,0,0,dh",
+    "recommendation": "섬섬한 막국수",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "새참칼국수",
+    "address": "강원 고성군 토성면 동루골길 3",
+    "link": "https://map.naver.com/p/entry/place/30869595?c=17.83,0,0,0,dh",
+    "recommendation": "들꺠 칼국수 or 보리밥",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "고성부부횟집",
+    "address": "강원 고성군 죽왕면 가진해변길 88",
+    "link": "https://map.naver.com/p/entry/place/15067174?c=17.83,0,0,0,dh",
+    "recommendation": "물회, 회덮밥",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "백촌막국수",
+    "address": "강원 고성군 토성면 백촌1길 10",
+    "link": "https://map.naver.com/p/search/백촌막국수 /place/11860442?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 무릎어깨님 추천 막국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

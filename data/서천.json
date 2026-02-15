@@ -1,0 +1,40 @@
+[
+  {
+    "name": "대영식당",
+    "address": "충남 서천군 장항읍 장항로171번길 12",
+    "link": "https://map.naver.com/p/search/장항읍 대영식당/place/17588232?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
+    "recommendation": "애객러 장항인님 추천 대구뽈찜 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "우리식당",
+    "address": "충남 서천군 장항읍 장서로29번길 42",
+    "link": "https://map.naver.com/p/search/우리식당 서천/place/12877950?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 네모대가리님 추천 아구찜 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "장항갯벌식당",
+    "address": "충남 서천군 장항읍 장항로161번길 7 1층",
+    "link": "https://map.naver.com/p/search/장항갯벌식당\t\t \t\t/place/2055217748?c=15.00,0,0,0,dh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202506021536&locale=ko&svcName=map_pcv5&searchText=장항갯벌식당\t\t \t\t",
+    "recommendation": "애객러 네모대가리님 추천 생선구이 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "진미식당",
+    "address": "충남 서천군 판교면 종판로 885",
+    "link": "https://map.naver.com/p/entry/place/21283355?c=12.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507241518&locale=ko&svcName=map_pcv5&fromPanelNum=1&additionalHeight=76&timestamp=202507241518&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 SN198A님 추천 콩국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "두암식당",
+    "address": "전남 무안군 몽탄면 우명길 52",
+    "link": "https://map.naver.com/p/entry/place/11718915?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202509151037&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 구구구구구님 추천 짚불구이 삼겹살 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "구로횟집",
+    "address": "전남 무안군 청계면 구로길 25-12",
+    "link": "https://map.naver.com/p/entry/place/11796142?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202509151037&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 구구구구구님 추천 세발낙지 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  }
+]

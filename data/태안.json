@@ -1,0 +1,55 @@
+[
+  {
+    "name": "원풍식당",
+    "address": "충남 태안군 원북면 원이로 841-1",
+    "link": "https://map.naver.com/p/entry/place/13478944?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 펭귀니님 추천 박속낙지탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "반도식당",
+    "address": "충남 태안군 태안읍 경이정1길 32",
+    "link": "https://map.naver.com/p/entry/place/17457916?c=11.99,0,0,0,dh",
+    "recommendation": "애객러 펭귀니님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "안흥식당",
+    "address": "충남 태안군 태안읍 정주내2길 15",
+    "link": "https://map.naver.com/p/entry/place/19346506?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 펭귀니님 추천 아나고 스끼야끼 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "화해당",
+    "address": "충남 태안군 근흥면 근흥로 901-8",
+    "link": "https://map.naver.com/p/entry/place/19480600?c=11.99,0,0,0,dh",
+    "recommendation": "애객러 신기하네님 추천 게장 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "원조뚝배기식당",
+    "address": "충남 태안군 태안읍 시장5길 18-5",
+    "link": "https://map.naver.com/p/entry/place/17455645?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 펭귀니님 추천 게국지,우럿적국 맛집",
+    "categories": []
+  },
+  {
+    "name": "시장 맛집",
+    "address": "충남 태안군 태안읍 시장2길 38-9",
+    "link": "https://map.naver.com/p/search/태안 시장맛집/place/1950209148?c=15.00,0,0,0,dh&placePath=?entry=bmp",
+    "recommendation": "칼국수와 파전 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

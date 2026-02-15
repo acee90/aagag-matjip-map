@@ -1,0 +1,21 @@
+[
+  {
+    "name": "명가만두",
+    "address": "경기 의왕시 솔고개길 23",
+    "link": "https://map.naver.com/p/search/의왕 명가/place/1891577301?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "만두전골  맛집, 샤브샤브 가능",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "장원면옥",
+    "address": "경기 의왕시 왕송못동로 207-15",
+    "link": "https://map.naver.com/p/entry/place/1580481029?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507041111&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 불꽃늑대님 추천 평양냉면 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

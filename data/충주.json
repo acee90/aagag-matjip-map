@@ -1,0 +1,192 @@
+[
+  {
+    "name": "신양자강",
+    "address": "충북 충주시 약막2길 5",
+    "link": "https://map.naver.com/p/search/충주 신 양자강/place/1231597957?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "짬뽕 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "대장군",
+    "address": "충북 충주시 수안보면 미륵송계로 105",
+    "link": "https://map.naver.com/p/entry/place/11681644?c=15.00,0,0,0,dh",
+    "recommendation": "꿩 코스 요리",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "흥부와놀부네",
+    "address": "충북 충주시 봉방9길 32 흥부와놀부네",
+    "link": "https://map.naver.com/p/entry/place/17523928?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "오리능이백숙, 버섯전골 등 몸보신 요리",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "시골식당",
+    "address": "충북 충주시 하종민길 1",
+    "link": "https://map.naver.com/p/search/충북 충주시 하종민길 1/place/985646646?c=19.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 낙성대석좌교수님 추천 칼국수 파전 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "탄금반점",
+    "address": "충북 충주시 탄금대로 296",
+    "link": "https://map.naver.com/p/search/탄금반점/place/1752545553?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 누수탐지기님 추천 짬뽕 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "공아춘",
+    "address": "충북 충주시 중원대로 3033 1층 공아춘",
+    "link": "https://map.naver.com/p/entry/place/1188726772?c=18.00,0,0,0,dh",
+    "recommendation": "애객러 누수탐지기님 추천 짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "우미칼국수",
+    "address": "충북 충주시 범바위길 9 1층",
+    "link": "https://map.naver.com/p/search/우미칼국수/place/1046167514?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 누수탐지기님 추천 사골칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "평양칼국수",
+    "address": "충북 충주시 연원17길 21",
+    "link": "https://map.naver.com/p/search/평양칼국수/place/20309760?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 누수탐지기님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "일번지순대국",
+    "address": "충북 충주시 연수상가2길 9",
+    "link": "https://map.naver.com/p/search/일번지순대국/place/19888528?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 누수탐지기님 추천 호불호 순대국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "이름난순대의신 본점",
+    "address": "충북 충주시 동수5길 41",
+    "link": "https://map.naver.com/p/entry/place/37401051?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 누수탐지기님 추천 호불호 순대국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "대미순대",
+    "address": "충북 충주시 동량면 무너미길 27",
+    "link": "https://map.naver.com/p/entry/place/17574921?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 누수탐지기님 추천 호불호 순대국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "만복이쭈꾸미낙지볶음 충주점",
+    "address": "충북 충주시 안림로 161",
+    "link": "https://map.naver.com/p/search/만복이 쭈꾸미 충주/place/1411673961?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 누수탐지기님 추천 낙지쭈꾸미 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "중앙관",
+    "address": "충북 충주시 노은면 연하중앙길 24",
+    "link": "https://map.naver.com/p/entry/place/17571509?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202506131024&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 누수탐지기님 추천 짬뽕 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "원조중앙탑막국수 충주점",
+    "address": "충북 충주시 중원대로 3018",
+    "link": "https://map.naver.com/p/entry/place/33771231?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 누수탐지기님 추천 막국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "만선식당",
+    "address": "충북 충주시 대소원면 중원대로 4020",
+    "link": "https://map.naver.com/p/search/만선식당/place/1398096538?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 누수탐지기님 추천 오징어볶음 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "더봉춘",
+    "address": "충북 충주시 수안보면 수회리로 126",
+    "link": "https://map.naver.com/p/entry/place/1562333896?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 누수탐지기님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "상촌식당",
+    "address": "충북 충주시 수안보면 중산신촌길 99",
+    "link": "https://map.naver.com/p/entry/place/17568715?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 누수탐지기님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "중앙탑메밀마당",
+    "address": "충북 충주시 중앙탑면 탑평리 42",
+    "link": "https://map.naver.com/p/search/중앙탑메밀마당/place/11817590?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 난알아요님 추천 메밀 음식 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "만수네 연수본점",
+    "address": "충북 충주시 동수13길 6 1층",
+    "link": "https://map.naver.com/p/entry/place/1472032114?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202506131017&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 누수탐지기님 추천 닭매운탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "중화덕선생",
+    "address": "충북 충주시 형설로 149 1층",
+    "link": "https://map.naver.com/p/entry/place/1808200637?c=15.48,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202506131019&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 누수탐지기님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "오도이데요코초",
+    "address": "충북 충주시 연수동산로2길 16-4",
+    "link": "https://map.naver.com/p/search/오모이데요코초/place/35214115?c=15.00,0,0,0,dh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202602140924&locale=ko&svcName=map_pcv5&searchText=오모이데요코초",
+    "recommendation": "애객러 누수탐지기님 추천 이자카야 맛집",
+    "categories": [
+      "일식",
+      "데이트"
+    ]
+  }
+]

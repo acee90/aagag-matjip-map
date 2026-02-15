@@ -1,0 +1,57 @@
+[
+  {
+    "name": "고구려짬뽕집",
+    "address": "경기 시흥시 수인로 3472-22",
+    "link": "https://map.naver.com/p/entry/place/19873602?c=12.08,0,0,0,dh&placePath=/home",
+    "recommendation": "짬뽕 맛집 맵기 조절 가능",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "맛자랑 칼국수",
+    "address": "경기 시흥시 오이도로 253",
+    "link": "https://map.naver.com/p/entry/place/17936781?c=12.08,0,0,0,dh",
+    "recommendation": "해물, 바지락 칼국수 + 파전",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "소래버섯나라 본점",
+    "address": "경기 시흥시 동서로 206",
+    "link": "https://map.naver.com/p/entry/place/13473646?c=13.00,0,0,0,dh",
+    "recommendation": "직접 키운 버섯 샤브샤브",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "자반고등어",
+    "address": "경기 시흥시 중심상가로 49",
+    "link": "https://map.naver.com/p/entry/place/716527579?c=13.00,0,0,0,dh",
+    "recommendation": "고등어 김치찜, 동태탕",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "이가네생칼국수",
+    "address": "경기 시흥시 신천3길 9",
+    "link": "https://map.naver.com/p/entry/place/1162900332?c=13.00,0,0,0,dh",
+    "recommendation": "9000원 닭한마리 칼국수",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "홍가네감자탕 본점",
+    "address": "경기 시흥시 함송로14번길 13-5",
+    "link": "https://map.naver.com/p/entry/place/37204437?c=13.00,0,0,0,dh&placePath=/home",
+    "recommendation": "무청 추가 추천!",
+    "categories": [
+      "한식"
+    ]
+  }
+]

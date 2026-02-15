@@ -1,0 +1,22 @@
+[
+  {
+    "name": "봉천식당",
+    "address": "경남 거창군 거창읍 강남로 114",
+    "link": "https://map.naver.com/p/entry/place/15380712?c=14.76,0,0,0,dh&placePath=/home",
+    "recommendation": "집밥 먹는 느낌의 맛있는 두루치기",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "장고개식당",
+    "address": "경남 거창군 거창읍 공수들2길 5",
+    "link": "https://map.naver.com/p/entry/place/15381159?c=14.76,0,0,0,dh",
+    "recommendation": "애객러 고현정용진님 추천 명태구이 맛집",
+    "categories": [
+      "한식",
+      "단체",
+      "술안주"
+    ]
+  }
+]

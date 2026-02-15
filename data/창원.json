@@ -1,0 +1,113 @@
+[
+  {
+    "name": "삼천도씨",
+    "address": "경남 창원시 마산회원구 양덕로 97",
+    "link": "https://map.naver.com/p/search/3000도씨/place/36438366?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "목살 짬뽕 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "마산집",
+    "address": "경남 창원시 성산구 상남로 67",
+    "link": "https://map.naver.com/p/entry/place/15212241?c=15.00,0,0,0,dh",
+    "recommendation": "육회비빔밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "불새다찌",
+    "address": "경남 창원시 성산구 마디미로44번길 13",
+    "link": "https://map.naver.com/p/entry/place/15206254?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "푸짐한 안주",
+    "categories": [
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "초가집",
+    "address": "경남 창원시 성산구 용지로117번길 32 1층",
+    "link": "https://map.naver.com/p/entry/place/242984700?c=15.00,0,0,0,dh",
+    "recommendation": "양념 맛있음! 꽃게찜 추천",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "토담고디탕",
+    "address": "경남 창원시 성산구 중앙대로 37 301호",
+    "link": "https://map.naver.com/p/entry/place/1225863975?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "고디탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "목포 밴댕이",
+    "address": "경남 창원시 성산구 중앙대로 95",
+    "link": "https://map.naver.com/p/entry/place/1763631789?c=15.00,0,0,0,dh",
+    "recommendation": "대표 짱뚱어탕, 찜요리 등 다수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "개성순대",
+    "address": "경남 창원시 마산합포구 가포로 686",
+    "link": "https://map.naver.com/p/entry/place/15238270?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "순대전골 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "동부회센타",
+    "address": "경남 창원시 진해구 천자로 5",
+    "link": "https://map.naver.com/p/entry/place/15396638?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 G80님 추천 회 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "장수집밥도시락",
+    "address": "성산구 창이대로706번길 10-25 지하1층",
+    "link": "https://map.naver.com/p/search/장수집밥도시락 /place/1627112821?isCorrectAnswer=true&c=14.64,0,0,0,dh",
+    "recommendation": "10여가지 반찬 7천원 백반",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "아희손김밥",
+    "address": "경남 창원시 의창구 사림로 88 1층",
+    "link": "https://map.naver.com/p/entry/place/1688595654?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 난알아요님 추천 김밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "불닭또리",
+    "address": "성산구 마디미로44번길 13 플러스타운 1층",
+    "link": "https://map.naver.com/p/entry/place/15212296?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 난알아요님 추천 닭볶음탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "산미 본점",
+    "address": "경남 창원시 의창구 북면 천주로 1168",
+    "link": "https://map.naver.com/p/entry/place/19901564?c=11.20,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507241150&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 도어락님 추천 콩국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

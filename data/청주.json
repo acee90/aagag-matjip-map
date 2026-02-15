@@ -1,0 +1,275 @@
+[
+  {
+    "name": "청주고기짬뽕",
+    "address": "충북 청주시 서원구 분평로6번길 14-7",
+    "link": "https://map.naver.com/p/search/청풍루/place/17392330?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "지역 짬뽕 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "경주집 버섯찌개",
+    "address": "충북 청주시 상당구 남사로93번길 21",
+    "link": "https://map.naver.com/p/entry/place/17214915?c=15.00,0,0,0,dh",
+    "recommendation": "신라면의 원조",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "오정식당",
+    "address": "충청북도 청주시 상당구 서운동 25-23",
+    "link": "",
+    "recommendation": "애객러 온여마크님 추천 맛집 (257-6726 전화)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "이가네 부대찌개",
+    "address": "충북 청주시 서원구 분평로6번길 14-5",
+    "link": "https://map.naver.com/p/search/이가네 부대찌개/place/36528314?c=15.00,0,0,0,adh&placePath=?entry%3Dbmp",
+    "recommendation": "부대찌개 온리",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "풍차쭈꾸미",
+    "address": "충북 청주시 서원구 용평로113번길 23",
+    "link": "https://map.naver.com/p/entry/place/1920794041?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "불맛 쭈꾸미 (중간맛도 매움)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "흙에서",
+    "address": "충북 청주시 서원구 산미로 116 흙에서",
+    "link": "https://map.naver.com/p/search/흙에서명품쌀밥집/place/1089981008?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "정갈하게 잘나옴",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "원조중앙탑막국수 본점",
+    "address": "충북 청주시 서원구 대림로 391",
+    "link": "https://map.naver.com/p/entry/place/375750569?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "웨이팅있는 막국수 + 수육",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "푸에고네그로",
+    "address": "충북 청주시 청원구 상당로 314",
+    "link": "https://map.naver.com/p/entry/place/1075129651?c=15.00,0,0,0,dh",
+    "recommendation": "스페인 음식 전문, 문어구이 추천",
+    "categories": [
+      "지중해",
+      "데이트"
+    ]
+  },
+  {
+    "name": "무심천드래곤",
+    "address": "충북 청주시 상당구 상당로121번길 34 1층",
+    "link": "https://map.naver.com/p/entry/place/1163691074?c=15.00,0,0,0,dh",
+    "recommendation": "드래곤 간짜장",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "조선면옥",
+    "address": "충북 청주시 상당구 상당로69번길 58",
+    "link": "https://map.naver.com/p/search/조선 면옥/place/17214310?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "냉면 + 불고기 or 갈비탕",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "대명도리탕전문",
+    "address": "충북 청주시 흥덕구 백봉로 188-1",
+    "link": "https://map.naver.com/p/entry/place/21037907?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "닭볶음탕 먹고 볶음밥 필수",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "보테가",
+    "address": "충북 청주시 흥덕구 가로수로1164번길 41-20",
+    "link": "https://naver.me/Gh8g1rs3",
+    "recommendation": "특별한 날, 예약하고 가기 좋은 양식집",
+    "categories": [
+      "양식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "봉달이해물칼국수",
+    "address": "충북 청주시 서원구 안뜸로54번길 23",
+    "link": "https://map.naver.com/p/search/해물칼국수/place/17391652?c=13.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "칼국수 맛집. 만두 안시키면 서운함",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "고복막국수해장국",
+    "address": "청주 오송읍 오송생명3로 137-1 1층",
+    "link": "https://map.naver.com/p/entry/place/17545701?c=14.87,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 팔로비빈년님 추천 막국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "마시33 사창점",
+    "address": "충북 청주시 서원구 1순환로648번길 5",
+    "link": "https://map.naver.com/p/entry/place/1646251656?c=14.64,0,0,0,dh&placePath=/home",
+    "recommendation": "라면 돈까스 제육 등 극한의 가성비 맛집",
+    "categories": [
+      "분식",
+      "한식"
+    ]
+  },
+  {
+    "name": "백송짜글짜글",
+    "address": "충북 청주시 흥덕구 옥산면 옥산시내1길 63",
+    "link": "https://map.naver.com/p/search/백송짜글짜글\t\t \t\t/place/1307624881?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 Tsuji 님 추천 찌개 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "부강옥 청주직영점",
+    "address": "충북 청주시 서원구 남이면 연청로 1383-1 1층",
+    "link": "https://map.naver.com/p/search/부강옥청주/place/1515933485?c=15.00,0,0,0,adh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202505301325&locale=ko&svcName=map_pcv5&searchText=부강옥청주",
+    "recommendation": "애객러 갑오징어님 추천 순대 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "대추나무집",
+    "address": "충북 청주시 청원구 사천로18번길 5",
+    "link": "https://map.naver.com/p/entry/place/11718277?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 해롱이님 추천 찌개 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "강서순대",
+    "address": "충북 청주시 서원구 구룡산로326번길 26 장규빌 1층",
+    "link": "https://map.naver.com/p/entry/place/17464832?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202505301326&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 갑오징어님 추천 순대 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "토속된장찌개",
+    "address": "충북 청주시 흥덕구 오송읍 만수길 22 1층",
+    "link": "https://map.naver.com/p/entry/place/1397052575?c=13.89,0,0,0,dh",
+    "recommendation": "제육 맛있는 무한리필 백반집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "토속김치찌개",
+    "address": "충북 청주시 흥덕구 오송읍 만수길 27-1",
+    "link": "https://map.naver.com/p/entry/place/38620153?c=13.89,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 jdk1.8님 추천 김치찌개 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "토속순대국밥",
+    "address": "충북 청주시 흥덕구 오송읍 오송생명13로 3 1,2층",
+    "link": "https://map.naver.com/p/search/토속순대국밥/place/1320367892?c=18.09,0,0,0,adh&placePath=?entry%3Dbmp",
+    "recommendation": "오송의 토속가게 3번째 4.28 추후 구글지도업뎃",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "육거리소문난만두",
+    "address": "충북 청주시 상당구 상당로1번길 36 1층",
+    "link": "https://map.naver.com/p/search/육거리소문난만두\t\t \t\t/place/1122226122?c=15.00,0,0,0,dh&placePath=/home?entry=bmp&from=map&fromPanelNum=2&timestamp=202507071439&locale=ko&svcName=map_pcv5&searchText=육거리소문난만두\t\t \t\t",
+    "recommendation": "칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "딱점",
+    "address": "충북 청주시 청원구 오창읍 중심상업로 32-14",
+    "link": "https://map.naver.com/p/entry/place/2017285778?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507071438&locale=ko&svcName=map_pcv5",
+    "recommendation": "8000원 한식뷔페",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "용만두전골",
+    "address": "충북 청주시 흥덕구 옥산면 청주역로 637",
+    "link": "https://map.naver.com/p/entry/place/1617492834?c=16.35,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507171337&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 맛집만받아요님 추천 만두 전골 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "만두가",
+    "address": "충북 청주시 흥덕구 강내면 가로수로 480-7",
+    "link": "https://map.naver.com/p/search/만두가/place/19812899?c=13.69,0,0,0,dh&placePath=/home?entry=bmp&from=map&fromPanelNum=2&timestamp=202507171339&locale=ko&svcName=map_pcv5&searchText=만두가",
+    "recommendation": "애객러 맛집만받아요님 추천 만두 전골 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "오스테리아문",
+    "address": "충북 청주시 상당구 상당로143번길 31-22 1층",
+    "link": "https://map.naver.com/p/entry/place/1240867035?c=12.09,0,0,0,cdh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507171341&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 맛집만받아요님 추천 양식 맛집",
+    "categories": [
+      "양식"
+    ]
+  },
+  {
+    "name": "돈나의부엌",
+    "address": "청주시 청원구 율봉로 187번길 13",
+    "link": "https://naver.me/5BcSdUJi",
+    "recommendation": "애객러 간장계란밥님 추천 돈까스 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "최부짱",
+    "address": "청주시 서원구 1순환로 648번길 22",
+    "link": "https://naver.me/5QG7U8lr",
+    "recommendation": "애객러 간장계란밥님 추천 라멘, 오므라이스 맛집",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "베한베트남쌀국수",
+    "address": "청주시 상당구 중앙로 9 2층",
+    "link": "https://naver.me/5XDE9RzX",
+    "recommendation": "애객러 간장계란밥님 추천 쌀국수 맛집",
+    "categories": [
+      "아시아"
+    ]
+  }
+]

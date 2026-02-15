@@ -1,0 +1,40 @@
+[
+  {
+    "name": "군포식당",
+    "address": "경기 군포시 군포로556번길 6",
+    "link": "https://map.naver.com/p/entry/place/19497039?c=15.00,0,0,0,dh",
+    "recommendation": "설렁탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "홍종흔 베이커리",
+    "address": "경기 군포시 번영로 252",
+    "link": "https://map.naver.com/p/entry/place/1671262980?c=15.00,0,0,0,dh",
+    "recommendation": "리뷰 1만개,  데이트하기 좋은 한옥 빵집",
+    "categories": [
+      "간식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "삼척통골뱅이",
+    "address": "경기 군포시 군포로745번길 20 1층",
+    "link": "https://map.naver.com/p/search/왕통골뱅이/place/1888991418?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "골뱅이 전문, 사이드 김치칼국수 추천",
+    "categories": [
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "홍두깨손칼국수",
+    "address": "경기 군포시 광정로 70 유공빌딩",
+    "link": "https://map.naver.com/p/entry/place/1767261871?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "칼국수, 수제비",
+    "categories": [
+      "한식"
+    ]
+  }
+]

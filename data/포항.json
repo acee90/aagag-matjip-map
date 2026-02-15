@@ -1,0 +1,222 @@
+[
+  {
+    "name": "해궁회타운",
+    "address": "경북 포항시 남구 구룡포읍 일출로 103-4",
+    "link": "https://map.naver.com/p/entry/place/15088382?c=18.74,0,0,0,dh&placePath=/home",
+    "recommendation": "토박이 추천 맛집",
+    "categories": [
+      "한식",
+      "술안주",
+      "데이트"
+    ]
+  },
+  {
+    "name": "퐝할매떡볶이",
+    "address": "경북 포항시 북구 중앙상가2길 16",
+    "link": "https://map.naver.com/p/search/포항할매떡볶이/place/173520420?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "옛날식 떡볶이 맛 (존맛은 아님)",
+    "categories": [
+      "분식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "까꾸네 모리국수",
+    "address": "경북 포항시 남구 구룡포읍 호미로 239-13",
+    "link": "https://map.naver.com/p/search/까꾸네 모리국수/place/20601595?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "술이 깨는 특이한 맛.. 동태탕에 칼국수 느낌",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "마라도회식당",
+    "address": "경북 포항시 북구 해안로 217-1",
+    "link": "https://map.naver.com/p/search/포항 마라도 횟집/place/13179863?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "물회와 회덮밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "포항 바다원해",
+    "address": "경북 포항시 북구 해안로 397",
+    "link": "https://map.naver.com/p/entry/place/15182305?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "풍경 좋은 횟집",
+    "categories": [
+      "한식",
+      "단체",
+      "데이트"
+    ]
+  },
+  {
+    "name": "삼육식당",
+    "address": "경북 포항시 남구 오천읍 문덕로43번길 6-4",
+    "link": "https://map.naver.com/p/entry/place/15100928?c=15.00,0,0,0,dh",
+    "recommendation": "닭계장 or 냉닭국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "새포항물회집",
+    "address": "경북 포항시 북구 삼호로 65",
+    "link": "https://map.naver.com/p/entry/place/11655336?c=15.00,0,0,0,dh",
+    "recommendation": "물회 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "영일만숲실밀면 본점",
+    "address": "경북 포항시 남구 오천읍 철강로830번길 46",
+    "link": "https://map.naver.com/p/entry/place/11829733?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "밀면 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "신창추어탕",
+    "address": "경북 포항시 남구 장기면 동해안로 3475-9",
+    "link": "https://map.naver.com/p/entry/place/20352160?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "먹어보고 포장해가는 추어탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "용산식당",
+    "address": "경북 포항시 남구 오천읍 문덕로 48",
+    "link": "https://map.naver.com/p/entry/place/21071624?c=15.00,0,0,0,dh",
+    "recommendation": "�맛있는 백반, 제육 유명함 (경상도식)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "우미조개전골",
+    "address": "경북 포항시 북구 서동로 94",
+    "link": "https://map.naver.com/p/entry/place/15144006?c=15.00,0,0,0,dh",
+    "recommendation": "매콤한 조개전골 (2인 중짜 추천)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "원조 3대 할배돌곱창",
+    "address": "경북 포항시 북구 죽도로28번길 7-2",
+    "link": "https://map.naver.com/p/entry/place/1839770955?c=14.99,0,0,0,dh",
+    "recommendation": "노련한 주인장의 맛있는 곱창전골",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "환여횟집",
+    "address": "경북 포항시 북구 해안로 189-1",
+    "link": "https://map.naver.com/p/entry/place/12029183?c=14.99,0,0,0,dh",
+    "recommendation": "물회,매운탕으로 건물 세움, 호불호 주의",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "가정초밥 효자본점",
+    "address": "경북 포항시 남구 효자동길2번길 3",
+    "link": "https://map.naver.com/p/entry/place/37558793?c=14.99,0,0,0,dh",
+    "recommendation": "줄서서 먹는 맛집",
+    "categories": [
+      "한식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "인천식당",
+    "address": "경북 포항시 북구 중앙로 328",
+    "link": "https://map.naver.com/p/entry/place/15704114?c=14.99,0,0,0,dh",
+    "recommendation": "가정식 백반 두루치기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "호미곶생아구물회",
+    "address": "경북 포항시 남구 오천읍 충무로 50",
+    "link": "https://map.naver.com/p/entry/place/38651994?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 왕만두님 추천 물회 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "마포주먹고기",
+    "address": "남구 오천읍 충무로 47 제일서문종합상가",
+    "link": "https://map.naver.com/p/search/경상북도 포항시 남구 오천읍 용덕리 362-14/place/1096127980?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 바이올린 해장국님 추천 고기 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "회막썰어해물포차",
+    "address": "경북 포항시 남구 상공로 137",
+    "link": "https://map.naver.com/p/entry/place/564253733?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202506130944&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 왕만두님 추천 해물찜 맛집",
+    "categories": [
+      "술안주",
+      "데이트"
+    ]
+  },
+  {
+    "name": "호미곶생아구물회",
+    "address": "경북 포항시 남구 오천읍 충무로 50",
+    "link": "https://map.naver.com/p/entry/place/38651994?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202509091628&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 왕만두님 추천 물회+매운탕 맛집",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "청운",
+    "address": "경북 포항시 남구 오천읍 해병로269번길 33",
+    "link": "https://map.naver.com/p/entry/place/36868544?c=19.50,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202509091631&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 왕만두님 추천 아구찜 맛집",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "연일물회",
+    "address": "경북 포항시 남구 연일읍 연일로159번길 9-1",
+    "link": "https://naver.me/x7rdJUD4",
+    "recommendation": "애객러 그때더할걸님 추천 물회 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "새포항물회",
+    "address": "경북 포항시 북구 삼호로 65",
+    "link": "https://naver.me/GXRp7Kzr",
+    "recommendation": "애객러 그때더할걸님 추천 물회 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "조림명가",
+    "address": "경북 포항시 남구 오천읍 냉천로236번길 48",
+    "link": "https://map.naver.com/p/entry/place/37486152?c=15.00,0,0,0,dh&placePath=/home?filterType=AI View&subFilter=MENU_NAME:두부조림&subFilter=FOOD&fromPanelNum=1&additionalHeight=76&timestamp=202512111117&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 촌닭기님 추천 두부조림 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

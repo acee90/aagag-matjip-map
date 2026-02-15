@@ -1,0 +1,702 @@
+[
+  {
+    "name": "성심당",
+    "address": "대전 중구 대종로480번길 15",
+    "link": "https://map.naver.com/p/search/성심당/place/11871325?c=13.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "대전이니까.",
+    "categories": []
+  },
+  {
+    "name": "미사카로",
+    "address": "대전 서구 용문로 35-18 1층 미카사로",
+    "link": "https://map.naver.com/p/entry/place/1208122972?c=13.00,0,0,0,dh",
+    "recommendation": "생연어 사시미",
+    "categories": [
+      "일식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "서원골유황오리",
+    "address": "대전 유성구 엑스포로269번길 8",
+    "link": "https://map.naver.com/p/search/산에산유황오리/place/11666061?c=13.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "오리구이, 뚝배기탕",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "오씨칼국수",
+    "address": "대전 동구 옛신탄진로 13",
+    "link": "https://map.naver.com/p/search/오씨 칼국수/place/16039802?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "대전 대표 칼국수집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "짬뽕 김서방",
+    "address": "대전 동구 동서대로1683번길 33-28",
+    "link": "https://map.naver.com/p/search/대전 김서방/place/37364779?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "탕수육, 짬뽕 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "광천식당",
+    "address": "대전 중구 대종로505번길 29",
+    "link": "https://map.naver.com/p/entry/place/11710907?c=15.00,0,0,0,dh&placePath=/review",
+    "recommendation": "두부 두루치기, 칼국수 맛집",
+    "categories": [
+      "한식",
+      "데이트",
+      "단체"
+    ]
+  },
+  {
+    "name": "�김판순 김치찌개 본점",
+    "address": "대전 중구 안영로 45",
+    "link": "https://map.naver.com/p/entry/place/33840251?c=15.00,0,0,0,dh",
+    "recommendation": "김치찌개 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "복수분식 본점",
+    "address": "대전 중구 보문로162번길 9 복수분식",
+    "link": "https://map.naver.com/p/entry/place/11659914?c=15.00,0,0,0,dh",
+    "recommendation": "�두부두루치기, 얼큰이 칼국수 추천",
+    "categories": [
+      "한식",
+      "분식"
+    ]
+  },
+  {
+    "name": "원미면옥",
+    "address": "대전 동구 옥천로 419 원미면옥 (뒷집)",
+    "link": "https://map.naver.com/p/entry/place/12909683?c=15.00,0,0,0,dh",
+    "recommendation": "수십년 단골 닭육수 냉면",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "한영식당",
+    "address": "대전 중구 계룡로874번길 6",
+    "link": "https://map.naver.com/p/entry/place/13571357?c=15.00,0,0,0,dh",
+    "recommendation": "대전의 3대 닭볶음탕",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "함초 양념갈비",
+    "address": "대전 동구 계족로 508 1층 함초양념갈비",
+    "link": "https://map.naver.com/p/entry/place/20037981?c=15.00,0,0,0,dh",
+    "recommendation": "부드러운 양념갈비",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "향미각",
+    "address": "대전 서구 관저남로25번길 23-5",
+    "link": "https://map.naver.com/p/entry/place/37958837?c=15.00,0,0,0,dh",
+    "recommendation": "꼬막 짬뽕",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "가마솥 보은순대",
+    "address": "대전 서구 신갈마로 58-17 인터빌아파트",
+    "link": "https://map.naver.com/p/entry/place/21635281?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 고무장갑님 추천 순대집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "제주오목돈",
+    "address": "대전 중구 계룡로874번길 97 1층",
+    "link": "https://map.naver.com/p/search/제주오목돈/place/38643141?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 acho님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "몽심",
+    "address": "대전 대덕구 한남로38번길 28 1층",
+    "link": "https://map.naver.com/p/entry/place/1195023040?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 집요정님 추천 빵 맛집",
+    "categories": [
+      "간식"
+    ]
+  },
+  {
+    "name": "싶빵공장",
+    "address": "대전 서구 도안동로11번길 42 1층 107호",
+    "link": "https://map.naver.com/p/entry/place/1002709943?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 집요정님 추천 빵 맛집",
+    "categories": [
+      "간식"
+    ]
+  },
+  {
+    "name": "1974비래옥 본점",
+    "address": "대전 중구 중앙로129번길 22 1층 비래옥",
+    "link": "https://map.naver.com/p/entry/place/1279982255?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 나야나님 추천 곰탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "희락반점",
+    "address": "대전 중구 중앙로129번길 21",
+    "link": "https://map.naver.com/p/search/희락반점/place/16048309?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 나야나님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "신당동 자갈구이",
+    "address": "대전 중구 대종로 505번길 22",
+    "link": "https://map.naver.com/p/entry/place/16049160?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 나야나님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "동은성",
+    "address": "대전 중구 대종로 532-1",
+    "link": "https://map.naver.com/p/entry/place/16043947?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 나야나님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "왕관식당",
+    "address": "대전 동구 선화로196번길 6",
+    "link": "https://map.naver.com/p/entry/place/13571039?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 나야나님 추천 비빔밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "서울치킨",
+    "address": "대전 중구 중앙로112번길 34",
+    "link": "https://map.naver.com/p/entry/place/35262372?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 나야나님 추천 치킨 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "시민칼국수",
+    "address": "대전 중구 대흥로10번길 5",
+    "link": "https://map.naver.com/p/entry/place/1537187207?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 슈퍼초흰둥이님 추천 칼국수 돈까스 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "아저씨돈까스",
+    "address": "대전 중구 중앙로164번길 22-7",
+    "link": "https://map.naver.com/p/entry/place/16045092?c=19.00,0,0,0,adh",
+    "recommendation": "애객러 뒷둘라님 추천 돈까스 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "농민순대",
+    "address": "대전 중구 충무로 138",
+    "link": "https://map.naver.com/p/entry/place/16074209?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 프링글스할라피뇨님 추천 순대 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "오문창순대국밥",
+    "address": "대전 대덕구 한밭대로 1153",
+    "link": "https://map.naver.com/p/entry/place/16052530?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 프링글스할라피뇨님 추천 국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "원조태평소국밥",
+    "address": "대전 중구 태평로 116",
+    "link": "https://map.naver.com/p/entry/place/36893501?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 오똘이님 추천 국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "유메",
+    "address": "대전 중구 오류로 47",
+    "link": "https://map.naver.com/p/entry/place/1607988228?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 슈발크림님 추천 돈까스 맛집",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "월산본가",
+    "address": "대전 중구 대종로 455",
+    "link": "https://map.naver.com/p/search/월산본가 석갈비/place/20170238?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 나무관세음아멘님 추천 석갈비 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "바로그집",
+    "address": "대전 중구 중앙로 145 지하상가 C나 61호",
+    "link": "https://map.naver.com/p/search/바로그집 떡볶이/place/13526786?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 나무관세음아멘님 추천 떡볶이 맛집",
+    "categories": [
+      "분식"
+    ]
+  },
+  {
+    "name": "봉봉원",
+    "address": "대전 중구 목척3길 42",
+    "link": "https://map.naver.com/p/search/봉봉원/place/16044388?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 나무관세음아멘님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "태화원",
+    "address": "대전 중구 중앙로112번길 43",
+    "link": "https://map.naver.com/p/search/태화원/place/20583045?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 나무관세음아멘님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "태화장",
+    "address": "대전 동구 중앙로203번길 78",
+    "link": "https://map.naver.com/p/search/태화장/place/11710925?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 나무관세음아멘님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "중국대반점",
+    "address": "대전 중구 대흥로165번길 6",
+    "link": "https://map.naver.com/p/entry/place/16065798?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 나무관세음아멘님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "고단백식당",
+    "address": "대전 중구 대종로517번길 62",
+    "link": "https://map.naver.com/p/entry/place/16049935?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 나무관세음아멘님 추천 콩국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "신도칼국수 본점",
+    "address": "대전 동구 대전로825번길 11",
+    "link": "https://map.naver.com/p/entry/place/20336232?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 나무관세음아멘님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "테라스키친",
+    "address": "대전 중구 대종로480번길 15 2층",
+    "link": "https://map.naver.com/p/entry/place/16043374?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 내정보님 추천 양식 맛집",
+    "categories": [
+      "양식"
+    ]
+  },
+  {
+    "name": "만포분식",
+    "address": "대전 동구 한남로7번길 89",
+    "link": "https://map.naver.com/p/search/만포분식/place/16002199?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 내정보님 추천 분식 맛집",
+    "categories": [
+      "분식"
+    ]
+  },
+  {
+    "name": "선라이즈 키친",
+    "address": "대전 서구 신갈마로 225-4 1층",
+    "link": "https://map.naver.com/p/entry/place/1223409648?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 내정보님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "로얄라멘",
+    "address": "대전 서구 계룡로367번길 13",
+    "link": "https://map.naver.com/p/entry/place/1108580685?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 내정보님 추천 라멘 맛집",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "아자자야채치킨",
+    "address": "대전 서구 월평중로4번길 13",
+    "link": "https://map.naver.com/p/entry/place/36170726?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 내정보님 추천 치킨 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "천리집",
+    "address": "대전 유성구 신성남로 127",
+    "link": "https://map.naver.com/p/search/천리집 순대국밥/place/15972398?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 백년손님 추천 순대국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "통일면옥",
+    "address": "대전 대덕구 한밭대로1117번길 17",
+    "link": "https://map.naver.com/p/search/통일면옥/place/13571465?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 백년손님 추천 회막국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "김화칼국수",
+    "address": "대전 동구 중앙로203번길 28",
+    "link": "https://map.naver.com/p/search/김화칼국수/place/1954737716?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 대학원생님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "왕바다횟집",
+    "address": "대전 대덕구 계족로598번길 15-2",
+    "link": "https://map.naver.com/p/entry/place/16083819?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "장모네",
+    "address": "대전 대덕구 계족로664번길 103 1층",
+    "link": "https://map.naver.com/p/entry/place/16082789?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "왕손곱창",
+    "address": "대전 대덕구 대화로 69",
+    "link": "https://map.naver.com/p/search/왕손곱창/place/16026066?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 대학원생님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "손이가어죽칼국수",
+    "address": "대전 중구 중앙로121번길 48",
+    "link": "https://map.naver.com/p/entry/place/1311812384?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 대학원생님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "삼대째전통칼국수",
+    "address": "대전 동구 대전로825번길 13",
+    "link": "https://map.naver.com/p/entry/place/16004885?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "별난집",
+    "address": "대전 동구 중앙로193번길 8 1층",
+    "link": "https://map.naver.com/p/entry/place/11710445?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "고향칼국수",
+    "address": "대전 중구 보문로162번길 62 1층 고향칼국수",
+    "link": "https://map.naver.com/p/entry/place/38648599?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "온유네닭매운탕",
+    "address": "대전 서구 문정로170번길 50",
+    "link": "https://map.naver.com/p/entry/place/11889932?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 대학원생님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "유가옥설렁탕 본점",
+    "address": "대전 대덕구 한밭대로 1161",
+    "link": "https://map.naver.com/p/entry/place/16051329?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "청춘국수",
+    "address": "대전 동구 계족로 184-67 1층",
+    "link": "https://map.naver.com/p/entry/place/1800048397?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "한밭칼국수",
+    "address": "대전 중구 목척4길 6",
+    "link": "https://map.naver.com/p/entry/place/13571362?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "정식당",
+    "address": "대전 중구 중앙로130번길 37-13",
+    "link": "https://map.naver.com/p/entry/place/16066663?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 칼국수 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "극동제과",
+    "address": "대전 중구 충무로 73",
+    "link": "https://map.naver.com/p/search/극동제과/place/16079874?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 대학원생님 추천 칼국수 맛집",
+    "categories": [
+      "간식"
+    ]
+  },
+  {
+    "name": "설짬뽕",
+    "address": "대전 서구 도안대로 37 한솔상가1층 설짬뽕",
+    "link": "https://map.naver.com/p/search/설짬뽕/place/485580115?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 간장계란밥님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "인만면옥",
+    "address": "대전 서구 도마5길 18",
+    "link": "https://map.naver.com/p/search/인만면옥/place/1165356663?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 간장계란밥님 추천 냉면 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "박선희황태어글탕 월평직영점",
+    "address": "대전 서구 한밭대로707번길 30",
+    "link": "https://map.naver.com/p/search/박선희황태어글탕/place/21296903?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 간장계란밥님 추천 황태어글탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "동방명주",
+    "address": "대전 서구 문예로 15 그랑수아빌딩",
+    "link": "https://map.naver.com/p/search/동방명주/place/16144382?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 로우킥님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "동천홍",
+    "address": "대전 서구 청사로123번길 25",
+    "link": "https://map.naver.com/p/entry/place/13571052?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 로우킥님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "정성을다하는베이커리",
+    "address": "대전 중구 계백로 1619 벽산프라자",
+    "link": "https://map.naver.com/p/search/유천동 정인구팥빵/place/16120306?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
+    "recommendation": "애객러 로우킥님 추천 빵 맛집",
+    "categories": [
+      "간식"
+    ]
+  },
+  {
+    "name": "숯골원냉면 본점",
+    "address": "대전 유성구 신성로84번길 18",
+    "link": "https://map.naver.com/p/search/신성동 숯골원냉면/place/11481457?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 로우킥님 추천 냉면 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "할머니묵집",
+    "address": "대전 유성구 금남구즉로 1378",
+    "link": "https://map.naver.com/p/search/강태분할머니묵집/place/11717429?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 로우킥님 추천 묵 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "수통골감나무집 본점",
+    "address": "대전 유성구 수통골로 69",
+    "link": "https://map.naver.com/p/entry/place/32335042?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 로우킥님 추천 누룽지 백숙 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "인생애짬뽕",
+    "address": "대전 유성구 학하서로20번길 6-14",
+    "link": "https://map.naver.com/p/search/인생애짬뽕/place/1359302978?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 네모대가리님 추천 짬뽕 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "와타요업 탄방본점",
+    "address": "대전 서구 계룡로603번길 29 1층 와타요업",
+    "link": "https://map.naver.com/p/entry/place/1057975139?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 텐동 맛집",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "칼질만번짬뽕",
+    "address": "대전 유성구 은구비로 36 105호",
+    "link": "https://map.naver.com/p/entry/place/1819788409?c=15.00,0,0,0,dh",
+    "recommendation": "이과 짬뽕의 정수",
+    "categories": []
+  },
+  {
+    "name": "제주고기국수하르방",
+    "address": "대전 유성구 동서대로179번길 61",
+    "link": "https://map.naver.com/p/entry/place/71467550?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "성심당 오븐스토리",
+    "address": "대전 서구 계룡로 598",
+    "link": "https://map.naver.com/p/entry/place/1500661311?c=15.00,0,0,0,dh",
+    "recommendation": "믿고 먹는 초 가성비 성심당",
+    "categories": [
+      "양식"
+    ]
+  },
+  {
+    "name": "우동야",
+    "address": "대전 중구 대종로480번길 15 지하상가 D가-22",
+    "link": "https://map.naver.com/p/search/우동야/place/20601419?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 나무관세음아멘님 추천 우동 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "옥천뼈구이농민뜨끈이 본점",
+    "address": "대전 중구 대흥로 161",
+    "link": "https://map.naver.com/p/entry/place/1856720935?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202506201452&locale=ko&svcName=map_pcv5",
+    "recommendation": "평일에도 웨이팅이 있는 해장국집..(뼈구이)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "버거 베이트",
+    "address": "대전 서구 용소로58번길 25 1층 버거베이트",
+    "link": "https://map.naver.com/p/search/베이트버거/place/1118853147?c=15.00,0,0,0,dh&placePath=/home?entry=bmp&from=map&fromPanelNum=2&timestamp=202507101516&locale=ko&svcName=map_pcv5&searchText=베이트버거&from=map&fromPanelNum=2&timestamp=202507101516&locale=ko&svcName=map_pcv5&searchText=베이트버거",
+    "recommendation": "애객러 간장계란밥님 추천 버거 맛집",
+    "categories": [
+      "양식"
+    ]
+  },
+  {
+    "name": "은영네 한우내장탕",
+    "address": "대전 중구 충무로 144-1",
+    "link": "https://map.naver.com/p/search/은영네 한우내장탕/place/37004877?c=15.00,0,0,0,dh&isCorrectAnswer=true&placePath=/home&fromPanelNum=1&additionalHeight=76&timestamp=202507132256&locale=ko&svcName=map_pcv5&searchText=은영네 한우내장탕",
+    "recommendation": "애객러 adamin님 추천 내장탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "판암면옥",
+    "address": "대전 동구 옻밭5길 189",
+    "link": "https://map.naver.com/p/entry/place/1016559088?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507241546&locale=ko&svcName=map_pcv5",
+    "recommendation": "원미면옥과 쌍두마차",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "사리원면옥",
+    "address": "대전 중구 중교로 62",
+    "link": "https://map.naver.com/p/search/사리원면옥/place/35853896?c=15.00,0,0,0,dh&placePath=/home?filterType=AI View&subFilter=FOOD&subFilter=FOOD&from=map&fromPanelNum=2&timestamp=202507241548&locale=ko&svcName=map_pcv5&searchText=사리원면옥",
+    "recommendation": "소고기 육수 냉면",
+    "categories": [
+      "한식"
+    ]
+  }
+]

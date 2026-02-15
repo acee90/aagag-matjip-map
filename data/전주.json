@@ -1,0 +1,263 @@
+[
+  {
+    "name": "유성원",
+    "address": "전북 전주시 완산구 권삼득로 70",
+    "link": "https://map.naver.com/p/entry/place/16984706?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "볶음밥, 짬뽕 인기메뉴 (불친절 이슈1)",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "만금당",
+    "address": "전북 전주시 완산구 선너머로 26",
+    "link": "https://map.naver.com/p/entry/place/16843052?c=15.00,0,0,0,dh",
+    "recommendation": "짜장 + 탕수육",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "진미집 본점",
+    "address": "전북 전주시 완산구 노송여울2길 106",
+    "link": "https://map.naver.com/p/entry/place/11710234?c=13.00,0,0,0,dh",
+    "recommendation": "김밥을 쌈싸먹는 돼지불고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "우리국수잘하는집",
+    "address": "전북 전주시 완산구 효자로 67-11",
+    "link": "https://map.naver.com/p/entry/place/20028996?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 특수스색대님 추천 콩국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "미산짬뽕",
+    "address": "전북 전주시 덕진구 전미중앙로 165 1층",
+    "link": "https://map.naver.com/p/entry/place/1182873423?c=13.00,0,0,0,dh",
+    "recommendation": "애객러 나는 관대하다님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "전북 전주시 완산구 쑥고개로 391",
+    "address": "전북 전주시 완산구 쑥고개로 39",
+    "link": "https://map.naver.com/p/entry/place/16964878?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 특수스색대님 추천 순대 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "원두막",
+    "address": "전북 전주시 덕진구 건지산로 53-8",
+    "link": "https://map.naver.com/p/search/원두막/place/13291601?c=15.00,0,0,0,dh&placePath=/review",
+    "recommendation": "유비빔 추천 갈치조림 맛집 (호불호)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "소리마당",
+    "address": "전북 전주시 덕진구 건지산로 53-1",
+    "link": "https://map.naver.com/p/search/소리마당/place/17040263?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "유비빔 추천 맛집 (호불호)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "고궁 전주본점",
+    "address": "전북 전주시 덕진구 송천중앙로 33",
+    "link": "https://map.naver.com/p/entry/place/11710588?c=15.00,0,0,0,dh",
+    "recommendation": "유비빔 추천 맛집 (호불호)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "가족회관",
+    "address": "전북 전주시 완산구 전라감영5길 17 가족회관",
+    "link": "",
+    "recommendation": "유비빔 추천 맛집 (호불호)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "성미당",
+    "address": "전북 전주시 완산구 전라감영5길 19-9",
+    "link": "https://map.naver.com/p/entry/place/11707231?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "유비빔 추천 맛집 (호불호)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "한국식당",
+    "address": "전북 전주시 완산구 전라감영로 48-1",
+    "link": "https://map.naver.com/p/search/한국식당/place/11806856?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "유비빔 추천 맛집 (호불호)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "갑기회관 본점",
+    "address": "전북 전주시 덕진구 상리로 50",
+    "link": "https://map.naver.com/p/entry/place/11627365?c=15.00,0,0,0,dh",
+    "recommendation": "유비빔 추천 맛집 (호불호)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "풍남정",
+    "address": "전북 전주시 완산구 태조로 52",
+    "link": "https://map.naver.com/p/entry/place/16795271?c=15.00,0,0,0,dh",
+    "recommendation": "유비빔 추천 맛집 (호불호)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "한국관 본점",
+    "address": "전북 전주시 덕진구 기린대로 425",
+    "link": "https://map.naver.com/p/entry/place/11728244?c=15.00,0,0,0,dh",
+    "recommendation": "유비빔 추천 맛집 (호불호)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "전주왱이콩나물국밥전문점",
+    "address": "전북 전주시 완산구 동문길 88",
+    "link": "https://map.naver.com/p/search/왱이집/place/33342797?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "유비빔 추천 맛집 (호불호)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "조점례남문피순대",
+    "address": "전북 전주시 완산구 풍남문2길 39",
+    "link": "https://map.naver.com/p/entry/place/11797314?c=15.00,0,0,0,dh",
+    "recommendation": "유비빔 추천 맛집 (호불호)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "금암피순대",
+    "address": "전북 전주시 덕진구 기린대로 400-61",
+    "link": "https://map.naver.com/p/entry/place/11877551?placePath=/home&c=15.00,0,0,0,dh",
+    "recommendation": "애객러 상식적으로님 추천 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "금암소바",
+    "address": "전북 전주시 덕진구 기린대로 400-75",
+    "link": "https://map.naver.com/p/entry/place/17122958?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 가능..님 추천 소바 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "태평집",
+    "address": "전북 전주시 덕진구 조경단로 3-6",
+    "link": "https://map.naver.com/p/search/태평집/place/13163796?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "�소바와 콩국수 팔아서 빌딩세운 집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "우리순대집",
+    "address": "전북 전주시 덕진구 호성1길 9",
+    "link": "https://map.naver.com/p/entry/place/12909540?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 바이올린 해장국님 추천 순대국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "소문난순대",
+    "address": "전북 전주시 덕진구 우아로 23",
+    "link": "https://map.naver.com/p/entry/place/11734528?c=15.27,0,0,0,dh",
+    "recommendation": "애객러 바이올린 해장국님 추천 순대국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "진돈까스",
+    "address": "전북 전주시 덕진구 견훤로 237 1층",
+    "link": "https://map.naver.com/p/search/전주 진돈까스/place/1629759943?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "돈까스 전문점",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "곰소 정육 셀프 식당",
+    "address": "전북 전주시 완산구 홍산중앙로 26",
+    "link": "https://map.naver.com/p/entry/place/1948158367?c=15.00,0,0,0,dh",
+    "recommendation": "8000원 고기 무한 뷔페",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "카츠모리조",
+    "address": "전북 전주시 완산구 선너머2길 26 2층",
+    "link": "https://map.naver.com/p/entry/place/1106670769?c=15.00,0,0,0,dh",
+    "recommendation": "비싸지만 맛있음",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "대성식품",
+    "address": "전북 전주시 완산구 팔달로 157-5",
+    "link": "https://map.naver.com/p/entry/place/16784569?placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202509030914&locale=ko&svcName=map_pcv5&c=15.00,0,0,0,dh",
+    "recommendation": "노포 라면 등 분식 맛집",
+    "categories": [
+      "분식"
+    ]
+  },
+  {
+    "name": "일품향",
+    "address": "전북 전주시 완산구 전주객사3길 10",
+    "link": "https://map.naver.com/p/entry/place/33276363?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510181227&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 상식적으로님 추천 군만두,물짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "진미반점",
+    "address": "전북 전주시 완산구 전라감영3길 12-3",
+    "link": "https://map.naver.com/p/entry/place/1020884711?c=15.00,0,0,0,dh&placePath=/home?filterType=AI View&subFilter=FOOD&subFilter=FOOD&fromPanelNum=1&additionalHeight=76&timestamp=202510181228&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 상식적으로님 추천 물짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "대보장",
+    "address": "전북 전주시 완산구 전라감영4길 3",
+    "link": "https://map.naver.com/p/entry/place/16783235?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510181229&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 상식적으로님 추천 간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  }
+]

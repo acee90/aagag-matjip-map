@@ -1,0 +1,76 @@
+[
+  {
+    "name": "인생극장쪽갈비 동두천점",
+    "address": "경기 동두천시 거북마루로 23 1층",
+    "link": "https://map.naver.com/p/search/인생극장쪽갈비 동두천점/place/1882205773?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 네모대가리님 추천 쪽갈비 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "3일소고기국밥 지행점",
+    "address": "경기 동두천시 중앙로 134-22",
+    "link": "https://map.naver.com/p/entry/place/21768875?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 소고기국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "비큐",
+    "address": "경기 동두천시 지행로 63 901호",
+    "link": "https://map.naver.com/p/search/비큐/place/1955667949?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 네모대가리님 추천 양식맛집",
+    "categories": [
+      "양식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "옛이담골수제족발 동두천본점",
+    "address": "경기 동두천시 지행로 56",
+    "link": "https://map.naver.com/p/entry/place/36740194?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 족발 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "스시정",
+    "address": "경기 동두천시 중앙로 134-12 예일복합타워",
+    "link": "https://map.naver.com/p/entry/place/38096249?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 스시 맛집",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "야미 앤 바베쿡스",
+    "address": "경기 동두천시 평화로2313번길 8-3 2층",
+    "link": "https://map.naver.com/p/entry/place/38412207?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 양식 맛집",
+    "categories": [
+      "양식",
+      "단체"
+    ]
+  },
+  {
+    "name": "덱스터 버거",
+    "address": "경기 동두천시 평화로2313번길 8-35 1층",
+    "link": "https://map.naver.com/p/entry/place/1278944357?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 버거 맛집",
+    "categories": [
+      "양식"
+    ]
+  },
+  {
+    "name": "3일소반쭈꾸미 지행점",
+    "address": "경기 동두천시 중앙로 134-22",
+    "link": "https://map.naver.com/p/entry/place/1807527324?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 쭈꾸미 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

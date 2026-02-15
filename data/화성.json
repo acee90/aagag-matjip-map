@@ -1,0 +1,39 @@
+[
+  {
+    "name": "유명환명품족발 봉담본점",
+    "address": "경기 화성시 봉담읍 효행로 314",
+    "link": "https://map.naver.com/p/entry/place/36105406?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "사진이 소짜임 ㅋ",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "포레스트",
+    "address": "경기 화성시 동탄공원로2길 33-9 1층",
+    "link": "https://map.naver.com/p/search/포레스트 동탄/place/37009396?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "왕 갈비 쌀국수 , 베트남 음식 (잡내 이슈 있음)",
+    "categories": [
+      "아시아",
+      "데이트"
+    ]
+  },
+  {
+    "name": "넘버1고기짬뽕",
+    "address": "경기 화성시 효행로 542",
+    "link": "https://map.naver.com/p/entry/place/1477486205?c=13.00,0,0,0,dh",
+    "recommendation": "애객러 정예인님 추천 짬뽕 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "최미삼순대국 능동점",
+    "address": "경기 화성시 동탄지성로 187 1층",
+    "link": "https://map.naver.com/p/entry/place/31610996?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 PS200님 추천 순대국 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

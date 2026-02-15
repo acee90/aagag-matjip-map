@@ -1,0 +1,94 @@
+[
+  {
+    "name": "일미복집",
+    "address": "경남 김해시 김해대로2511번길 4",
+    "link": "https://map.naver.com/p/entry/place/15171322?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "복어 요리 전문점",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "하동한우국밥",
+    "address": "경남 김해시 내외중앙로 30",
+    "link": "https://map.naver.com/p/entry/place/15156219?c=15.00,0,0,0,dh",
+    "recommendation": "전골 추천 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "솟대마을숯불장어구이",
+    "address": "경남 김해시 식만로 345 348번길 21",
+    "link": "https://map.naver.com/p/entry/place/15188342?c=15.00,0,0,0,dh",
+    "recommendation": "모임하기 좋은 장어구이 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "밀양돼지국밥",
+    "address": "경남 김해시 인제로 91",
+    "link": "https://map.naver.com/p/entry/place/15175842?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "돼지국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "정은이네",
+    "address": "경남 김해시 함박로101번길 8",
+    "link": "https://map.naver.com/p/entry/place/38276194?c=15.00,0,0,0,dh",
+    "recommendation": "맛있는 분식집",
+    "categories": [
+      "분식"
+    ]
+  },
+  {
+    "name": "물꽁 아구찜",
+    "address": "경남 김해시 구산로30번길 22",
+    "link": "https://map.naver.com/p/entry/place/1701301426?c=15.00,0,0,0,dh",
+    "recommendation": "아구찜 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "사재감참숯왕소금구이 본점",
+    "address": "경남 창원시 마산합포구 문화동15길 16 1층",
+    "link": "https://map.naver.com/p/entry/place/20701462?c=15.00,0,0,0,dh",
+    "recommendation": "돌판 김치찌개 추천",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "신라명품해장국 본점",
+    "address": "경남 김해시 진영읍 서부로 243",
+    "link": "https://map.naver.com/p/entry/place/15506209?c=18.16,0,0,0,dh",
+    "recommendation": "애객러 Maverick님 추천 해장국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "평사리참숯뒷통구이",
+    "address": "경남 김해시 삼안로217번길 22",
+    "link": "https://map.naver.com/p/entry/place/15180803?c=18.16,0,0,0,dh",
+    "recommendation": "애객러 무릎어깨님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "미미식당 새우짬뽕",
+    "address": "경남 김해시 진영읍 김해대로 592 1층",
+    "link": "https://map.naver.com/p/entry/place/1496640036?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202509091626&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 왕만두님 추천 짬뽕 맛집",
+    "categories": [
+      "중식"
+    ]
+  }
+]

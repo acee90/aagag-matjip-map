@@ -1,0 +1,57 @@
+[
+  {
+    "name": "먹보 한우 광주점",
+    "address": "경기 광주시 청석로 252",
+    "link": "https://map.naver.com/p/entry/place/32728996?c=15.00,0,0,0,dh",
+    "recommendation": "갈비탕 추천!",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "램브로 광주본점",
+    "address": "경기 광주시 파발로59번길 15 1층",
+    "link": "https://map.naver.com/p/entry/place/38676850?c=15.00,0,0,0,dh",
+    "recommendation": "양꼬치 전문점",
+    "categories": [
+      "중식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "유주희즉석손만두국칼국수",
+    "address": "경기 광주시 이배재로 433",
+    "link": "https://map.naver.com/p/search/유주희 손만두국/place/18000192?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
+    "recommendation": "오래된 만두 음식점",
+    "categories": [
+      "한식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "들밥",
+    "address": "경기 광주시 양벌로 131-20",
+    "link": "https://map.naver.com/p/entry/place/11879777?c=15.00,0,0,0,dh",
+    "recommendation": "정갈한 밥상 제육, 고등어구이",
+    "categories": []
+  },
+  {
+    "name": "의정부부대찌개",
+    "address": "경기 광주시 순암로 219 성일빌딩",
+    "link": "https://map.naver.com/p/search/중대동 62-3/place/31712627?c=9.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 생산관리님 추천 부대찌개 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "최미자소머리국밥",
+    "address": "경기 광주시 곤지암읍 도척로 58",
+    "link": "https://map.naver.com/p/search/원조최미자소머리국밥/place/11727438?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "진하고 깔끔한 국물",
+    "categories": [
+      "한식"
+    ]
+  }
+]

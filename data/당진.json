@@ -1,0 +1,20 @@
+[
+  {
+    "name": "에이스식당",
+    "address": "애객러 먹고살기힘들다님 추천 콩국수 맛집",
+    "link": "https://map.naver.com/p/entry/place/17516476?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507241535&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 수파스눕님 추천 콩국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "초원콩국수",
+    "address": "충남 당진시 면천면 동문1길 14",
+    "link": "https://map.naver.com/p/entry/place/12039949?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507241535&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 수파스눕님 추천 콩국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "name": "유성통닭",
+    "address": "안양시 동안구 인덕원로24번길 41-15 1층",
+    "link": "https://map.naver.com/p/entry/place/18658427?c=15.00,0,0,0,dh",
+    "recommendation": "옛날 통닭 맛집",
+    "categories": [
+      "한식",
+      "술안주",
+      "데이트"
+    ]
+  },
+  {
+    "name": "원시쪽갈비 동편마을 본점",
+    "address": "경기 안양시 동안구 동편로20번길 25",
+    "link": "https://map.naver.com/p/entry/place/1791955915?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "간장 치즈 양념 쪽갈비",
+    "categories": [
+      "단체",
+      "술안주",
+      "한식"
+    ]
+  },
+  {
+    "name": "원조곱창",
+    "address": "경기 안양시 동안구 인덕원로24번길 56",
+    "link": "https://map.naver.com/p/entry/place/31689859?c=15.00,0,0,0,dh",
+    "recommendation": "불쇼해주는 곱창가게",
+    "categories": [
+      "한식",
+      "술안주",
+      "데이트"
+    ]
+  },
+  {
+    "name": "제주 돈사돈",
+    "address": "경기 안양시 만안구 삼막로 65 제주돈사돈",
+    "link": "https://map.naver.com/p/entry/place/1878408344?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "제주 근고기, 맛집",
+    "categories": [
+      "한식",
+      "단체",
+      "술안주"
+    ]
+  },
+  {
+    "name": "인덕원비빔국수 안양본점",
+    "address": "경기 안양시 동안구 안양판교로 25",
+    "link": "https://map.naver.com/p/entry/place/19246056?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 건방진 제이지님 추천 비빔국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "두꺼비 부대찌게",
+    "address": "경기 안양시 만안구 안양로147번길 11",
+    "link": "https://map.naver.com/p/entry/place/19239964?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 생산관리님 추천 부대찌개 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "섬나루바지락칼국수",
+    "address": "경기 안양시 동안구 안양판교로 51 장원가든",
+    "link": "https://map.naver.com/p/entry/place/21152855?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 드림키퍼님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "만복순대국",
+    "address": "경기 안양시 만안구 양화로 159",
+    "link": "https://map.naver.com/p/search/석수동 만복순대국/place/1893181676?c=14.89,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 (고)자라니님 추천 순대국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "원조 옹심이 메밀칼국수",
+    "address": "경기 안양시 동안구 경수대로 915 1층 102호",
+    "link": "https://map.naver.com/p/entry/place/21643069?c=14.89,0,0,0,dh",
+    "recommendation": "애객러 (고)자라니님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "흑대장 흑염소",
+    "address": "경기 안양시 동안구 평촌대로476번길 70",
+    "link": "https://map.naver.com/p/entry/place/35075699?c=14.89,0,0,0,dh",
+    "recommendation": "애객러 (고)자라니님 추천 흑염소 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "관양골 맛있는 칼국수",
+    "address": "경기 안양시 동안구 관평로 312-6",
+    "link": "https://map.naver.com/p/search/관양골맛있는칼국수/place/18652990?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 (고)자라니님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "다감",
+    "address": "경기 안양시 동안구 관평로305번길 9",
+    "link": "https://map.naver.com/p/entry/place/18662055?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 (고)자라니님 추천 스시 맛집",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "큰손",
+    "address": "경기 안양시 동안구 관평로305번길 36",
+    "link": "https://map.naver.com/p/entry/place/19941302?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 (고)자라니님 추천 닭볶음탕 맛집",
+    "categories": [
+      "한식",
+      "단체",
+      "술안주"
+    ]
+  },
+  {
+    "name": "대명곱창",
+    "address": "경기 안양시 동안구 관악대로 419-1",
+    "link": "https://map.naver.com/p/search/인덕원 대명곱창/place/18657724?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 (고)자라니님 추천 곱창 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "한끼의 민족",
+    "address": "경기 안양시 만안구 만안로 231",
+    "link": "https://map.naver.com/p/entry/place/1054392996?c=13.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202509041545&locale=ko&svcName=map_pcv5",
+    "recommendation": "안양역 지하상가 푸드코트 가성비 좋은 분식집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "남부정육점 본점",
+    "address": "경기 안양시 만안구 장내로 150번길 32",
+    "link": "https://naver.me/xag2i5HG",
+    "recommendation": "2800원 한우 해장국  6000원 초밥",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "복무춘",
+    "address": "경기 안양시 만안구 안양로398번길 9",
+    "link": "https://map.naver.com/p/entry/place/18607087?c=15.00,0,0,0,dh&placePath=/photo?fromPanelNum=1&additionalHeight=76&timestamp=202511191419&locale=ko&svcName=map_pcv5&additionalHeight=76&timestamp=202511191419&locale=ko&svcName=map_pcv5&fromPanelNum=1",
+    "recommendation": "애객러 소시민님 추천 탕수육 맛집",
+    "categories": [
+      "중식"
+    ]
+  }
+]

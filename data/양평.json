@@ -1,0 +1,67 @@
+[
+  {
+    "name": "개군할머니순대국",
+    "address": "경기 양평군 개군면 하자포길 29",
+    "link": "https://map.naver.com/p/search/개군할머니순대국/place/18925746?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "시래기 순대국, 순대전골 등..",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "청기와",
+    "address": "경기 양평군 서종면 북한강로 1162",
+    "link": "https://map.naver.com/p/entry/place/21272200?c=14.05,0,0,0,dh&placePath=/home",
+    "recommendation": "곤드레 / 돌솥밥 정식",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "몽실식당 양평본점",
+    "address": "경기 양평군 양평읍 양평장터길 9-1",
+    "link": "https://map.naver.com/p/search/몽실식당/place/19723155?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 acho님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "어무이맛양평해장국 본점",
+    "address": "경기 양평군 양평읍 중앙로 88 1층",
+    "link": "https://map.naver.com/p/entry/place/18898182?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507071507&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 시카린님 추천 해장국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "이도휘옛날홍두깨칼국수",
+    "address": "경기 양평군 강상면 강남로 681",
+    "link": "https://map.naver.com/p/search/이도휘옛날홍두깨칼국수/place/38236575?c=15.00,0,0,0,dh&placePath=/home?entry=bmp&from=map&fromPanelNum=2&timestamp=202507241121&locale=ko&svcName=map_pcv5&searchText=이도휘옛날홍두깨칼국수",
+    "recommendation": "애객러 벌써벗은임금님 추천 서리태콩국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "순흥식당",
+    "address": "경기 양평군 청운면 용두로139번길 14",
+    "link": "https://map.naver.com/p/entry/place/19162869?placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202508281420&locale=ko&svcName=map_pcv5&c=15.00,0,0,0,dh",
+    "recommendation": "할머니 밥상 14첩 6000원 백반",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "양평 신내 서울 해장국 본점",
+    "address": "경기 양평군 개군면 신내길 16",
+    "link": "https://map.naver.com/p/entry/place/13339717?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510181237&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 biscuit님 추천 해장국 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

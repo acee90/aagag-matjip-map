@@ -1,0 +1,46 @@
+[
+  {
+    "name": "밀밭칼국수",
+    "address": "경기 양주시 덕정6길 45 1층",
+    "link": "https://map.naver.com/p/entry/place/18077401?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "시원한 바지락 칼국수 (맵기조절 가능)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "송추가마골 본관",
+    "address": "경기 양주시 장흥면 호국로 525",
+    "link": "https://map.naver.com/p/entry/place/13176218?c=17.07,0,0,0,dh",
+    "recommendation": "갈비 전문, 갈비탕도 맛있고, 소갈비도 맛있음",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "천안문",
+    "address": "경기 양주시 남면 개나리5길 3",
+    "link": "https://map.naver.com/p/search/양주 천안문/place/1748310223?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 무릎어깨님 추천 간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "회암반점",
+    "address": "경기 양주시 천보산로 87-1",
+    "link": "https://map.naver.com/p/entry/place/18083524?c=18.06,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202509100939&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 멍뭉이다람쥐님 추천 간짜장 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "덕계리 육회방앗간",
+    "address": "경기 양주시 평화로1489번길 12 1층",
+    "link": "https://map.naver.com/p/entry/place/1733087114?placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202511191414&locale=ko&svcName=map_pcv5&c=15.00,0,0,0,dh",
+    "recommendation": "애객러 아항이님 추천 육회 비빔밥 맛집",
+    "categories": []
+  }
+]

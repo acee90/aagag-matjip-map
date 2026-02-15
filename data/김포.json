@@ -1,0 +1,103 @@
+[
+  {
+    "name": "설반",
+    "address": "김포시 양촌읍 김포한강4로369번길 83",
+    "link": "https://map.naver.com/p/entry/place/287060845?c=15.00,0,0,0,dh",
+    "recommendation": "갈비탕, 찜, 전골",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "양촌리 민물장어 김포본점",
+    "address": "김포시 양촌읍 김포대로1759번길 134-47",
+    "link": "https://map.naver.com/p/entry/place/1691814879?c=15.00,0,0,0,dh",
+    "recommendation": "큰 장어, 그리고 장어탕",
+    "categories": [
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "강원막국수",
+    "address": "경기 김포시 고촌읍 전호로 68",
+    "link": "https://map.naver.com/p/entry/place/18619485?c=13.00,0,0,0,dh",
+    "recommendation": "애객러 정예인님 추천 국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "띠디",
+    "address": "경기 김포시 김포한강8로 416 1층 101호",
+    "link": "https://map.naver.com/p/search/김포 띠디/place/1278135739?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 무릎어깨님 추천 고추짜장, 짬뽕 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "양평신내서울해장국",
+    "address": "경기 김포시 김포대로 1508 1층",
+    "link": "https://map.naver.com/p/search/양평신내서울해장국/place/18581030?c=14.78,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 돛새치잡음님 추천 해장국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "홍대뼈다귀",
+    "address": "경기 김포시 대곶면 대명항로 300 2층",
+    "link": "https://map.naver.com/p/entry/place/1928649850?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 뼈해장국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "엄마의 봄날",
+    "address": "경기 김포시 모담공원로 178 1층",
+    "link": "https://map.naver.com/p/entry/place/1051488057?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 난알아요님 추천 한정식 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "연호정 칼국수",
+    "address": "경기 김포시 월곶면 군하로 242",
+    "link": "https://map.naver.com/p/entry/place/33879564?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 지루한 선생님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "일산 칼국수",
+    "address": "경기 김포시 돌문로 15",
+    "link": "https://map.naver.com/p/search/김포일산칼국수/place/18592265?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 지루한 선생님 추천 닭 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "팔담순대 김포본점",
+    "address": "경기 김포시 운곡로 5 1층",
+    "link": "https://map.naver.com/p/entry/place/1770373041?c=15.00,0,0,0,dh&placePath=/home?feedId=18452018&scrollTo=feed&fromPanelNum=1&additionalHeight=76&timestamp=202509271432&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 지루한 선생님님 추천 국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "성미옥",
+    "address": "경기 김포시 김포한강2로24번길 134-6 1층 101호",
+    "link": "https://map.naver.com/p/search/성미옥/place/1404276880?c=15.00,0,0,0,dh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202509271433&locale=ko&svcName=map_pcv5&searchText=성미옥",
+    "recommendation": "애객러 지루한 선생님 추천 돼지국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

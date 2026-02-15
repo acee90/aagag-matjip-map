@@ -1,0 +1,168 @@
+[
+  {
+    "name": "부흥국수 해방촌국수",
+    "address": "경기 의정부시 장곡로 458",
+    "link": "https://map.naver.com/p/entry/place/12859417?c=15.00,0,0,0,dh",
+    "recommendation": "국수 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "빽가화짬뽕",
+    "address": "경기 의정부시 오목로225번길 24-9 1층",
+    "link": "https://map.naver.com/p/entry/place/97527597?c=15.00,0,0,0,dh",
+    "recommendation": "불맛 짬뽕 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "사쿠라멘",
+    "address": "경기 의정부시 호암로 243-12 1층",
+    "link": "https://map.naver.com/p/entry/place/13454172?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "나가사키 짬뽕 (매움), 돈까스 추천",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "솔가원",
+    "address": "경기 의정부시 호국로 1769-5",
+    "link": "https://map.naver.com/p/entry/place/35661189?c=15.00,0,0,0,dh",
+    "recommendation": "떡갈비, 갈비탕  무난한 한끼 식사",
+    "categories": [
+      "단체"
+    ]
+  },
+  {
+    "name": "평양면옥",
+    "address": "경기 의정부시 평화로439번길 7",
+    "link": "https://map.naver.com/p/entry/place/11599752?c=15.00,0,0,0,dh",
+    "recommendation": "평냉 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "한양식당",
+    "address": "경기 의정부시 호국로1309번길 8",
+    "link": "https://map.naver.com/p/entry/place/11738877?c=9.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 Tsuji님 추천 부대찌개 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "형네식당",
+    "address": "경기 의정부시 호국로1309번길 9",
+    "link": "https://map.naver.com/p/search/형네 부대찌개/place/11549272?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 레렌렝님 추천 부대찌개 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "오뎅식당 의정부 본점",
+    "address": "경기 의정부시 호국로1309번길 7",
+    "link": "https://map.naver.com/p/entry/place/11717884?c=15.00,0,0,0,dh",
+    "recommendation": "부대찌개 거리 원조의 맛",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "고산램",
+    "address": "경기 의정부시 고산로163번길 96",
+    "link": "https://map.naver.com/p/search/고산램/place/1632346751?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 네모대가리님 추천 양고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "레알 간장게장 무한리필 의정부직영점",
+    "address": "경기 의정부시 신흥로207번길 15 1층",
+    "link": "https://map.naver.com/p/entry/place/1313150828?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 무한리필 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "아사랑",
+    "address": "경기 의정부시 둔야로17번길 32 3층",
+    "link": "https://map.naver.com/p/entry/place/12060416?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 중식집",
+    "categories": [
+      "데이트",
+      "단체"
+    ]
+  },
+  {
+    "name": "규카",
+    "address": "경기 의정부시 평화로552번길 18 2층",
+    "link": "https://map.naver.com/p/entry/place/1688173130?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 술집",
+    "categories": [
+      "데이트",
+      "술안주"
+    ]
+  },
+  {
+    "name": "파키스탄 알리네",
+    "address": "경기 의정부시 태평로73번길 20 남24호",
+    "link": "https://map.naver.com/p/entry/place/1501862192?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 케밥 맛집",
+    "categories": [
+      "지중해"
+    ]
+  },
+  {
+    "name": "한라산도야지 의정부점",
+    "address": "경기 의정부시 비우로 106 1층",
+    "link": "https://map.naver.com/p/entry/place/1922919256?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "소반",
+    "address": "경기 의정부시 범골로82번길 30 1층",
+    "link": "https://map.naver.com/p/entry/place/1686976966?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 한식 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "국시집 밀가마",
+    "address": "경기 의정부시 호국로1723번길 28",
+    "link": "https://map.naver.com/p/search/의정부 국시집/place/19882098?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 무릎어깨님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "홍천사랑말한우식당",
+    "address": "경기 의정부시 평화로 603",
+    "link": "https://map.naver.com/p/search/홍천사랑말한우식당/place/37309199?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 acho님 추천 고기 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "천보식당",
+    "address": "경기 의정부시 거북로4번길 9",
+    "link": "https://map.naver.com/p/search/경기 의정부시 거북로4번길 9/place/18533844?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 난알아요님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

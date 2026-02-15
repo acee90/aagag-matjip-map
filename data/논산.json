@@ -1,0 +1,19 @@
+[
+  {
+    "name": "잇쿄",
+    "address": "충남 논산시 강경읍 여강로 1320",
+    "link": "https://map.naver.com/p/entry/place/20665245?c=13.13,0,0,0,dh",
+    "recommendation": "애객러 치이익치익님 추천 초밥 맛집",
+    "categories": [
+      "일식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "강짬뽕",
+    "address": "논산시 부적면 계백로 1660-8 계백휴게소 안",
+    "link": "https://map.naver.com/p/entry/place/1469805093?c=17.57,0,0,0,dh",
+    "recommendation": "애객러 굿바이레닌님 추천 가리비짬뽕 맛집",
+    "categories": []
+  }
+]

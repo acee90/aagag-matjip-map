@@ -1,0 +1,47 @@
+[
+  {
+    "name": "할매순대",
+    "address": "충남 부여군 홍산면 남촌로9번길 1-3",
+    "link": "https://map.naver.com/p/entry/place/17581379?c=14.85,0,0,0,dh&placePath=/home",
+    "recommendation": "숨겨진 노포맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "부여돈까스",
+    "address": "충남 부여군 부여읍 석탑로 49 1층",
+    "link": "https://map.naver.com/p/search/부여돈까스/place/1180654935?c=10.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 태정태세문단세예정연님 추천 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "백제고을누룽지백숙",
+    "address": "충남 부여군 부여읍 정림로 96 백제고을",
+    "link": "https://map.naver.com/p/search/백제고을누룽지백숙/place/13427259?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
+    "recommendation": "애객러 태정태세문단세예정연님 추천 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "왕곰탕 식당",
+    "address": "충남 부여군 부여읍 사비로108번길 13 충남 부여군 부여읍 구아리 151",
+    "link": "https://map.naver.com/p/entry/place/13427347?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 태정태세문단세예정연님 추천 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "장원막국수",
+    "address": "충남 부여군 부여읍 나루터로62번길 20",
+    "link": "https://map.naver.com/p/entry/place/13427309?c=15.00,0,0,0,dh",
+    "recommendation": "편육, 막국수 조합 추천",
+    "categories": [
+      "한식"
+    ]
+  }
+]

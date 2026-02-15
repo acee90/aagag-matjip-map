@@ -1,0 +1,38 @@
+[
+  {
+    "name": "계동횟집",
+    "address": "전남 여수시 돌산읍 계동해안길 48",
+    "link": "https://map.naver.com/p/search/계동횟집/place/17011595?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 빨리아무거나해왜님 추천 회 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "해치",
+    "address": "전남 여수시 여문1로 42-1 1층",
+    "link": "https://map.naver.com/p/search/전라남도 여수시 여문1로 42-1 1층/place/1413635384?c=14.74,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 바이올린 해장국님 추천 양식집",
+    "categories": [
+      "양식"
+    ]
+  },
+  {
+    "name": "복춘식당",
+    "address": "전남 여수시 교동남1길 5-8",
+    "link": "https://map.naver.com/p/entry/place/11889051?c=14.99,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202509091624&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 limchan님 추천 아구찜 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "여수광장국밥",
+    "address": "전남 여수시 통제영5길 3",
+    "link": "https://map.naver.com/p/search/여수광장국밥/place/1190479432?c=15.00,0,0,0,dh&placePath=/home?entry=bmp&from=map&fromPanelNum=2&timestamp=202509091625&locale=ko&svcName=map_pcv5&searchText=여수광장국밥",
+    "recommendation": "애객러 limchan님 추천 국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

@@ -1,0 +1,762 @@
+[
+  {
+    "name": "이바네",
+    "address": "대구 남구 중앙대로49길 6",
+    "link": "https://map.naver.com/p/search/대구 이바네/place/20601175?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "점심 한정 돈까스 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "비산 복어 뚝배기",
+    "address": "대구 남구 두류공원로 98",
+    "link": "https://map.naver.com/p/entry/place/38350349?c=15.00,0,0,0,dh",
+    "recommendation": "복어 요리 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "카모가와 스시",
+    "address": "대구 달서구 월곡로 8 2층",
+    "link": "https://map.naver.com/p/entry/place/1235096007?c=15.00,0,0,0,dh",
+    "recommendation": "호불호, 스시집",
+    "categories": [
+      "일식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "가야성",
+    "address": "대구 달서구 월배로83길 7",
+    "link": "https://map.naver.com/p/entry/place/13571653?c=15.00,0,0,0,dh",
+    "recommendation": "백종원 짬뽕 그집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "가마솥돼지국밥 대구본점",
+    "address": "대구 달서구 구마로12길 29",
+    "link": "https://map.naver.com/p/entry/place/16284511?c=15.00,0,0,0,dh",
+    "recommendation": "밀양식 돼지국밥",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "만반",
+    "address": "대구 수성구 들안로 32 만반",
+    "link": "https://map.naver.com/p/entry/place/11712107?c=15.00,0,0,0,dh",
+    "recommendation": "돌솥 정식",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "만복이 쭈꾸미 동대구점",
+    "address": "대구 동구 동대구로 448",
+    "link": "https://map.naver.com/p/entry/place/905050344?c=15.00,0,0,0,dh",
+    "recommendation": "대구에 여럿있음 불향 쭈꾸미",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "송림동태찜탕",
+    "address": "대구 달서구 이곡서로7길 22",
+    "link": "https://map.naver.com/p/search/송림 동태찜탕/place/16241520?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "이마트 피코크 납품 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "월배메기매운탕",
+    "address": "대구 달서구 월배로23길 111 1층",
+    "link": "https://map.naver.com/p/entry/place/16302034?c=15.00,0,0,0,dh",
+    "recommendation": "손질 메기, 잡내 X",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "장수찜닭 본점",
+    "address": "대구 달서구 월배로23길 117",
+    "link": "https://map.naver.com/p/entry/place/1128249032?c=15.00,0,0,0,dh",
+    "recommendation": "찜닭, 치킨",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "옹심이칼국수",
+    "address": "대구 달성군 다사읍 다사로 655",
+    "link": "https://map.naver.com/p/entry/place/16211189?c=15.00,0,0,0,dh",
+    "recommendation": "직접 빚은 칼국수",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "외딴집",
+    "address": "대구 달성군 다사읍 달구벌대로 528",
+    "link": "https://map.naver.com/p/entry/place/13126138?c=15.00,0,0,0,dh",
+    "recommendation": "직접기른 토종닭",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "유촌칡냉면",
+    "address": "대구 달성군 화원읍 화원로7길 17",
+    "link": "https://map.naver.com/p/entry/place/16127457?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "칡냉면 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "원조돼지갈비찜",
+    "address": "대구 동구 해동로 186",
+    "link": "https://map.naver.com/p/entry/place/16170285?c=15.00,0,0,0,dh",
+    "recommendation": "생각나는 맛 실패 X",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "더포 본점",
+    "address": "대구 달서구 와룡로 169",
+    "link": "https://map.naver.com/p/entry/place/31558627?c=15.00,0,0,0,dh",
+    "recommendation": "베트남 음식 전문",
+    "categories": [
+      "아시아"
+    ]
+  },
+  {
+    "name": "칠성동 할매 콩국수",
+    "address": "대구 북구 침산남로 40",
+    "link": "https://map.naver.com/p/entry/place/12025496?c=15.00,0,0,0,dh",
+    "recommendation": "전통 콩국수집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "하나해물탕",
+    "address": "대구 북구 산격로9길 9",
+    "link": "https://map.naver.com/p/entry/place/16132363?c=14.99,0,0,0,dh",
+    "recommendation": "해물탕 단일메뉴",
+    "categories": [
+      "단체"
+    ]
+  },
+  {
+    "name": "달빛식당",
+    "address": "대구 동구 팔공로24길 1-1",
+    "link": "https://map.naver.com/p/entry/place/20974049?c=14.99,0,0,0,dh",
+    "recommendation": "경상도 느낌 잘 느낄 수 있는 맛집",
+    "categories": [
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "대구축산업협동조합 동대구IC점",
+    "address": "대구 동구 화랑로 494",
+    "link": "https://map.naver.com/p/search/대구축산업협동조합 동대구IC점/place/38321706?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "점심 특선 한정 판매 갈비탕",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "반야월벌교꼬막",
+    "address": "대구 동구 이노밸리로 322 비젼스퀘어 2층",
+    "link": "https://map.naver.com/p/search/반야월벌교꼬막/place/36547078?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "자극적이지 않은 맛",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "양평해장국 대구점",
+    "address": "대구 남구 명덕로 156",
+    "link": "https://map.naver.com/p/entry/place/38229554?c=19.00,0,0,0,dh",
+    "recommendation": "24시간, 천엽 안들어감",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "산골기사식당",
+    "address": "대구 동구 팔공산로 1666 산골기사식당",
+    "link": "https://map.naver.com/p/search/산골기사식당/place/1191756266?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "허영만 백반기행 나옴, 두부 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "원조청정굴국밥본점",
+    "address": "대구 동구 동호로3길 5",
+    "link": "https://map.naver.com/p/entry/place/19639483?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "시원한 굴국밥",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "수봉반점",
+    "address": "대구 북구 대현남로2길 60",
+    "link": "https://map.naver.com/p/entry/place/20259571?c=15.00,0,0,0,dh",
+    "recommendation": "중화비빔밥 유명함",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "일미반점",
+    "address": "대구 북구 칠성남로30길 48 삼성아파트",
+    "link": "https://map.naver.com/p/search/일미반점/place/13091642?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "수봉이랑 쌍두마차",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "단골식당",
+    "address": "대구 북구 칠성시장로7길 9-1 1,2층",
+    "link": "https://map.naver.com/p/entry/place/13566992?c=15.00,0,0,0,dh",
+    "recommendation": "돼지불고기 맛집",
+    "categories": [
+      "한식",
+      "술안주",
+      "데이트"
+    ]
+  },
+  {
+    "name": "단지막창 성서본점",
+    "address": "대구 달서구 호산동로 168-1 1층",
+    "link": "https://map.naver.com/p/entry/place/1227228820?c=15.00,0,0,0,dh",
+    "recommendation": "마늘 숙성 막창",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "풍국면 들안길 본점",
+    "address": "대구 북구 호암로 51",
+    "link": "https://map.naver.com/p/entry/place/1281083572?c=8.20,0,0,0,dh",
+    "recommendation": "맛있는 국수",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "골목식육식당",
+    "address": "대구 서구 당산로 208-23",
+    "link": "https://map.naver.com/p/entry/place/16091645?c=14.92,0,0,0,dh",
+    "recommendation": "골목에 숨어있는 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "감포은정복어",
+    "address": "대구 수성구 국채보상로180길 13",
+    "link": "https://map.naver.com/p/entry/place/12034170?c=14.92,0,0,0,dh",
+    "recommendation": "복지리 설렁탕처럼 뿌연국물",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "싱싱뽈락회",
+    "address": "대구 수성구 수성못2길 17",
+    "link": "https://map.naver.com/p/entry/place/16154308?c=15.00,0,0,0,dh",
+    "recommendation": "특제 쌈장이 맛있는 자연산 뽈락회 전문점",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "형제수산",
+    "address": "대구 수성구 수성로 314",
+    "link": "https://map.naver.com/p/entry/place/310663555?c=15.00,0,0,0,dh",
+    "recommendation": "�스끼다시도 다양하고 많음",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "남산에",
+    "address": "대구 중구 중앙대로66길 20 효성해링턴 1층",
+    "link": "https://map.naver.com/p/entry/place/1260884291?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 무릎어깨님 추천 돈까스 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "대구손칼국수",
+    "address": "대구 수성구 동원로 91",
+    "link": "https://map.naver.com/p/entry/place/16200323?c=14.42,0,0,0,dh&placePath=/review",
+    "recommendation": "칼국수와 파전의 조화가 일품",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "미성복어불고기 들안길 본점",
+    "address": "대구 수성구 들안로 87 미성복어불고기",
+    "link": "https://map.naver.com/p/search/미성복어불고기/place/11724371?c=13.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "들안길에서 살아남기 맛보증",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "원조아삼겹",
+    "address": "대구 수성구 만촌로 105",
+    "link": "https://map.naver.com/p/entry/place/32972411?c=13.00,0,0,0,dh",
+    "recommendation": "구워주는 삼겹살 전문점",
+    "categories": [
+      "한식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "중화반점",
+    "address": "대구 중구 중앙대로 406-12",
+    "link": "https://map.naver.com/p/entry/place/13572015?c=13.00,0,0,0,dh",
+    "recommendation": "야끼우동 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "방천가족족발&보쌈",
+    "address": "�대구 중구 달구벌대로446길 11",
+    "link": "https://map.naver.com/p/entry/place/38300653?c=13.00,0,0,0,dh",
+    "recommendation": "장사 오래하는 족발 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "왕거미식당",
+    "address": "대구 중구 국채보상로 696-8",
+    "link": "https://map.naver.com/p/search/대구왕거미식당/place/12795963?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "백종원 추천 집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "뉴욕통닭",
+    "address": "대구 중구 종로 12",
+    "link": "https://map.naver.com/p/entry/place/15956449?c=15.00,0,0,0,dh",
+    "recommendation": "야채찜닭이 맛있음",
+    "categories": [
+      "술안주"
+    ]
+  },
+  {
+    "name": "뜰누리",
+    "address": "대구 동구 팔공로50길 43",
+    "link": "https://map.naver.com/p/entry/place/15998244?c=17.94,0,0,0,dh",
+    "recommendation": "젊으니 피셜 소고기 맛집",
+    "categories": [
+      "술안주",
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "불로회수산 본점",
+    "address": "대구 동구 팔공로30길 9 불로회수산 본점",
+    "link": "https://map.naver.com/p/entry/place/1693555083?c=16.24,0,0,0,dh",
+    "recommendation": "동네 아재들 맛집.. 항상 붐빔..",
+    "categories": [
+      "술안주",
+      "한식"
+    ]
+  },
+  {
+    "name": "팔도웰빙쌈밥",
+    "address": "대구 동구 팔공로31길 6-3 1층 팔도웰빙쌈밥",
+    "link": "https://map.naver.com/p/entry/place/33980030?c=16.27,0,0,0,dh",
+    "recommendation": "정갈하게 잘 나오는 쌈밥집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "시골보리밥",
+    "address": "대구 동구 파계로 126",
+    "link": "https://map.naver.com/p/entry/place/16178251?c=17.94,0,0,0,dh",
+    "recommendation": "�맛있음, 땅콩 반찬 구매 필수",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "장수칼국수",
+    "address": "대구 동구 동화천로77길 46 1층",
+    "link": "https://map.naver.com/p/entry/place/1738022506?c=15.00,0,0,0,dh",
+    "recommendation": "동네 오래된 맛집 (이사해서 신축)",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "완뚝순두부 본점",
+    "address": "대구 동구 팔공로51길 31-10 1동 102호",
+    "link": "https://map.naver.com/p/entry/place/1305410307?c=15.00,0,0,0,dh",
+    "recommendation": "24시간, 순두부 찌개 + 돌솥밥",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "김희예 만두수작 본점",
+    "address": "대구 북구 동북로 271",
+    "link": "https://map.naver.com/p/entry/place/1925518810?c=16.33,0,0,0,dh",
+    "recommendation": "직접 빚은 만두 맛집 모듬세트 필수",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "숯불소마구",
+    "address": "대구 북구 산격로 113-2",
+    "link": "https://map.naver.com/p/search/고기/place/16341083?c=17.82,0,0,0,dh&placePath=/photo",
+    "recommendation": "돼지갈비 200g, 마법의 겉절이까지",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "방촌시장 떡볶이",
+    "address": "대구 동구 동촌로46길 2",
+    "link": "https://map.naver.com/p/search/방촌시장/place/1861584864?c=18.25,0,0,0,dh",
+    "recommendation": "현지인 떡볶이 맛집",
+    "categories": [
+      "분식"
+    ]
+  },
+  {
+    "name": "막창가옥",
+    "address": "대구 달서구 상원로 179-4 1층 104호",
+    "link": "https://map.naver.com/p/entry/place/1387698017?c=15.00,0,0,0,dh",
+    "recommendation": "파막창 먹어봄?",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "구공탄막창 형님본점",
+    "address": "대구 서구 국채보상로 308 1층",
+    "link": "https://map.naver.com/p/entry/place/16191091?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "초벌되어 나와 숯불에 굽는 막창",
+    "categories": [
+      "한식",
+      "술안주",
+      "데이트"
+    ]
+  },
+  {
+    "name": "팔공산밥상",
+    "address": "대구 수성구 범어로 124-1",
+    "link": "https://map.naver.com/p/search/범어 고등어/place/1639774973?c=15.00,0,0,0,dh&placePath=?entry=bmp",
+    "recommendation": "고등어 only 구이, 김치찜",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "차린",
+    "address": "대구 동구 팔공로47길 24 1층",
+    "link": "https://map.naver.com/p/search/차린/place/1155996152?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "가성비 좋은 돌솥 정식 (사이드 추가 추천)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "세연콩국",
+    "address": "대구 중구 명덕로 173",
+    "link": "https://map.naver.com/p/search/세연콩국/place/11655182?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 빵먹어죽빵님 추천 콩국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "팔공반점",
+    "address": "대구 동구 아양로34길 40-1 1층",
+    "link": "https://map.naver.com/p/entry/place/16048379?c=17.17,0,0,0,dh",
+    "recommendation": "애객러 에너미컨트롤러님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "쉼표분식",
+    "address": "대구 동구 아양로 191",
+    "link": "https://map.naver.com/p/search/대구 동서시장 떡볶이/place/11785519?c=17.99,0,0,0,dh&placePath=?entry=bmp",
+    "recommendation": "�동서시장 초입 떡볶이 맛집",
+    "categories": [
+      "분식"
+    ]
+  },
+  {
+    "name": "중앙떡볶이",
+    "address": "대구 중구 동성로2길 81",
+    "link": "https://map.naver.com/p/entry/place/20601192?c=17.99,0,0,0,adh",
+    "recommendation": "떡볶이와 납작만두 유명 떡볶이집",
+    "categories": [
+      "분식"
+    ]
+  },
+  {
+    "name": "원조어탕 본점",
+    "address": "대구 북구 대불서길 51",
+    "link": "https://map.naver.com/p/entry/place/30847547?c=17.99,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 이게뭔가요님 추천 어탕요리 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "퇴근길생고기 화원점",
+    "address": "대구 달성군 화원읍 화원로7길 90",
+    "link": "https://map.naver.com/p/search/퇴근길생고기 화원점/place/1007007097?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 네모대가리님 추천 고기 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "도마29",
+    "address": "대구 중구 동성로1길 46-2",
+    "link": "https://map.naver.com/p/entry/place/37851150?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 초밥 맛집",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "이가네더덕밥 대구팔공산점",
+    "address": "대구 북구 이곡길 35-41",
+    "link": "https://map.naver.com/p/entry/place/13441762?c=14.91,0,0,0,dh",
+    "recommendation": "어머님들 사이 소문난 오래된 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "형제복어불고기",
+    "address": "대구 동구 동부로30길 18 1층",
+    "link": "https://map.naver.com/p/entry/place/20336874?c=14.91,0,0,0,dh",
+    "recommendation": "애객러 ll달나라ll님 추천 복어 요리 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "부산안면옥",
+    "address": "대구 중구 국채보상로125길 4-1",
+    "link": "https://map.naver.com/p/search/대구 부산안면옥/place/12009979?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 이승만님 추천 평양냉면 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "아티코",
+    "address": "대구 수성구 지범로 43-12",
+    "link": "https://map.naver.com/p/search/아티코/place/1313429391?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "줄 서서 먹는 소문난 양식집",
+    "categories": [
+      "양식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "자청룡",
+    "address": "대구 남구 중앙대로51길 116 1층",
+    "link": "https://map.naver.com/p/search/자청룡/place/1751316972?c=15.00,0,0,0,dh&placePath=/review&isCorrectAnswer=true",
+    "recommendation": "맛있는 중식 포차",
+    "categories": [
+      "술안주",
+      "데이트",
+      "중식"
+    ]
+  },
+  {
+    "name": "현아네",
+    "address": "대구 남구 대명로 18 1층",
+    "link": "https://map.naver.com/p/search/현아네/place/1291558229?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "전국 최강의 가성비 식당",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "황금쭈꾸미집 종로본점",
+    "address": "대구 중구 중앙대로81길 54",
+    "link": "https://map.naver.com/p/entry/place/1396388792?c=13.00,0,0,0,dh",
+    "recommendation": "월 7000 버는 쭈꾸미집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "가람",
+    "address": "대구 달서구 달구벌대로301길 151",
+    "link": "https://map.naver.com/p/entry/place/20340506?c=16.26,0,0,0,dh",
+    "recommendation": "애객러 무릎어깨님 추천 고기짬뽕 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "걸리버막창",
+    "address": "대구 북구 옥산로 53",
+    "link": "https://map.naver.com/p/entry/place/16334467?c=15.44,0,0,0,dh",
+    "recommendation": "애객러 무릎어깨님 추천 막창 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "빠레뜨한남 수성점",
+    "address": "대구 수성구 동대구로14길 13",
+    "link": "https://map.naver.com/p/entry/place/1386347891?c=15.44,0,0,0,dh",
+    "recommendation": "양식 맛집",
+    "categories": [
+      "양식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "현대식당",
+    "address": "대구 달성군 현풍읍 비슬로130길 51-1",
+    "link": "https://map.naver.com/p/search/현대식당 현풍/place/37179650?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "할매가 말아주는 맛있는 소구레, 국밥, 국수",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "송림식당",
+    "address": "대구 동구 동부로 13-1 구두수선대10",
+    "link": "https://map.naver.com/p/entry/place/1766810958?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 난알아요님 추천 생고기 뭉티기 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "금이옥",
+    "address": "대구 중구 국채보상로143길 2",
+    "link": "https://map.naver.com/p/search/금이옥/place/1484726670?c=15.00,0,0,2,dh&isCorrectAnswer=true",
+    "recommendation": "13000원 갈비탕",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "리안",
+    "address": "대구 수성구 교학로4길 48",
+    "link": "https://map.naver.com/p/entry/place/16210829?c=15.00,0,0,2,dh",
+    "recommendation": "야끼우동에 탕수육 조합 추천",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "유창반점",
+    "address": "대구 중구 명륜로 20 1층",
+    "link": "https://map.naver.com/p/search/대구유창반점/place/13571906?c=20.00,0,0,2,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 사랑행복님 추천 중화비빔밥 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "제1국수집",
+    "address": "대구 북구 노원로 242 1층",
+    "link": "https://map.naver.com/p/entry/place/1605285747?c=15.00,0,0,0,dh",
+    "recommendation": "저렴하고 양많은 극 가성비 국수집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "구나경김밥",
+    "address": "대구 중구 명륜로23길 91",
+    "link": "https://map.naver.com/p/entry/place/1875888005?c=16.08,0,0,0,dh",
+    "recommendation": "삼겹살 , 매콤참치 김밥",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "정희예웰빙손칼국수",
+    "address": "대구 동구 팔공로 317",
+    "link": "https://map.naver.com/p/entry/place/1935372604?c=13.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507272352&locale=ko&svcName=map_pcv5&fromPanelNum=1&additionalHeight=76&timestamp=202507272352&locale=ko&svcName=map_pcv5",
+    "recommendation": "맛있는 메밀 요리, 두부, 콩국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "쉬어가는집",
+    "address": "대구 동구 팔공로30길 10",
+    "link": "https://map.naver.com/p/entry/place/16000989?c=13.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507272353&locale=ko&svcName=map_pcv5",
+    "recommendation": "시장안 오래된 코다리 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "한강반점",
+    "address": "대구 중구 달구벌대로387길 42 1층",
+    "link": "https://naver.me/GmfS45nz",
+    "recommendation": "쯔양 방문, 3000원 짜장면",
+    "categories": [
+      "중식"
+    ]
+  }
+]

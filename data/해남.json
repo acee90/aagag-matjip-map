@@ -1,0 +1,22 @@
+[
+  {
+    "name": "진솔통닭",
+    "address": "전남 해남군 해남읍 고산로 262",
+    "link": "https://map.naver.com/p/entry/place/11626899?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 난알아요님 추천 닭코스요리 맛집",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "아이집",
+    "address": "전남 해남군 산이면 관광레저로 1703",
+    "link": "https://map.naver.com/p/entry/place/17092904?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507041041&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 난알아요님 추천 돌판 비빔밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

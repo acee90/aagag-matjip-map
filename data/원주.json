@@ -1,0 +1,57 @@
+[
+  {
+    "name": "까치둥지",
+    "address": "강원 원주시 치악로 1731",
+    "link": "https://map.naver.com/p/entry/place/15189674?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 광사마님 추천 알탕 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "박순례손말이고기산정집",
+    "address": "강원 원주시 천사로 203-13",
+    "link": "https://map.naver.com/p/entry/place/11708672?c=14.99,0,0,0,dh&placePath=/home",
+    "recommendation": "고기말이 + 찌개",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "수가성 순두부",
+    "address": "강원 원주시 남원로612번길 1",
+    "link": "https://map.naver.com/p/entry/place/15176419?c=14.99,0,0,0,dh&placePath=/home",
+    "recommendation": "�다양한 순두부 + 두부 보쌈",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "원주복추어탕",
+    "address": "강원 원주시 치악로 1748",
+    "link": "https://map.naver.com/p/entry/place/11712462?c=14.99,0,0,0,dh",
+    "recommendation": "고추장 베이스 원주식 추어탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "착한낙지 원주단계점",
+    "address": "강원 원주시 서원대로86번길 27 1층",
+    "link": "https://map.naver.com/p/entry/place/33586247?c=14.99,0,0,0,dh",
+    "recommendation": "맛있는 낙지볶음",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "육설모 원주점",
+    "address": "강원 원주시 소초면 서동로 9 육설모 1층",
+    "link": "https://map.naver.com/p/entry/place/1243133406?c=15.00,0,0,0,dh&placePath=/home?fromPanelNum=1&additionalHeight=76&timestamp=202512011502&locale=ko&svcName=map_pcv5&filterType=블로그&additionalHeight=76&timestamp=202512011502&locale=ko&svcName=map_pcv5&filterType=블로그&fromPanelNum=1",
+    "recommendation": "맛있는 갈비탕",
+    "categories": [
+      "한식"
+    ]
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "name": "시골식당",
+    "address": "강원 강릉시 강동면 헌화로 665-1",
+    "link": "https://map.naver.com/p/entry/place/15702666?c=19.00,0,0,0,dh",
+    "recommendation": "망치 매운탕",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "제주 해인물회",
+    "address": "강원 강릉시 사천면 사천진리 2-94",
+    "link": "https://map.naver.com/p/entry/place/1036955196?c=19.00,0,0,0,dh",
+    "recommendation": "전복죽 필수 주문",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "여고시절 카레 떡볶이",
+    "address": "강원 강릉시 신대학길 22-6",
+    "link": "https://map.naver.com/p/entry/place/20601583?c=19.00,0,0,0,dh",
+    "recommendation": "저렴한 가격의 옛날 분식집",
+    "categories": [
+      "분식"
+    ]
+  },
+  {
+    "name": "옛빙그레",
+    "address": "강원 강릉시 임영로116번안길 12",
+    "link": "https://map.naver.com/p/search/옛빙그레/place/15293749?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "김밥 + 어묵 + 쫄사리",
+    "categories": [
+      "분식"
+    ]
+  },
+  {
+    "name": "폴앤메리",
+    "address": "강원 강릉시 창해로350번길 33",
+    "link": "https://map.naver.com/p/entry/place/20471728?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "뷰 좋은 장소에서 먹는 햄버거",
+    "categories": [
+      "양식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "이만구교동짬뽕",
+    "address": "강원 강릉시 강릉대로 199-8",
+    "link": "https://map.naver.com/p/entry/place/37928095?c=15.00,0,0,0,dh",
+    "recommendation": "교동 짬뽕 + 등심 탕수육",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "강릉현대장칼국수 본점",
+    "address": "강원 강릉시 임영로182번길 7-1",
+    "link": "https://map.naver.com/p/entry/place/20099799?c=15.00,0,0,0,dh",
+    "recommendation": "방송 출연 다수, 장칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "9남매두부집",
+    "address": "강원 강릉시 초당원길 63-2",
+    "link": "https://map.naver.com/p/entry/place/13070504?c=15.00,0,0,0,dh",
+    "recommendation": "전골 or 청국장 집밥 스타일",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "강릉전집",
+    "address": "강원 강릉시 솔올로5번길 9",
+    "link": "https://map.naver.com/p/entry/place/58248179?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "모듬 + 꼬막 전 + 막걸리",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "오월에초당",
+    "address": "강원 강릉시 난설헌로 234-5",
+    "link": "https://map.naver.com/p/entry/place/36952290?c=15.00,0,0,0,dh",
+    "recommendation": "국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "장안횟집",
+    "address": "강원 강릉시 사천면 진리항구길 51",
+    "link": "https://map.naver.com/p/entry/place/19891301?c=15.00,0,0,0,dh",
+    "recommendation": "물회 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "청송장칼국수",
+    "address": "강원특별자치도 강릉시 포남1동 1193-3",
+    "link": "https://map.naver.com/p/entry/place/15385027?c=15.00,0,0,0,dh",
+    "recommendation": "현지인 맛집 칼국수 + 만두",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "옛태광식당",
+    "address": "강원 강릉시 난설헌로 105 라동103호",
+    "link": "https://map.naver.com/p/entry/place/32294458?c=15.00,0,0,0,dh",
+    "recommendation": "우럭 미역국 (아침 식사 됩니다)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "토담 순두부",
+    "address": "강원 강릉시 난설헌로193번길 1-19",
+    "link": "https://map.naver.com/p/entry/place/21607674?c=16.33,0,0,0,dh",
+    "recommendation": "얼큰 + 고소한 순두부 1인분 가능",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "강릉해마루횟집",
+    "address": "강원 강릉시 공항길127번길 64",
+    "link": "https://map.naver.com/p/entry/place/37205714?c=16.33,0,0,0,dh",
+    "recommendation": "모듬회",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "건도리 횟집",
+    "address": "강원 강릉시 창해로 427 건도리횟집",
+    "link": "https://map.naver.com/p/entry/place/37765913?c=14.99,0,0,0,dh",
+    "recommendation": "경포대 데이트 하기 좋은 횟집",
+    "categories": [
+      "한식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "이모네 생선찜",
+    "address": "강원 강릉시 가작로 8",
+    "link": "https://map.naver.com/p/entry/place/15377620?c=14.99,0,0,0,dh",
+    "recommendation": "가오리찜 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "삼교리동치미막국수 강릉본점",
+    "address": "강원 강릉시 구정면 범일로 364",
+    "link": "https://map.naver.com/p/entry/place/37800217?c=19.00,0,0,0,dh",
+    "recommendation": "애객러 크라드메서님 추천 막국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "강릉꼬막집 독도네 본점",
+    "address": "강원 강릉시 옥천로 47 1층",
+    "link": "https://map.naver.com/p/entry/place/1606537999?c=19.00,0,0,0,dh&placePath=/home",
+    "recommendation": "꼬막무침.비빔밥+육사시미",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "철뚝소머리집",
+    "address": "강원 강릉시 주문진읍 철둑길 42",
+    "link": "https://map.naver.com/p/entry/place/36777124?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 휘어라등골핑님 추천 소머리국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "강릉짬뽕순두부 동화가든 본점",
+    "address": "강원 강릉시 초당순두부길77번길 15",
+    "link": "https://map.naver.com/p/entry/place/11859878?c=14.99,0,0,0,dh",
+    "recommendation": "웨이팅 있는 짬뽕 순두부집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "옥계진가락",
+    "address": "강원 강릉시 옥계면 현내시장길 60",
+    "link": "https://map.naver.com/p/search/진가락/place/1440986919?c=9.43,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 먄셩퓌료님 추천 중화비빔밥 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "최대게",
+    "address": "강원 강릉시 주문진읍 해안로 1727-2 1층",
+    "link": "https://map.naver.com/p/entry/place/13281876?c=15.44,0,0,0,dh",
+    "recommendation": "애객러 무릎어깨님 추천 대게 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "장군시오야끼 체인1호점",
+    "address": "강원 강릉시 문화의길7번길 7",
+    "link": "https://map.naver.com/p/entry/place/15290973?c=15.44,0,0,0,dh",
+    "recommendation": "대패 삼겹살 + 볶음밥",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "강릉길감자",
+    "address": "강원 강릉시 중앙시장2길 10-4 1층 2호",
+    "link": "https://map.naver.com/p/entry/place/1085464055?c=15.44,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510212202&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 무릎어깨님 추천 분식 맛집",
+    "categories": [
+      "분식"
+    ]
+  },
+  {
+    "name": "서울양계",
+    "address": "강원 강릉시 창해로 366",
+    "link": "https://map.naver.com/p/entry/place/1693762102?c=15.44,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510212203&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 무릎어깨님 추천 닭강정 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "정화식당",
+    "address": "강원 강릉시 토성로 193",
+    "link": "https://map.naver.com/p/search/정화식당/place/31450521?c=15.00,0,0,0,dh&placePath=/home?entry=bmp&from=map&fromPanelNum=2&timestamp=202510212204&locale=ko&svcName=map_pcv5&searchText=정화식당",
+    "recommendation": "애객러 무릎어깨님 추천 갈치조림, 제육 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

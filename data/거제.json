@@ -1,0 +1,20 @@
+[
+  {
+    "name": "백만석게장백반본점",
+    "address": "경남 거제시 계룡로 47 오헌빌딩",
+    "link": "https://map.naver.com/p/entry/place/11708543?c=15.00,0,0,0,dh",
+    "recommendation": "멍게비빔밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "좋은식당",
+    "address": "경남 거제시 옥포로 282 안성아파트",
+    "link": "https://map.naver.com/p/entry/place/1113762247?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "엄마밥상 스타일 고기맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

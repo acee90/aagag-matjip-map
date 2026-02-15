@@ -1,0 +1,29 @@
+[
+  {
+    "name": "할매닭발",
+    "address": "경북 의성군 의성읍 전통시장3길 7-6 11번",
+    "link": "https://map.naver.com/p/entry/place/37442080?c=14.99,0,0,0,dh",
+    "recommendation": "닭발, 묵사발, 국수 저렴한 가격에 무난함",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "의성마늘품은찜닭",
+    "address": "경북 의성군 의성읍 동서2길 23",
+    "link": "https://map.naver.com/p/entry/place/1475580547?c=14.99,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202508111134&locale=ko&svcName=map_pcv5",
+    "recommendation": "지코바 스타일 찜닭 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "평양메밀냉면",
+    "address": "경북 의성군 의성읍 군청길 40-1",
+    "link": "https://map.naver.com/p/entry/place/15571400?c=16.44,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202508111135&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 Moviebuff님 추천 냉면 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

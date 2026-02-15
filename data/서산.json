@@ -1,0 +1,74 @@
+[
+  {
+    "name": "봉평장터",
+    "address": "충남 서산시 석림3로 11",
+    "link": "https://map.naver.com/p/search/서산 봉평장터/place/17273196?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "메밀 막국수",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "저팔계",
+    "address": "충남 서산시 안견로 116",
+    "link": "https://map.naver.com/p/search/서산 저팔계\\/place/17259746?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "밑반찬 맛있는 고깃집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "풍전뚝집",
+    "address": "충남 서산시 인지면 풍전2길 67-30",
+    "link": "https://map.naver.com/p/entry/place/17584943?c=15.00,0,0,0,dh",
+    "recommendation": "직원 1명 불친절함 뒤집으려다가 참는 맛",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "구옹진식당",
+    "address": "충남 서산시 번화2로 8-2",
+    "link": "https://map.naver.com/p/entry/place/17245838?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 옷씨1님 추천 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "원조부석냉면",
+    "address": "충남 서산시 부석면 취평2길 15-10",
+    "link": "https://map.naver.com/p/search/원조부석냉면/place/11831592?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 옷씨1님 추천 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "미래수산식당",
+    "address": "충남 서산시 대산읍 삼길포1로 47",
+    "link": "https://map.naver.com/p/search/서산 미래수산식당/place/17295290?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "회덮밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "콩사랑 팥사랑",
+    "address": "충남 서산시 인지면 야철지길 97-4",
+    "link": "https://map.naver.com/p/entry/place/20005719?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507241541&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 시간재미님 추천 콩국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "치비카츠",
+    "address": "충남 서산시 호수공원12로 22 1층",
+    "link": "https://map.naver.com/p/entry/place/1231786956?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202508121653&locale=ko&svcName=map_pcv5",
+    "recommendation": "고퀄리티 로스카츠 돈까스",
+    "categories": [
+      "일식"
+    ]
+  }
+]

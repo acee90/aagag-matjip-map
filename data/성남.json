@@ -1,0 +1,212 @@
+[
+  {
+    "name": "풍경돌판구이 성남본점",
+    "address": "경기 성남시 수정구 수정로25번길 5",
+    "link": "https://map.naver.com/p/search/풍경오리돌판구이/place/36132402?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "오리 먹고, 볶음밥을 먹기 위해 가는 곳",
+    "categories": [
+      "한식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "대머리 칼국수",
+    "address": "경기 성남시 수정구 제일로 169",
+    "link": "https://map.naver.com/p/search/대머리 칼국수/place/18346565?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "옛날 스타일 칼국수",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "동래파전",
+    "address": "경기 성남시 수정구 시민로142번길 9-1",
+    "link": "https://map.naver.com/p/entry/place/36971437?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "전집, 막걸리 하기 좋음",
+    "categories": [
+      "데이트",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "맛나는 아지트",
+    "address": "경기 성남시 수정구 시민로142번길 13",
+    "link": "https://map.naver.com/p/entry/place/35608464?c=15.00,0,0,0,dh",
+    "recommendation": "모듬, 등갈비 전골",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "오늘손칼국수&찜 성남점",
+    "address": "경기 성남시 수정구 시민로 152",
+    "link": "https://map.naver.com/p/entry/place/1107784923?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "아구찜, 바지락 칼국수",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "두향",
+    "address": "경기 성남시 분당구 불곡남로 5",
+    "link": "https://map.naver.com/p/entry/place/20213881?c=15.00,0,0,0,dh",
+    "recommendation": "불고기,순두부 정식 등 모임하기 좋은 밥집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "행하령수제비",
+    "address": "성남시 분당구 성남대로144번길 14",
+    "link": "https://map.naver.com/p/entry/place/19873774?c=15.00,0,0,0,dh",
+    "recommendation": "오사리멸치 수제비",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "주막골포장마차",
+    "address": "경기 성남시 분당구 발이봉로3번길 2",
+    "link": "https://map.naver.com/p/entry/place/36974693?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 떡볶음탕 추천 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "블루메쯔 본점",
+    "address": "경기 성남시 분당구 발이봉남로25번길 2 1층",
+    "link": "https://map.naver.com/p/search/블루메쯔/place/1663007037?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 acho님 추천 양식 맛집",
+    "categories": [
+      "양식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "와규하우스",
+    "address": "경기 성남시 분당구 장미로92번길 13-5 1층",
+    "link": "https://map.naver.com/p/search/와규하우스/place/18491069?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 acho님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "윤밀원",
+    "address": "경기 성남시 분당구 백현로 154 1층",
+    "link": "https://map.naver.com/p/search/윤밀원/place/37659057?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 acho님 추천 족발 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "태능갈비",
+    "address": "경기 성남시 수정구 탄리로 61",
+    "link": "https://map.naver.com/p/entry/place/37242167?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 acho님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "통보장어마을 1호점",
+    "address": "경기 성남시 수정구 수정남로 84",
+    "link": "https://map.naver.com/p/entry/place/18351573?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 acho님 추천 장어 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "우영관",
+    "address": "경기 성남시 분당구 분당내곡로 117 2층",
+    "link": "https://map.naver.com/p/entry/place/1646261537?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 옷씨1님 추천 곰탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "한와담 판교점",
+    "address": "경기 성남시 분당구 판교역로 152 1층 1-2, 1-3",
+    "link": "https://map.naver.com/p/entry/place/1031190455?c=15.00,0,0,0,dh",
+    "recommendation": "분위기 좋은 맛있는 고깃집",
+    "categories": [
+      "한식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "정돈 현대백화점 판교점",
+    "address": "경기 성남시 분당구 판교역로146번길 20 9층",
+    "link": "https://map.naver.com/p/search/정돈/place/1081745974?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "유명한 돈까스",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "백경회관",
+    "address": "경기 성남시 중원구 광명로 138 백경회관",
+    "link": "https://map.naver.com/p/entry/place/18363623?c=18.01,0,0,0,dh",
+    "recommendation": "애객러 누수탐지기님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "야마다야",
+    "address": "경기 성남시 분당구 구미로 124 굿모닝프라자",
+    "link": "https://map.naver.com/p/search/야마다야/place/11719934?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 보리아버님 추천 우동 맛집",
+    "categories": [
+      "일식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "청담추어정 본점",
+    "address": "경기 성남시 수정구 여수대로56번길 3",
+    "link": "https://map.naver.com/p/search/\b성남 청담추어정\t/place/19219141?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "추어탕 맛집, 대기 많음 확인필수",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "장모밥상",
+    "address": "경기 성남시 분당구 하오개로344번길 5",
+    "link": "https://map.naver.com/p/search/성남 장모밥상/place/1609808931?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "정갈한 한상 가득",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "사계진미 야탑본점",
+    "address": "경기 성남시 분당구 양현로 453",
+    "link": "https://map.naver.com/p/search/성남 사계진미/place/13440922?c=15.00,0,0,0,dh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507241542&locale=ko&svcName=map_pcv5&searchText=성남 사계진미",
+    "recommendation": "애객러 Tsuji님 추천 콩국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "의천각",
+    "address": "성남시 수정구 산성대로215번길 10-18 2층",
+    "link": "https://map.naver.com/p/search/의천각/place/1404688752?c=15.00,0,0,0,dh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202602140926&locale=ko&svcName=map_pcv5&searchText=의천각",
+    "recommendation": "애객러 누수탐지기님 추천 노포 맛집",
+    "categories": [
+      "중식"
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "name": "돼지집",
+    "address": "경기 광명시 기아로 56",
+    "link": "https://map.naver.com/p/entry/place/17880671?c=16.94,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 두루치기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "미식당",
+    "address": "경기 광명시 디지털로33번길 5 1층 109호",
+    "link": "https://map.naver.com/p/entry/place/1161912135?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 건방진 제이지님 추천 일식 맛집",
+    "categories": [
+      "일식",
+      "술안주",
+      "데이트"
+    ]
+  },
+  {
+    "name": "양평해장국",
+    "address": "경기 광명시 오리로985번안길 3-1",
+    "link": "https://map.naver.com/p/search/광명사거리 양평해장국/place/17884756?c=16.25,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 아이가셋님 추천 해장국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "가야밀면",
+    "address": "광명시 일직로12번길 21 sh&01프라자 2층",
+    "link": "https://map.naver.com/p/search/광명 가야밀면/place/1464762023?c=13.00,0,0,0,dh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202509281321&locale=ko&svcName=map_pcv5&searchText=광명 가야밀면",
+    "recommendation": "애객러 광사마님 추천 밀면 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

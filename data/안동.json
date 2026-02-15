@@ -1,0 +1,117 @@
+[
+  {
+    "name": "거랑애매운탕",
+    "address": "경북 안동시 경동로 763-1",
+    "link": "https://map.naver.com/p/entry/place/15345781?c=18.74,0,0,0,dh&placePath=/home",
+    "recommendation": "마늘 듬뿍 시원한 매운탕",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "청하감자탕 안동본점",
+    "address": "경북 안동시 태사길 138 1층",
+    "link": "https://map.naver.com/p/search/청하감자탕/place/1533858208?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "저렴한 산더미 감자탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "신라국밥",
+    "address": "경북 안동시 서경지5길 45",
+    "link": "https://map.naver.com/p/search/안동 신라국밥/place/15366287?c=14.50,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 바이올린 해장국님 추천 국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "현대찜닭",
+    "address": "경북 안동시 번영1길 47",
+    "link": "https://map.naver.com/p/entry/place/15356778?c=14.50,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510222339&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 유동닉님 추천 찜닭 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "일직식당",
+    "address": "경북 안동시 경동로 676",
+    "link": "https://map.naver.com/p/entry/place/15355074?c=14.50,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510222340&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 유동닉님 추천 고등어 맛집",
+    "categories": []
+  },
+  {
+    "name": "동악골 금재가든",
+    "address": "경북 안동시 와룡면 동악골길 166",
+    "link": "https://map.naver.com/p/entry/place/33878367?c=14.50,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510222341&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 유동닉님 추천 닭볶음탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "동대문 식당",
+    "address": "경북 안동시 단원로 87",
+    "link": "https://map.naver.com/p/entry/place/1653969091?c=14.50,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510222341&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 유동닉님 추천 오징어무침 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "메밀꽃피면",
+    "address": "경북 안동시 도산면 선성4길 22",
+    "link": "https://map.naver.com/p/search/메밀꽃피면\t\t \t\t/place/1236655325?c=15.00,0,0,0,dh&placePath=/home?entry=bmp&from=map&fromPanelNum=2&timestamp=202510222342&locale=ko&svcName=map_pcv5&searchText=메밀꽃피면\t\t \t\t",
+    "recommendation": "애객러 유동닉님 추천 황태구이정식, 메밀면 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "헛제사밥 까치구멍집",
+    "address": "경북 안동시 석주로 203",
+    "link": "https://map.naver.com/p/search/헛제사밥까치구멍집/place/11669810?c=15.00,0,0,0,dh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510222344&locale=ko&svcName=map_pcv5&searchText=헛제사밥까치구멍집",
+    "recommendation": "애객러 유동닉님 추천 헛재사밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "옛날이야기",
+    "address": "경북 안동시 석주로 424",
+    "link": "https://map.naver.com/p/search/옛날이야기\t\t \t\t/place/15823569?c=15.00,0,0,0,dh&placePath=/home?entry=bmp&from=map&fromPanelNum=2&timestamp=202510222345&locale=ko&svcName=map_pcv5&searchText=옛날이야기\t\t \t\t",
+    "recommendation": "애객러 유동닉님 추천 한우국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "서울식당",
+    "address": "경북 안동시 중앙로 75",
+    "link": "https://map.naver.com/p/entry/place/1867576019?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510222346&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 유동닉님 추천 탕수육,중화비빔밥 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "성전식당",
+    "address": "경상북도 안동시 동흥1길 9",
+    "link": "https://map.naver.com/p/search/성전식당\t\t \t\t/place/15354789?c=15.00,0,0,0,dh&placePath=/home?entry=bmp&from=map&fromPanelNum=2&timestamp=202510222347&locale=ko&svcName=map_pcv5&searchText=성전식당\t\t \t\t",
+    "recommendation": "애객러 유동닉님 추천 된장찌개 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "태형식당",
+    "address": "경북 안동시 동흥2길 15 안동시 동흥2길15",
+    "link": "https://map.naver.com/p/entry/place/15353722?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510222348&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 유동닉님 추천 고등어 정식 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

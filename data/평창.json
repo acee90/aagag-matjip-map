@@ -1,0 +1,39 @@
+[
+  {
+    "name": "이촌쉼터",
+    "address": "강원 평창군 대관령면 꽃밭양지길 405",
+    "link": "https://map.naver.com/p/entry/place/15560992?c=14.96,0,0,0,dh",
+    "recommendation": "찐 강원도 옹심이",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "다키닥팜",
+    "address": "강원 평창군 봉평면 금당계곡로 1731-5",
+    "link": "https://map.naver.com/p/entry/place/15550936?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 떡볶음탕님 추천 오리고기 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "부산식육식당",
+    "address": "강원 평창군 대관령면 대관령로 108",
+    "link": "https://map.naver.com/p/search/평창 부산식육식당 /place/11842225?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 바이올린해장국님 추천 돌판삼겹살 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "금학칼국수",
+    "address": "강원 평창군 봉평면 기풍로 166-1",
+    "link": "https://map.naver.com/p/entry/place/15550431?placePath=/home?from=map&from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507171342&locale=ko&svcName=map_pcv5&c=15.00,0,0,0,dh",
+    "recommendation": "애객러 타이헤이님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

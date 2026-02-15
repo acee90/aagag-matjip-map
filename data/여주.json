@@ -1,0 +1,154 @@
+[
+  {
+    "name": "황토가든",
+    "address": "경기 여주시 점동면 청안로 172",
+    "link": "https://map.naver.com/p/entry/place/1912894303?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "더덕이 풍부한 오리, 소, 돼지",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "구능촌",
+    "address": "여주시 세종대왕면 중부대로2629번길 43",
+    "link": "https://map.naver.com/p/entry/place/11699128?c=15.00,0,0,0,dh",
+    "recommendation": "오리 구이,백숙 가마솥밥",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "단골집",
+    "address": "경기 여주시 대신면 여양로 1460",
+    "link": "https://map.naver.com/p/entry/place/19323067?c=15.00,0,0,0,dh",
+    "recommendation": "여주 백년가게, 사태찌개 얼큰함",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "하리한우센타식당",
+    "address": "경기 여주시 여흥로33번길 11",
+    "link": "https://map.naver.com/p/search/하리 한우 센터/place/761364862?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "20년 장사 식육식당",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "강계봉진막국수",
+    "address": "경기 여주시 대신면 천서리길 26",
+    "link": "https://map.naver.com/p/search/강계봉진막국수/place/11709667?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "수육 추천 막국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "장복골",
+    "address": "경기 여주시 여주남로 162",
+    "link": "https://map.naver.com/p/entry/place/34213692?c=14.05,0,0,0,dh",
+    "recommendation": "소.장어,조개,랍스터 코스요리",
+    "categories": []
+  },
+  {
+    "name": "보배네집",
+    "address": "경기 여주시 여양로 576-16",
+    "link": "https://map.naver.com/p/search/보배네집/place/11695295?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "만두, 콩국수 (소고기만두)",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "달인칼국수삼겹살",
+    "address": "경기 여주시 농산로 91",
+    "link": "https://map.naver.com/p/search/달인칼국수삼겹살 /place/1537314751?c=17.94,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 대학원생님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "할머니 손두부",
+    "address": "경기 여주시 강천면 강문로 612",
+    "link": "https://map.naver.com/p/entry/place/19195020?c=17.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 두부 요리 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "송백보리밥",
+    "address": "경기 여주시 강천면 강문로 267",
+    "link": "https://map.naver.com/p/entry/place/33497726?c=17.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 보리밥 맛집",
+    "categories": []
+  },
+  {
+    "name": "푸른들",
+    "address": "경기 여주시 북내면 여강로 313",
+    "link": "https://map.naver.com/p/entry/place/19194920?c=17.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 백반 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "제일식당",
+    "address": "경기 여주시 도예로 145",
+    "link": "https://map.naver.com/p/entry/place/33789266?c=17.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 육개장 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "동네막국수",
+    "address": "경기 여주시 현암3길 28",
+    "link": "https://map.naver.com/p/entry/place/19192256?c=17.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 막국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "황금돼지",
+    "address": "경기 여주시 도예로 59 한길교회",
+    "link": "https://map.naver.com/p/entry/place/36766502?c=17.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "엄지솥뚜껑삼겹살",
+    "address": "경기 여주시 학동2길 34 1층",
+    "link": "https://map.naver.com/p/entry/place/1594592182?c=17.00,0,0,0,dh",
+    "recommendation": "애객러 대학원생님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "만우정육점식당",
+    "address": "경기 여주시 강변북로 62",
+    "link": "https://map.naver.com/p/search/경기 여주시 강변북로 62 1층/place/32192980?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 대학원생님 추천 고기(김치찌개) 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "승우 돈까스 여주 본점",
+    "address": "경기 여주시 청심로 194 1층",
+    "link": "https://map.naver.com/p/search/승우돈까스/place/1767296870?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 도둑고양이님 추천 돈까스 맛집",
+    "categories": [
+      "일식"
+    ]
+  }
+]

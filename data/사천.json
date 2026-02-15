@@ -1,0 +1,38 @@
+[
+  {
+    "name": "매운춘천닭갈비",
+    "address": "경남 사천시 사남면 곡성2길 50-7",
+    "link": "https://map.naver.com/p/entry/place/32050939?c=15.00,0,0,0,dh",
+    "recommendation": "양 많고 맛있는 닭갈비",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "부자손짜장 본점",
+    "address": "경남 사천시 사천대로 756",
+    "link": "https://map.naver.com/p/entry/place/843420249?c=15.00,0,0,0,dh",
+    "recommendation": "맛은 있으나 위생이슈가 있음",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "앞뜰식당",
+    "address": "경남 사천시 사천읍 옥산로 75 앞들식당",
+    "link": "https://map.naver.com/p/entry/place/15080939?c=15.00,0,0,0,dh",
+    "recommendation": "재첩국에 낙지볶음 굿",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "해송돌판닭찜 사천점",
+    "address": "경남 사천시 사천읍 동문1길 81",
+    "link": "https://map.naver.com/p/entry/place/37275789?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 난알아요님 추천 찜닭 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

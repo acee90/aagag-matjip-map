@@ -1,0 +1,214 @@
+[
+  {
+    "name": "용당반점",
+    "address": "전남 목포시 영산로270번길 19",
+    "link": "https://map.naver.com/p/search/용당반점/place/16846715?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 뿌뿌뿌뿌님 추천 오리날개튀김 맛집",
+    "categories": [
+      "술안주"
+    ]
+  },
+  {
+    "name": "유달콩물",
+    "address": "전남 목포시 호남로58번길 23-1",
+    "link": "https://map.naver.com/p/search/유달콩물/place/11631880?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 이끼소님 추천 콩국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "연잎향오리탕",
+    "address": "전남 목포시 호남로58번길 20-1",
+    "link": "https://map.naver.com/p/search/연잎향오리탕 /place/1767850436?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 디올샤넬쥴리님 추천 애호박찌개 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "돌집",
+    "address": "전남 목포시 번화로 67",
+    "link": "https://map.naver.com/p/entry/place/11838333?c=17.57,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 백반, 볶음 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "서울순대",
+    "address": "전남 목포시 수문로 43-1",
+    "link": "https://map.naver.com/p/entry/place/17265154?c=10.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 뼈해장국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "장수촌닭",
+    "address": "전남 목포시 미항로 19 1층",
+    "link": "https://map.naver.com/p/entry/place/16795567?c=16.94,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 닭 코스요리 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "포미아구찜용해포미점",
+    "address": "전남 목포시 용당로331번길 8",
+    "link": "https://map.naver.com/p/entry/place/1748194706?placePath=/home?from=map&from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507041106&locale=ko&svcName=map_pcv5&fromPanelNum=1&additionalHeight=76&timestamp=202507041106&locale=ko&svcName=map_pcv5&c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 아구찜 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "태동반점",
+    "address": "전남 목포시 마인계터로40번길 10-1",
+    "link": "https://map.naver.com/p/entry/place/16762623?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507071442&locale=ko&svcName=map_pcv5",
+    "recommendation": "중깐이라는 특이한 메뉴",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "김정림선지해장국",
+    "address": "전남 목포시 번화로 41-3",
+    "link": "https://map.naver.com/p/entry/place/13456840?c=14.47,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507071445&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 윤옥에in님 추천 해장국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "마을콩물",
+    "address": "전남 목포시 양을로397번길 17-11 1층",
+    "link": "https://map.naver.com/p/search/마을콩물/place/1515827349?c=15.00,0,0,0,dh&placePath=/home?entry=bmp&from=map&fromPanelNum=2&timestamp=202509091618&locale=ko&svcName=map_pcv5&searchText=마을콩물",
+    "recommendation": "애객러 limchan님 추천 콩국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "이가본가",
+    "address": "전남 목포시 해안로165번길 19",
+    "link": "https://map.naver.com/p/entry/place/17269360?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202509091621&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 limchan님 추천 한식 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "해촌",
+    "address": "전남 목포시 미항로 133",
+    "link": "https://map.naver.com/p/entry/place/19593884?c=14.99,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202509091622&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 limchan님 추천 회, 초무침 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "인생감자탕 목포점",
+    "address": "전남 목포시 통일대로75번길 7 1층",
+    "link": "https://map.naver.com/p/entry/place/1716543205?c=19.96,0,0,0,adh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510310925&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 네모대가리님 추천 감자탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "별스넥",
+    "address": "전남 목포시 옥암로 11",
+    "link": "https://map.naver.com/p/entry/place/32227605?c=19.96,0,0,0,adh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510310926&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 네모대가리님 추천 병어회 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  },
+  {
+    "name": "신창손순대국밥 북항점",
+    "address": "전남 목포시 북항로 136",
+    "link": "https://map.naver.com/p/entry/place/1423157396?c=16.98,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510310930&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 네모대가리님 추천 순대국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "88포장마차",
+    "address": "전남 목포시 영산로329번길 3-1",
+    "link": "https://map.naver.com/p/entry/place/16838838?c=16.98,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510310933&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 네모대가리님 추천 안주 맛집",
+    "categories": [
+      "한식",
+      "술안주",
+      "데이트"
+    ]
+  },
+  {
+    "name": "하바드 양념통닭",
+    "address": "전남 목포시 용당로 163-1",
+    "link": "https://map.naver.com/p/search/하바드양념통닭/place/16843752?c=15.00,0,0,0,dh&placePath=/home?entry=bmp&from=map&fromPanelNum=2&timestamp=202510310934&locale=ko&svcName=map_pcv5&searchText=하바드양념통닭",
+    "recommendation": "애객러 네모대가리님 추천 치킨 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "신안식육식당",
+    "address": "전남 목포시 하당남부로 27 꿈동산신안아파트",
+    "link": "https://map.naver.com/p/entry/place/16851718?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510310936&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 네모대가리님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "우리집 식육식당",
+    "address": "전남 목포시 옥암로46번길 31",
+    "link": "https://map.naver.com/p/entry/place/16835770?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510310937&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 네모대가리님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "라멘집 아저씨 목포점",
+    "address": "전남 목포시 노적봉길 18-1",
+    "link": "https://map.naver.com/p/entry/place/1708110612?c=15.00,0,0,0,dh&placePath=/home?filterType=AI View&subFilter=FOOD&subFilter=FOOD&fromPanelNum=1&additionalHeight=76&timestamp=202510310938&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 네모대가리님 추천 라멘 맛집",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "목포마당집",
+    "address": "전남 목포시 산정로186번길 13",
+    "link": "https://map.naver.com/p/entry/place/1768648309?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510310941&locale=ko&svcName=map_pcv5",
+    "recommendation": "유명한 목포 냉면 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "산해진미",
+    "address": "전남 목포시 평화로83번길 16 1층 107호",
+    "link": "https://map.naver.com/p/entry/place/470712577?c=16.15,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510310942&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 네모대가리님 추천 생새우무침 맛집",
+    "categories": [
+      "술안주"
+    ]
+  },
+  {
+    "name": "왕새우직판장 평화광장점",
+    "address": "전남 목포시 평화로 124",
+    "link": "https://map.naver.com/p/entry/place/1289491616?c=16.15,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510310944&locale=ko&svcName=map_pcv5",
+    "recommendation": "애객러 네모대가리님 추천 새우 도매  맛집",
+    "categories": [
+      "술안주"
+    ]
+  }
+]

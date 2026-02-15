@@ -1,0 +1,70 @@
+[
+  {
+    "name": "벅시분식",
+    "address": "경기 구리시 이문안로99번길 10-7",
+    "link": "https://map.naver.com/p/entry/place/19978253?c=19.18,0,0,0,dh",
+    "recommendation": "옛날 분식집 (위생 이슈)",
+    "categories": [
+      "분식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "미성식당",
+    "address": "경기 구리시 체육관로172번길 38",
+    "link": "https://map.naver.com/p/entry/place/12008722?c=19.18,0,0,0,dh",
+    "recommendation": "20년 넘게 장수하는 부대찌개 맛집",
+    "categories": [
+      "한식",
+      "단체",
+      "술안주"
+    ]
+  },
+  {
+    "name": "정진식당",
+    "address": "경기 구리시 아차산로506번길 10 1층",
+    "link": "https://map.naver.com/p/entry/place/34738611?c=19.18,0,0,0,dh",
+    "recommendation": "구워주는 제주 오겹살 전문점",
+    "categories": [
+      "한식",
+      "술안주",
+      "단체"
+    ]
+  },
+  {
+    "name": "토평돌소곱창",
+    "address": "경기 구리시 이문안로136번길 7",
+    "link": "https://map.naver.com/p/search/토평 돌소곱창/place/19930699?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "다 구워서 나오기 떄문에 먹기만 하면 됨",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "시골식당",
+    "address": "경기 구리시 검배로15번길 25",
+    "link": "https://map.naver.com/p/entry/place/19437453?c=15.00,0,0,0,dh",
+    "recommendation": "동태탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "예감 쪽갈비 구리점",
+    "address": "경기 구리시 수택천로33번길 49 1층",
+    "link": "https://map.naver.com/p/search/예감 구리점/place/35873337?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 acho님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "상우씨알탕",
+    "address": "경기 구리시 안골로97번길 38 1층",
+    "link": "https://map.naver.com/p/search/상우씨알탕/place/1585430965?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 개간지님 추천 알탕 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

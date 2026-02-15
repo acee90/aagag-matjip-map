@@ -1,0 +1,142 @@
+[
+  {
+    "name": "우목정",
+    "address": "경기 포천시 이동면 화동로 1974",
+    "link": "https://map.naver.com/p/entry/place/38010081?c=15.00,0,0,0,dh",
+    "recommendation": "돈대 / 이동 갈비 맛집",
+    "categories": [
+      "한식",
+      "단체",
+      "술안주"
+    ]
+  },
+  {
+    "name": "시카고피자 송우리점",
+    "address": "경기 포천시 소흘읍 솔모루로 21",
+    "link": "https://map.naver.com/p/search/시카고피자 송우리점/place/1005492666?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 네모대가리님 추천 피자 맛집",
+    "categories": [
+      "양식"
+    ]
+  },
+  {
+    "name": "갈비장터",
+    "address": "경기 포천시 소흘읍 솔모루로58번길 4-1",
+    "link": "https://map.naver.com/p/entry/place/1306677089?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "먹거리집",
+    "address": "경기 포천시 소흘읍 솔모루로92번길 8",
+    "link": "https://map.naver.com/p/entry/place/21545681?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 순대국밥 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "능이버섯백숙 송우점",
+    "address": "경기 포천시 소흘읍 죽엽산로 32",
+    "link": "https://map.naver.com/p/search/경기 포천시 소흘읍 죽엽산로 32 \t\t \t\t/place/18130244?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 네모대가리님 추천 백숙 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "횡성생고기",
+    "address": "경기 포천시 소흘읍 봉솔로 62",
+    "link": "https://map.naver.com/p/entry/place/1045375989?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "오리가",
+    "address": "경기 포천시 소흘읍 봉솔로4길 11-1",
+    "link": "https://map.naver.com/p/entry/place/1417217111?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 오리요리 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "스시센",
+    "address": "경기 포천시 소흘읍 봉솔로3길 10",
+    "link": "https://map.naver.com/p/search/스시센/place/1971240470?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 네모대가리님 추천 스시 맛집",
+    "categories": [
+      "일식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "생고기제작소 송우리점",
+    "address": "경기 포천시 소흘읍 송우로 53 2층",
+    "link": "https://map.naver.com/p/entry/place/1953665136?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 고기무한리필 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "이흥선참치 송우직영점",
+    "address": "경기 포천시 소흘읍 태봉로 138 201호",
+    "link": "https://map.naver.com/p/entry/place/47945086?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 스시 맛집",
+    "categories": [
+      "일식"
+    ]
+  },
+  {
+    "name": "송우리손칼국수 본점",
+    "address": "경기 포천시 호국로 923",
+    "link": "https://map.naver.com/p/entry/place/35557966?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 칼국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "칼뽕",
+    "address": "경기 포천시 호국로 910",
+    "link": "https://map.naver.com/p/entry/place/1293230555?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 짬뽕 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "찐스야꼬마김밥 선단점",
+    "address": "경기 포천시 호국로 1007-15 1층 102호",
+    "link": "https://map.naver.com/p/entry/place/1192199219?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 분식 맛집",
+    "categories": [
+      "분식",
+      "한식"
+    ]
+  },
+  {
+    "name": "내고향 돌솥 순대국",
+    "address": "경기 포천시 호국로 1323",
+    "link": "https://map.naver.com/p/entry/place/1362586760?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 순대국 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "대도평양식돌김치찌개",
+    "address": "경기 포천시 호국로 1343",
+    "link": "https://map.naver.com/p/search/대도평양식돌김치찌개/place/11707182?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "애객러 네모대가리님 추천 찌개 맛집",
+    "categories": [
+      "한식"
+    ]
+  }
+]

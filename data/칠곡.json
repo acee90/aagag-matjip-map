@@ -1,0 +1,121 @@
+[
+  {
+    "name": "고향청국장",
+    "address": "경북 칠곡군 석적읍 성곡1길 30",
+    "link": "https://map.naver.com/p/entry/place/15290787?c=18.74,0,0,0,dh",
+    "recommendation": "직접 만든 청국장에 도토리 전",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "텐미미양꼬치",
+    "address": "경북 칠곡군 왜관읍 구상길 187-1",
+    "link": "https://map.naver.com/p/search/텐미미양꼬치/place/1085913097?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 네모대가리님 추천 양꼬치 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "울엄마손메밀묵집",
+    "address": "경북 칠곡군 왜관읍 달오1길 6-14",
+    "link": "https://map.naver.com/p/entry/place/1297523115?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 메밀 요리 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "다와명품돌솥밥 본점",
+    "address": "경북 칠곡군 왜관읍 중앙로 41",
+    "link": "https://map.naver.com/p/entry/place/1628787191?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 돌솥 정식 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "왜관벌교꼬막정식",
+    "address": "경북 칠곡군 왜관읍 중앙로 28",
+    "link": "https://map.naver.com/p/search/왜관벌교꼬막정식/place/1416450693?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
+    "recommendation": "애객러 네모대가리님 추천 꼬막 요리 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "왜관용두쭈꾸미",
+    "address": "경북 칠곡군 왜관읍 자조1길 29",
+    "link": "https://map.naver.com/p/entry/place/1683796370?c=15.00,0,0,0,dh&placePath=/home",
+    "recommendation": "애객러 네모대가리님 추천 쭈꾸미 맛집",
+    "categories": [
+      "한식",
+      "데이트"
+    ]
+  },
+  {
+    "name": "김젓갈삼겹살 왜관본점",
+    "address": "경북 칠곡군 왜관읍 중앙로 98-1",
+    "link": "https://map.naver.com/p/entry/place/1093760135?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "여울목생고기",
+    "address": "경북 칠곡군 왜관읍 남부3길 7 왜관 남부상가",
+    "link": "https://map.naver.com/p/entry/place/37800251?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 고기 맛집",
+    "categories": [
+      "한식",
+      "단체"
+    ]
+  },
+  {
+    "name": "정문반점",
+    "address": "경북 칠곡군 왜관읍 관문로 152",
+    "link": "https://map.naver.com/p/entry/place/15272454?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "천연애 왜관점",
+    "address": "경북 칠곡군 왜관읍 관문로 169-8 관문빌딩",
+    "link": "https://map.naver.com/p/entry/place/1181220050?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 불고기 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "천수제면소",
+    "address": "경북 칠곡군 기산면 주산로 1192 1층",
+    "link": "https://map.naver.com/p/entry/place/1346808324?c=15.00,0,0,0,dh",
+    "recommendation": "애객러 네모대가리님 추천 국수 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "황금원",
+    "address": "경북 칠곡군 약목면 관호8길 16",
+    "link": "https://map.naver.com/p/search/황금원/place/1573463542?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
+    "recommendation": "애객러 네모대가리님 추천 중식 맛집",
+    "categories": [
+      "중식"
+    ]
+  },
+  {
+    "name": "달빛흐르는강",
+    "address": "경북 칠곡군 왜관읍 구상길 143",
+    "link": "https://map.naver.com/p/search/달빛흐르는강/place/1202583375?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+    "recommendation": "힘숨찐 맛집 돈까스. 찜닭 추천",
+    "categories": [
+      "한식"
+    ]
+  }
+]

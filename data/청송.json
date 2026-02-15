@@ -1,0 +1,21 @@
+[
+  {
+    "name": "신촌포항식당",
+    "address": "경북 청송군 진보면 경동로 5161",
+    "link": "https://map.naver.com/p/entry/place/15598510?placePath=/home&c=15.00,0,0,0,dh",
+    "recommendation": "애객러 biscuit님 추천 닭요리 맛집",
+    "categories": [
+      "한식"
+    ]
+  },
+  {
+    "name": "꼬꼬닭",
+    "address": "경북 청송군 청송읍 금월로 241",
+    "link": "https://map.naver.com/p/entry/place/1257700484?placePath=/home&c=15.00,0,0,0,dh",
+    "recommendation": "애객러 biscuit님 추천 치킨 맛집",
+    "categories": [
+      "한식",
+      "술안주"
+    ]
+  }
+]
