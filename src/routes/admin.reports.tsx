@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { ArrowLeft, ShieldCheck } from 'lucide-react'
 
-const ADMIN_PASSWORD = 'aggag2024'
+const ADMIN_PASSWORD = 'aagag2024'
 
 export const Route = createFileRoute('/admin/reports')({
   component: AdminReportsPage,

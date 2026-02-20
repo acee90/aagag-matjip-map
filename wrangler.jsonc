@@ -8,7 +8,7 @@
 	],
 	"routes": [
 		{
-			"pattern": "aggag.matjip.site",
+			"pattern": "aagag.matjip.site",
 			"custom_domain": true
 		}
 	],

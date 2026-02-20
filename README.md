@@ -2,7 +2,7 @@
 
 전국 맛집 정보를 네이버 지도 위에 표시하는 웹 애플리케이션입니다.
 
-**https://aggag.matjip.site**
+**https://aagag.matjip.site**
 
 ## 데이터 출처
 
