@@ -127,12 +127,12 @@ describe('extractCategories', () => {
 })
 
 describe('constants', () => {
-  it('DEFAULT_CENTER는 한국 중심 좌표', () => {
-    expect(DEFAULT_CENTER.lat).toBe(36.5)
-    expect(DEFAULT_CENTER.lng).toBe(127.5)
+  it('DEFAULT_CENTER는 강남구 좌표', () => {
+    expect(DEFAULT_CENTER.lat).toBe(37.4979)
+    expect(DEFAULT_CENTER.lng).toBe(127.0276)
   })
 
-  it('DEFAULT_ZOOM은 7', () => {
-    expect(DEFAULT_ZOOM).toBe(7)
+  it('DEFAULT_ZOOM은 15', () => {
+    expect(DEFAULT_ZOOM).toBe(15)
   })
 })

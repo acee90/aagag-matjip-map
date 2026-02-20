@@ -1,5 +1,11 @@
 import { describe, it, expect, vi } from 'vitest'
 import { render, screen, fireEvent } from '@testing-library/react'
+
+// Mock cloudflare:workers-dependent module
+vi.mock('@/data/reports', () => ({
+  submitReport: vi.fn(),
+}))
+
 import { RestaurantList } from './RestaurantList'
 import type { Restaurant } from '@/types/restaurant'
 

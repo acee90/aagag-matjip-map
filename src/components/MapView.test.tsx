@@ -1,18 +1,14 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { render } from '@testing-library/react'
-import type { Restaurant, MapBounds } from '@/types/restaurant'
+import type { Restaurant } from '@/types/restaurant'
 
 // Mock naver maps
 const mockPanTo = vi.fn()
-const mockSetCenter = vi.fn()
-const mockSetZoom = vi.fn()
 const mockLatLng = vi.fn((lat: number, lng: number) => ({ lat, lng }))
 const mockPoint = vi.fn((x: number, y: number) => ({ x, y }))
 
 const mockMap = {
   panTo: mockPanTo,
-  setCenter: mockSetCenter,
-  setZoom: mockSetZoom,
 }
 
 const mockNavermaps = {
@@ -21,19 +17,32 @@ const mockNavermaps = {
   Position: { TOP_RIGHT: 3 },
 }
 
-// Mock react-naver-maps
-vi.mock('react-naver-maps', () => ({
-  Container: ({ children }: { children: React.ReactNode }) => <div data-testid="map-container">{children}</div>,
-  NaverMap: vi.fn(({ children, ref }: { children: React.ReactNode; ref: (m: typeof mockMap) => void }) => {
-    // Simulate map ref being set
-    if (typeof ref === 'function') ref(mockMap)
-    return <div data-testid="naver-map">{children}</div>
-  }),
-  Marker: ({ onClick }: { onClick: () => void }) => (
-    <div data-testid="marker" onClick={onClick} />
+// Mock MyLocationButton
+vi.mock('./MyLocationButton', () => ({
+  MyLocationButton: ({ onClick, loading }: { onClick: () => void; loading: boolean }) => (
+    <button data-testid="my-location-btn" onClick={onClick} disabled={loading}>
+      위치
+    </button>
   ),
-  useNavermaps: () => mockNavermaps,
 }))
+
+// Mock react-naver-maps
+vi.mock('react-naver-maps', async () => {
+  const React = await import('react')
+  return {
+    Container: ({ children }: { children: React.ReactNode }) => (
+      <div data-testid="map-container">{children}</div>
+    ),
+    NaverMap: React.forwardRef(({ children, ...rest }: any, ref: any) => {
+      React.useImperativeHandle(ref, () => mockMap)
+      return <div data-testid="naver-map">{children}</div>
+    }),
+    Marker: ({ onClick }: { onClick: () => void }) => (
+      <div data-testid="marker" onClick={onClick} />
+    ),
+    useNavermaps: () => mockNavermaps,
+  }
+})
 
 // Import after mock
 import { MapView } from './MapView'
@@ -52,7 +61,7 @@ const makeRestaurant = (overrides: Partial<Restaurant> = {}): Restaurant => ({
 const defaultProps = {
   restaurants: [makeRestaurant()],
   clusters: [],
-  currentZoom: 14,
+  currentZoom: 15,
   selectedRestaurant: null as Restaurant | null,
   selectedCluster: null,
   onSelectRestaurant: vi.fn(),
@@ -61,6 +70,7 @@ const defaultProps = {
   onZoomChange: vi.fn(),
   locationLoading: false,
   onRequestLocation: vi.fn(),
+  onMapReady: vi.fn(),
 }
 
 describe('MapView', () => {
@@ -83,7 +93,7 @@ describe('MapView', () => {
     expect(mockPanTo).not.toHaveBeenCalled()
   })
 
-  it('유저 위치 확보 시 setCenter 호출', () => {
+  it('유저 위치 확보 시 자동 panTo 안함 (manualPan만 허용)', () => {
     render(
       <MapView
         {...defaultProps}
@@ -93,19 +103,16 @@ describe('MapView', () => {
       />
     )
 
-    expect(mockSetCenter).toHaveBeenCalled()
-    expect(mockSetZoom).toHaveBeenCalled()
+    // Auto-pan removed: panTo should NOT be called just because userLocated=true
+    expect(mockPanTo).not.toHaveBeenCalled()
   })
 
-  it('유저 위치 미확보 시 setCenter 미호출', () => {
-    render(
-      <MapView
-        {...defaultProps}
-        userLocated={false}
-      />
-    )
+  it('onMapReady 콜백 호출', () => {
+    const onMapReady = vi.fn()
 
-    expect(mockSetCenter).not.toHaveBeenCalled()
+    render(<MapView {...defaultProps} onMapReady={onMapReady} />)
+
+    expect(onMapReady).toHaveBeenCalled()
   })
 
   it('마커 클릭 시 onSelectRestaurant 호출', () => {
@@ -123,5 +130,16 @@ describe('MapView', () => {
     const markers = getAllByTestId('marker')
     markers[0].click()
     expect(onSelect).toHaveBeenCalledWith(restaurant)
+  })
+
+  it('MyLocationButton 클릭 시 onRequestLocation 호출', () => {
+    const onRequestLocation = vi.fn()
+
+    const { getByTestId } = render(
+      <MapView {...defaultProps} onRequestLocation={onRequestLocation} />
+    )
+
+    getByTestId('my-location-btn').click()
+    expect(onRequestLocation).toHaveBeenCalled()
   })
 })
