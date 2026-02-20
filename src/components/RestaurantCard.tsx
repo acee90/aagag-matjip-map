@@ -57,10 +57,10 @@ export function RestaurantCard({
             setReportOpen(true)
           }}
           className="shrink-0 flex items-center gap-0.5 text-[10px] text-muted-foreground hover:text-orange-500 transition-colors"
-          aria-label="주소 수정 요청"
+          aria-label="지도 위치 다름 제보"
         >
           <MapPinned className="size-3" />
-          <span className="hidden sm:inline">수정</span>
+          <span className="hidden sm:inline">위치 다름</span>
         </button>
       </div>
 
