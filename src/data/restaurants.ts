@@ -1,33 +1,36 @@
 import { createServerFn } from '@tanstack/react-start'
 import type { Restaurant } from '@/types/restaurant'
 
-// Import all region JSON files at build time
-const modules = import.meta.glob('../../data/*.json', { eager: true }) as Record<
-  string,
-  { default: Array<Omit<Restaurant, 'region'> & { lat?: number; lng?: number }> }
->
+import { env } from 'cloudflare:workers'
+
+interface RestaurantRow {
+  id: number
+  name: string
+  address: string
+  link: string
+  recommendation: string
+  categories: string
+  region: string
+  lat: number
+  lng: number
+}
 
 export const getRestaurants = createServerFn({ method: 'GET' }).handler(
   async () => {
-    const seen = new Set<string>()
-    const restaurants: Restaurant[] = []
+    const db = (env as Cloudflare.Env).DB
+    const { results } = await db
+      .prepare('SELECT name, address, link, recommendation, categories, region, lat, lng FROM restaurants')
+      .all<RestaurantRow>()
 
-    for (const [path, mod] of Object.entries(modules)) {
-      const filename = path.split('/').pop() ?? ''
-      if (filename === 'restaurants-all.json' || filename === 'restaurants.json') continue
-
-      const region = filename.replace('.json', '')
-      const items = (mod.default ?? mod) as Array<Omit<Restaurant, 'region'> & { lat?: number; lng?: number }>
-
-      for (const r of items) {
-        if (!r.lat || !r.lng) continue
-        const key = `${r.name}-${r.lat}-${r.lng}`
-        if (seen.has(key)) continue
-        seen.add(key)
-        restaurants.push({ ...r, lat: r.lat, lng: r.lng, region })
-      }
-    }
-
-    return restaurants
+    return results.map((row): Restaurant => ({
+      name: row.name,
+      address: row.address,
+      link: row.link,
+      recommendation: row.recommendation,
+      categories: JSON.parse(row.categories),
+      region: row.region,
+      lat: row.lat,
+      lng: row.lng,
+    }))
   }
 )

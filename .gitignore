@@ -11,3 +11,4 @@ count.txt
 .output
 .vinxi
 todos.json
+scripts/seed-restaurants.sql

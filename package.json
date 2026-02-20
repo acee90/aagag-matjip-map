@@ -11,7 +11,10 @@
     "test": "vitest run",
     "parse": "bun run scripts/parse-sheets.ts",
     "parse:list": "bun run scripts/parse-sheets.ts --list",
-    "geocode": "bun run scripts/geocode-restaurants.ts"
+    "geocode": "bun run scripts/geocode-restaurants.ts",
+    "seed": "bun run scripts/seed-restaurants.ts",
+    "seed:local": "bun run seed && wrangler d1 execute aagag-matjip-db --local --file=scripts/seed-restaurants.sql",
+    "seed:remote": "bun run seed && wrangler d1 execute aagag-matjip-db --remote --file=scripts/seed-restaurants.sql"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.24.0",
