@@ -10,6 +10,9 @@ import { ArrowLeft, ShieldCheck, Loader2, MapPin, CheckCircle } from 'lucide-rea
 const ADMIN_PASSWORD = 'aagag2024'
 
 export const Route = createFileRoute('/admin/reports')({
+  head: () => ({
+    meta: [{ name: 'robots', content: 'noindex, nofollow' }],
+  }),
   component: AdminReportsPage,
 })
 
