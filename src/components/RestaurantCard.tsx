@@ -1,6 +1,8 @@
+import { useState } from 'react'
 import type { Restaurant } from '@/types/restaurant'
 import { Badge } from '@/components/ui/badge'
-import { ExternalLink } from 'lucide-react'
+import { ExternalLink, MapPinned } from 'lucide-react'
+import { ReportDialog } from '@/components/ReportDialog'
 
 interface RestaurantCardProps {
   restaurant: Restaurant
@@ -15,7 +17,10 @@ export function RestaurantCard({
   distance,
   onClick,
 }: RestaurantCardProps) {
+  const [reportOpen, setReportOpen] = useState(false)
+
   return (
+    <>
     <div
       data-restaurant={`${restaurant.lat}-${restaurant.lng}`}
       onClick={onClick}
@@ -41,9 +46,23 @@ export function RestaurantCard({
         </a>
       </div>
 
-      <p className="mt-1 text-xs text-muted-foreground line-clamp-1">
-        {restaurant.address}
-      </p>
+      <div className="mt-1 flex items-center gap-1">
+        <p className="text-xs text-muted-foreground line-clamp-1 flex-1">
+          {restaurant.address}
+        </p>
+        <button
+          type="button"
+          onClick={(e) => {
+            e.stopPropagation()
+            setReportOpen(true)
+          }}
+          className="shrink-0 flex items-center gap-0.5 text-[10px] text-muted-foreground hover:text-orange-500 transition-colors"
+          aria-label="주소 수정 요청"
+        >
+          <MapPinned className="size-3" />
+          <span className="hidden sm:inline">수정</span>
+        </button>
+      </div>
 
       {restaurant.recommendation && (
         <p className="mt-1.5 text-xs text-foreground/80 line-clamp-2">
@@ -70,5 +89,12 @@ export function RestaurantCard({
         )}
       </div>
     </div>
+    <ReportDialog
+      open={reportOpen}
+      onOpenChange={setReportOpen}
+      restaurantName={restaurant.name}
+      restaurantAddress={restaurant.address}
+    />
+    </>
   )
 }

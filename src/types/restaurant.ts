@@ -15,3 +15,13 @@ export interface MapBounds {
   east: number
   west: number
 }
+
+export interface AddressReport {
+  id: number
+  restaurant_name: string
+  restaurant_address: string
+  suggested_address: string
+  comment: string
+  created_at: string
+  status: string
+}
