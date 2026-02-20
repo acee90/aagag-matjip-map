@@ -1,11 +1,11 @@
 import { createFileRoute, useNavigate } from '@tanstack/react-router'
 import { useState } from 'react'
-import { getReports } from '@/data/reports'
+import { getReports, fixReportLocation } from '@/data/reports'
 import type { AddressReport } from '@/types/restaurant'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
-import { ArrowLeft, ShieldCheck } from 'lucide-react'
+import { ArrowLeft, ShieldCheck, Loader2, MapPin, CheckCircle } from 'lucide-react'
 
 const ADMIN_PASSWORD = 'aagag2024'
 
@@ -20,6 +20,10 @@ function AdminReportsPage() {
   const [reports, setReports] = useState<AddressReport[]>([])
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  const [fixingId, setFixingId] = useState<number | null>(null)
+  const [fixResults, setFixResults] = useState<
+    Record<number, { success: boolean; message: string; prevLat?: number; prevLng?: number; newLat?: number; newLng?: number }>
+  >({})
 
   const handleAuth = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -37,6 +41,37 @@ function AdminReportsPage() {
       setError('데이터를 불러오지 못했습니다.')
     } finally {
       setLoading(false)
+    }
+  }
+
+  const handleFix = async (reportId: number) => {
+    setFixingId(reportId)
+    try {
+      const result = await fixReportLocation({ data: { reportId } })
+      setFixResults((prev) => ({
+        ...prev,
+        [reportId]: {
+          success: true,
+          message: `좌표 수정 완료: (${result.prevLat?.toFixed(5)}, ${result.prevLng?.toFixed(5)}) → (${result.newLat?.toFixed(5)}, ${result.newLng?.toFixed(5)})`,
+          prevLat: result.prevLat,
+          prevLng: result.prevLng,
+          newLat: result.newLat,
+          newLng: result.newLng,
+        },
+      }))
+      setReports((prev) =>
+        prev.map((r) => (r.id === reportId ? { ...r, status: 'fixed' } : r))
+      )
+    } catch (e) {
+      setFixResults((prev) => ({
+        ...prev,
+        [reportId]: {
+          success: false,
+          message: e instanceof Error ? e.message : '수정 실패',
+        },
+      }))
+    } finally {
+      setFixingId(null)
     }
   }
 
@@ -102,7 +137,8 @@ function AdminReportsPage() {
                   <th className="py-2 pr-3 font-medium">수정 요청 주소</th>
                   <th className="py-2 pr-3 font-medium">코멘트</th>
                   <th className="py-2 pr-3 font-medium">날짜</th>
-                  <th className="py-2 font-medium">상태</th>
+                  <th className="py-2 pr-3 font-medium">상태</th>
+                  <th className="py-2 font-medium">액션</th>
                 </tr>
               </thead>
               <tbody>
@@ -123,13 +159,40 @@ function AdminReportsPage() {
                     <td className="py-2 pr-3 text-muted-foreground whitespace-nowrap">
                       {r.created_at?.slice(0, 10) ?? '-'}
                     </td>
-                    <td className="py-2">
+                    <td className="py-2 pr-3">
                       <Badge
                         variant={r.status === 'pending' ? 'secondary' : 'default'}
                         className="text-[10px]"
                       >
-                        {r.status === 'pending' ? '대기' : r.status}
+                        {r.status === 'pending' ? '대기' : r.status === 'fixed' ? '완료' : r.status}
                       </Badge>
+                    </td>
+                    <td className="py-2">
+                      {r.status === 'pending' ? (
+                        <Button
+                          size="sm"
+                          variant="outline"
+                          disabled={fixingId === r.id}
+                          onClick={() => handleFix(r.id)}
+                          className="h-7 text-xs gap-1"
+                        >
+                          {fixingId === r.id ? (
+                            <Loader2 className="size-3 animate-spin" />
+                          ) : (
+                            <MapPin className="size-3" />
+                          )}
+                          수정
+                        </Button>
+                      ) : (
+                        <CheckCircle className="size-4 text-green-600" />
+                      )}
+                      {fixResults[r.id] && (
+                        <p
+                          className={`mt-1 text-[10px] max-w-48 ${fixResults[r.id].success ? 'text-green-600' : 'text-red-600'}`}
+                        >
+                          {fixResults[r.id].message}
+                        </p>
+                      )}
                     </td>
                   </tr>
                 ))}
