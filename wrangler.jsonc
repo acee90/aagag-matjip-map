@@ -3,5 +3,8 @@
   "name": "matjip-map",
   "main": "@tanstack/react-start/server-entry",
   "compatibility_date": "2025-04-01",
-  "compatibility_flags": ["nodejs_compat"]
+  "compatibility_flags": ["nodejs_compat"],
+  "routes": [
+    { "pattern": "aggag.matjip.site", "custom_domain": true }
+  ]
 }
