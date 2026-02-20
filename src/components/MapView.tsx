@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useState, useEffect, useRef } from 'react'
 import {
   Container,
   NaverMap,
@@ -9,6 +9,8 @@ import type { Restaurant, MapBounds } from '@/types/restaurant'
 import { DEFAULT_CENTER, DEFAULT_ZOOM } from '@/lib/geo-utils'
 import { MyLocationButton } from './MyLocationButton'
 
+const USER_ZOOM = 14
+
 interface MapViewProps {
   restaurants: Restaurant[]
   selectedRestaurant: Restaurant | null
@@ -16,8 +18,9 @@ interface MapViewProps {
   onBoundsChange: (bounds: MapBounds) => void
   locationLoading: boolean
   onRequestLocation: () => void
-  panToLat?: number
-  panToLng?: number
+  userLat?: number
+  userLng?: number
+  userLocated?: boolean
 }
 
 function MapContent({
@@ -27,10 +30,23 @@ function MapContent({
   onBoundsChange,
   locationLoading,
   onRequestLocation,
+  userLat,
+  userLng,
+  userLocated,
 }: MapViewProps) {
   const navermaps = useNavermaps()
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const [_map, setMap] = useState<any>(null)
+  const [map, setMap] = useState<any>(null)
+  const hasPanned = useRef(false)
+
+  // Pan to user location once it's available
+  useEffect(() => {
+    if (map && userLocated && userLat && userLng && !hasPanned.current) {
+      hasPanned.current = true
+      map.panTo(new navermaps.LatLng(userLat, userLng))
+      map.setZoom(USER_ZOOM)
+    }
+  }, [map, userLocated, userLat, userLng, navermaps])
 
   const handleBoundsChanged = useCallback(
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -49,6 +65,7 @@ function MapContent({
   )
 
   const handleLocationClick = useCallback(() => {
+    hasPanned.current = false
     onRequestLocation()
   }, [onRequestLocation])
 

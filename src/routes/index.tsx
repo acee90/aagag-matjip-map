@@ -18,7 +18,7 @@ import {
   extractCategories,
 } from '@/lib/geo-utils'
 import type { Restaurant, MapBounds } from '@/types/restaurant'
-import { List, UtensilsCrossed } from 'lucide-react'
+import { List, Search, UtensilsCrossed } from 'lucide-react'
 
 export const Route = createFileRoute('/')({
   loader: () => getRestaurants(),
@@ -28,13 +28,15 @@ export const Route = createFileRoute('/')({
 function App() {
   const allRestaurants = Route.useLoaderData()
 
-  const [mapBounds, setMapBounds] = useState<MapBounds | null>(null)
+  const [currentBounds, setCurrentBounds] = useState<MapBounds | null>(null)
+  const [searchBounds, setSearchBounds] = useState<MapBounds | null>(null)
+  const [mapMoved, setMapMoved] = useState(false)
   const [selectedCategories, setSelectedCategories] = useState<string[]>([])
   const [selectedRestaurant, setSelectedRestaurant] =
     useState<Restaurant | null>(null)
   const [mobileListOpen, setMobileListOpen] = useState(false)
 
-  const { lat: userLat, lng: userLng, loading: locationLoading, requestLocation } =
+  const { lat: userLat, lng: userLng, loading: locationLoading, located: userLocated, requestLocation } =
     useGeolocation()
 
   const allCategories = useMemo(
@@ -42,18 +44,26 @@ function App() {
     [allRestaurants]
   )
 
-  // Apply filters: categories → bounds
+  // Apply filters: categories → searchBounds (only when user clicks search)
   const filteredRestaurants = useMemo(() => {
     let result = filterByCategories(allRestaurants, selectedCategories)
-    if (mapBounds) {
-      result = filterByBounds(result, mapBounds)
+    if (searchBounds) {
+      result = filterByBounds(result, searchBounds)
     }
     return result
-  }, [allRestaurants, selectedCategories, mapBounds])
+  }, [allRestaurants, selectedCategories, searchBounds])
 
   const handleBoundsChange = useCallback((bounds: MapBounds) => {
-    setMapBounds(bounds)
+    setCurrentBounds(bounds)
+    setMapMoved(true)
   }, [])
+
+  const handleSearchArea = useCallback(() => {
+    if (currentBounds) {
+      setSearchBounds(currentBounds)
+      setMapMoved(false)
+    }
+  }, [currentBounds])
 
   const handleSelectRestaurant = useCallback((restaurant: Restaurant) => {
     setSelectedRestaurant(restaurant)
@@ -111,7 +121,20 @@ function App() {
               onBoundsChange={handleBoundsChange}
               locationLoading={locationLoading}
               onRequestLocation={requestLocation}
+              userLat={userLat}
+              userLng={userLng}
+              userLocated={userLocated}
             />
+            {/* Search this area button */}
+            {mapMoved && (
+              <button
+                className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 flex items-center gap-1.5 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-700 shadow-lg border border-gray-200 hover:bg-gray-50 active:bg-gray-100 transition-colors"
+                onClick={handleSearchArea}
+              >
+                <Search className="size-4" />
+                이 지역 검색
+              </button>
+            )}
           </div>
 
           {/* Desktop sidebar */}
