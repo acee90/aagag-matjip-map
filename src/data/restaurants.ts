@@ -73,6 +73,37 @@ export const getRestaurantsByBounds = createServerFn({ method: 'GET' })
     return results.map(toRestaurant)
   })
 
+/** 서버사이드 클러스터링: bounds+zoom 기반으로 {lat, lng, count}[] 반환 */
+export const getClustersByBounds = createServerFn({ method: 'GET' })
+  .inputValidator(
+    (data: { south: number; north: number; west: number; east: number; zoom: number }) => data
+  )
+  .handler(async ({ data }) => {
+    const db = (env as Cloudflare.Env).DB
+    const latPad = (data.north - data.south) * 0.3
+    const lngPad = (data.east - data.west) * 0.3
+    const cellSize = 360 / Math.pow(2, data.zoom)
+    const { results } = await db
+      .prepare(
+        `SELECT
+           CAST(FLOOR(lat / ?) AS INTEGER) AS cellY,
+           CAST(FLOOR(lng / ?) AS INTEGER) AS cellX,
+           AVG(lat) AS lat,
+           AVG(lng) AS lng,
+           COUNT(*) AS count
+         FROM restaurants
+         WHERE lat BETWEEN ? AND ? AND lng BETWEEN ? AND ?
+         GROUP BY cellY, cellX`
+      )
+      .bind(
+        cellSize, cellSize,
+        data.south - latPad, data.north + latPad,
+        data.west - lngPad, data.east + lngPad
+      )
+      .all<{ cellY: number; cellX: number; lat: number; lng: number; count: number }>()
+    return results.map((r) => ({ lat: r.lat, lng: r.lng, count: r.count }))
+  })
+
 /** 전체 카테고리 목록 (경량) */
 export const getAllCategories = createServerFn({ method: 'GET' }).handler(
   async () => {

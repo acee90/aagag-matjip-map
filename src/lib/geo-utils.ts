@@ -92,6 +92,21 @@ export function clusterRestaurants(
   return clusters
 }
 
+/** 클러스터 셀의 bounds를 계산 (클러스터 클릭 시 해당 영역 fetch용) */
+export function getClusterCellBounds(
+  lat: number, lng: number, zoom: number
+): { south: number; north: number; west: number; east: number } {
+  const cellSize = 360 / Math.pow(2, zoom)
+  const cellY = Math.floor(lat / cellSize)
+  const cellX = Math.floor(lng / cellSize)
+  return {
+    south: cellY * cellSize,
+    north: (cellY + 1) * cellSize,
+    west: cellX * cellSize,
+    east: (cellX + 1) * cellSize,
+  }
+}
+
 /** Default center: 강남구 */
 export const DEFAULT_CENTER = { lat: 37.4979, lng: 127.0276 }
 export const DEFAULT_ZOOM = Number(import.meta.env.VITE_DEFAULT_ZOOM) || 16

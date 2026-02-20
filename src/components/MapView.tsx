@@ -5,18 +5,18 @@ import {
   Marker,
   useNavermaps,
 } from 'react-naver-maps'
-import type { Restaurant, MapBounds, Cluster } from '@/types/restaurant'
+import type { Restaurant, MapBounds, ClusterSummary } from '@/types/restaurant'
 import { DEFAULT_CENTER, DEFAULT_ZOOM, CLUSTER_ZOOM_THRESHOLD } from '@/lib/geo-utils'
 import { MyLocationButton } from './MyLocationButton'
 
 interface MapViewProps {
   restaurants: Restaurant[]
-  clusters: Cluster[]
+  clusters: ClusterSummary[]
   currentZoom: number
   selectedRestaurant: Restaurant | null
-  selectedCluster: Cluster | null
+  selectedCluster: ClusterSummary | null
   onSelectRestaurant: (restaurant: Restaurant) => void
-  onSelectCluster: (cluster: Cluster) => void
+  onSelectCluster: (cluster: ClusterSummary) => void
   onBoundsChange: (bounds: MapBounds) => void
   onZoomChange: (zoom: number) => void
   locationLoading: boolean

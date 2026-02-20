@@ -23,6 +23,12 @@ export interface Cluster {
   count: number
 }
 
+export interface ClusterSummary {
+  lat: number
+  lng: number
+  count: number
+}
+
 export interface AddressReport {
   id: number
   restaurant_name: string

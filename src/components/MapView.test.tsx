@@ -122,6 +122,7 @@ describe('MapView', () => {
     const { getAllByTestId } = render(
       <MapView
         {...defaultProps}
+        currentZoom={16}
         restaurants={[restaurant]}
         onSelectRestaurant={onSelect}
       />

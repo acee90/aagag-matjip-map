@@ -4,6 +4,7 @@ import { NavermapsProvider } from 'react-naver-maps'
 import {
   getInitialRestaurants,
   getRestaurantsByBounds,
+  getClustersByBounds,
   getAllCategories,
 } from '@/data/restaurants'
 import { MapView } from '@/components/MapView'
@@ -18,11 +19,11 @@ import {
 import { useGeolocation } from '@/hooks/useGeolocation'
 import {
   filterByCategories,
-  clusterRestaurants,
+  getClusterCellBounds,
   CLUSTER_ZOOM_THRESHOLD,
   DEFAULT_ZOOM,
 } from '@/lib/geo-utils'
-import type { Restaurant, MapBounds, Cluster } from '@/types/restaurant'
+import type { Restaurant, MapBounds, ClusterSummary } from '@/types/restaurant'
 import { List, UtensilsCrossed } from 'lucide-react'
 
 export const Route = createFileRoute('/')({
@@ -42,7 +43,9 @@ function App() {
     useState<Restaurant | null>(null)
   const [mobileListOpen, setMobileListOpen] = useState(false)
   const [currentZoom, setCurrentZoom] = useState(DEFAULT_ZOOM)
-  const [selectedCluster, setSelectedCluster] = useState<Cluster | null>(null)
+  const [clusters, setClusters] = useState<ClusterSummary[]>([])
+  const [selectedCluster, setSelectedCluster] = useState<ClusterSummary | null>(null)
+  const [clusterRestaurants, setClusterRestaurants] = useState<Restaurant[]>([])
 
   const {
     lat: userLat,
@@ -61,7 +64,9 @@ function App() {
   // Abort controller for bounds-based fetch
   const abortRef = useRef<AbortController | null>(null)
 
-  // Fetch restaurants by bounds
+  const isClusterMode = currentZoom < CLUSTER_ZOOM_THRESHOLD
+
+  // Fetch clusters or restaurants based on zoom level
   useEffect(() => {
     if (!currentBounds) return
 
@@ -70,23 +75,42 @@ function App() {
     const controller = new AbortController()
     abortRef.current = controller
 
-    getRestaurantsByBounds({
-      data: currentBounds,
-      signal: controller.signal,
-    })
-      .then((data) => {
-        if (!controller.signal.aborted) {
-          setBoundsRestaurants(data)
-        }
+    if (isClusterMode) {
+      // Cluster mode: fetch lightweight cluster summaries from server
+      getClustersByBounds({
+        data: { ...currentBounds, zoom: currentZoom },
+        signal: controller.signal,
       })
-      .catch((err) => {
-        if (err.name !== 'AbortError') {
-          console.error('Failed to fetch restaurants by bounds:', err)
-        }
+        .then((data) => {
+          if (!controller.signal.aborted) {
+            setClusters(data)
+          }
+        })
+        .catch((err) => {
+          if (err.name !== 'AbortError') {
+            console.error('Failed to fetch clusters:', err)
+          }
+        })
+    } else {
+      // Individual mode: fetch restaurant details
+      getRestaurantsByBounds({
+        data: currentBounds,
+        signal: controller.signal,
       })
+        .then((data) => {
+          if (!controller.signal.aborted) {
+            setBoundsRestaurants(data)
+          }
+        })
+        .catch((err) => {
+          if (err.name !== 'AbortError') {
+            console.error('Failed to fetch restaurants by bounds:', err)
+          }
+        })
+    }
 
     return () => controller.abort()
-  }, [currentBounds])
+  }, [currentBounds, isClusterMode, currentZoom])
 
   // Category filter (client-side on bounds data)
   const categoryFiltered = useMemo(
@@ -94,22 +118,13 @@ function App() {
     [boundsRestaurants, selectedCategories]
   )
 
-  const isClusterMode = currentZoom < CLUSTER_ZOOM_THRESHOLD
-
-  // Clusters for low zoom levels
-  const clusters = useMemo(
-    () =>
-      isClusterMode ? clusterRestaurants(categoryFiltered, currentZoom) : [],
-    [categoryFiltered, currentZoom, isClusterMode]
-  )
-
   // Visible restaurants for list panel
   const visibleRestaurants = useMemo(() => {
     if (isClusterMode) {
-      return selectedCluster ? selectedCluster.restaurants : []
+      return selectedCluster ? clusterRestaurants : []
     }
     return categoryFiltered
-  }, [categoryFiltered, isClusterMode, selectedCluster])
+  }, [categoryFiltered, isClusterMode, selectedCluster, clusterRestaurants])
 
   const handleBoundsChange = useCallback((bounds: MapBounds) => {
     setCurrentBounds(bounds)
@@ -120,16 +135,23 @@ function App() {
     // Clear cluster selection when switching to individual mode
     if (zoom >= CLUSTER_ZOOM_THRESHOLD) {
       setSelectedCluster(null)
+      setClusterRestaurants([])
     }
   }, [])
 
-  const handleSelectCluster = useCallback((cluster: Cluster) => {
+  const handleSelectCluster = useCallback((cluster: ClusterSummary) => {
     setSelectedCluster(cluster)
     setMobileListOpen(true)
-  }, [])
+    // Fetch restaurants within this cluster's cell
+    const cellBounds = getClusterCellBounds(cluster.lat, cluster.lng, currentZoom)
+    getRestaurantsByBounds({ data: cellBounds })
+      .then(setClusterRestaurants)
+      .catch((err) => console.error('Failed to fetch cluster restaurants:', err))
+  }, [currentZoom])
 
   const handleSelectRestaurant = useCallback((restaurant: Restaurant) => {
     setSelectedRestaurant(restaurant)
+    setMobileListOpen(true)
   }, [])
 
   const handleSelectFromList = useCallback((restaurant: Restaurant) => {
@@ -178,7 +200,7 @@ function App() {
                 <List className="size-4" />
                 목록{' '}
                 {isClusterMode && !selectedCluster
-                  ? categoryFiltered.length
+                  ? clusters.reduce((sum, c) => sum + c.count, 0)
                   : visibleRestaurants.length}
               </button>
             </header>
@@ -218,7 +240,7 @@ function App() {
                   userLat={userLat}
                   userLng={userLng}
                   clusterMode={isClusterMode}
-                  totalCount={categoryFiltered.length}
+                  totalCount={isClusterMode ? clusters.reduce((sum, c) => sum + c.count, 0) : categoryFiltered.length}
                 />
               </aside>
             </div>
@@ -240,7 +262,7 @@ function App() {
                   userLat={userLat}
                   userLng={userLng}
                   clusterMode={isClusterMode}
-                  totalCount={categoryFiltered.length}
+                  totalCount={isClusterMode ? clusters.reduce((sum, c) => sum + c.count, 0) : categoryFiltered.length}
                 />
               </SheetContent>
             </Sheet>
