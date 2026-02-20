@@ -92,6 +92,6 @@ export function clusterRestaurants(
   return clusters
 }
 
-/** Default center: South Korea center */
-export const DEFAULT_CENTER = { lat: 36.5, lng: 127.5 }
-export const DEFAULT_ZOOM = 7
+/** Default center: 강남구 */
+export const DEFAULT_CENTER = { lat: 37.4979, lng: 127.0276 }
+export const DEFAULT_ZOOM = 15
