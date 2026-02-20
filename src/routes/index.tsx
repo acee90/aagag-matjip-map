@@ -39,7 +39,7 @@ function App() {
   const [currentZoom, setCurrentZoom] = useState(DEFAULT_ZOOM)
   const [selectedCluster, setSelectedCluster] = useState<Cluster | null>(null)
 
-  const { lat: userLat, lng: userLng, loading: locationLoading, located: userLocated, requestLocation } =
+  const { lat: userLat, lng: userLng, loading: locationLoading, located: userLocated, initializing, requestLocation } =
     useGeolocation()
 
   const allCategories = useMemo(
@@ -106,7 +106,7 @@ function App() {
     setIsClient(true)
   }, [])
 
-  if (!isClient) {
+  if (!isClient || initializing) {
     return (
       <div className="flex h-dvh items-center justify-center bg-background">
         <div className="flex flex-col items-center gap-3">

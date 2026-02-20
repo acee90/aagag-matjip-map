@@ -9,8 +9,6 @@ import type { Restaurant, MapBounds, Cluster } from '@/types/restaurant'
 import { DEFAULT_CENTER, DEFAULT_ZOOM, CLUSTER_ZOOM_THRESHOLD } from '@/lib/geo-utils'
 import { MyLocationButton } from './MyLocationButton'
 
-const USER_ZOOM = 14
-
 interface MapViewProps {
   restaurants: Restaurant[]
   clusters: Cluster[]
@@ -47,27 +45,20 @@ function MapContent({
   const navermaps = useNavermaps()
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [map, setMap] = useState<any>(null)
-  const hasPanned = useRef(false)
-  const isInitialLocate = useRef(true)
+  const manualPan = useRef(false)
 
-  // Pan to user location when available
+  // Pan only on manual request (MyLocationButton)
   useEffect(() => {
-    if (map && userLocated && userLat && userLng && !hasPanned.current) {
-      hasPanned.current = true
-      const coord = new navermaps.LatLng(userLat, userLng)
-      map.setCenter(coord)
-      // Only change zoom on initial locate, not on button re-click
-      if (isInitialLocate.current) {
-        isInitialLocate.current = false
-        map.setZoom(USER_ZOOM)
-      }
+    if (map && userLocated && userLat && userLng && manualPan.current) {
+      manualPan.current = false
+      map.panTo(new navermaps.LatLng(userLat, userLng), { duration: 200 })
     }
   }, [map, userLocated, userLat, userLng, navermaps])
 
   // Pan to selected restaurant
   useEffect(() => {
     if (map && selectedRestaurant) {
-      map.panTo(new navermaps.LatLng(selectedRestaurant.lat, selectedRestaurant.lng))
+      map.panTo(new navermaps.LatLng(selectedRestaurant.lat, selectedRestaurant.lng), { duration: 200 })
     }
   }, [map, selectedRestaurant, navermaps])
 
@@ -94,7 +85,7 @@ function MapContent({
   )
 
   const handleLocationClick = useCallback(() => {
-    hasPanned.current = false
+    manualPan.current = true
     onRequestLocation()
   }, [onRequestLocation])
 
@@ -107,11 +98,16 @@ function MapContent({
 
   const isClusterMode = currentZoom < CLUSTER_ZOOM_THRESHOLD
 
+  // Use user location as initial center if available at render time, otherwise DEFAULT_CENTER
+  const initialCenter = userLocated && userLat && userLng
+    ? new navermaps.LatLng(userLat, userLng)
+    : new navermaps.LatLng(DEFAULT_CENTER.lat, DEFAULT_CENTER.lng)
+
   return (
     <div className="relative h-full w-full">
       <Container style={{ width: '100%', height: '100%' }}>
         <NaverMap
-          defaultCenter={new navermaps.LatLng(DEFAULT_CENTER.lat, DEFAULT_CENTER.lng)}
+          defaultCenter={initialCenter}
           defaultZoom={DEFAULT_ZOOM}
           ref={setMap}
           onBoundsChanged={handleBoundsChanged}
