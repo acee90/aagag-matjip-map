@@ -12,6 +12,11 @@ const config = defineConfig({
   server: {
     host: true,
   },
+  define: {
+    'import.meta.env.VITE_NAVER_MAP_CLIENT_ID': JSON.stringify(
+      process.env.VITE_NAVER_MAP_CLIENT_ID || 'uw8likbp4e'
+    ),
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
