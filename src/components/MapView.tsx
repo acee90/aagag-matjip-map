@@ -38,6 +38,7 @@ function MapContent({
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [map, setMap] = useState<any>(null)
   const hasPanned = useRef(false)
+  const isInitialLocate = useRef(true)
 
   // Pan to user location when available
   useEffect(() => {
@@ -45,7 +46,11 @@ function MapContent({
       hasPanned.current = true
       const coord = new navermaps.LatLng(userLat, userLng)
       map.setCenter(coord)
-      map.setZoom(USER_ZOOM)
+      // Only change zoom on initial locate, not on button re-click
+      if (isInitialLocate.current) {
+        isInitialLocate.current = false
+        map.setZoom(USER_ZOOM)
+      }
     }
   }, [map, userLocated, userLat, userLng, navermaps])
 
