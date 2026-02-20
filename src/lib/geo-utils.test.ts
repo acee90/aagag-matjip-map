@@ -132,7 +132,7 @@ describe('constants', () => {
     expect(DEFAULT_CENTER.lng).toBe(127.0276)
   })
 
-  it('DEFAULT_ZOOM은 15', () => {
-    expect(DEFAULT_ZOOM).toBe(15)
+  it('DEFAULT_ZOOM은 16', () => {
+    expect(DEFAULT_ZOOM).toBe(16)
   })
 })

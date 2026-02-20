@@ -16,6 +16,12 @@ const config = defineConfig({
     'import.meta.env.VITE_NAVER_MAP_CLIENT_ID': JSON.stringify(
       process.env.VITE_NAVER_MAP_CLIENT_ID || 'uw8likbp4e'
     ),
+    'import.meta.env.VITE_DEFAULT_ZOOM': JSON.stringify(
+      process.env.VITE_DEFAULT_ZOOM || '16'
+    ),
+    'import.meta.env.VITE_CLUSTER_ZOOM_THRESHOLD': JSON.stringify(
+      process.env.VITE_CLUSTER_ZOOM_THRESHOLD || '16'
+    ),
   },
   resolve: {
     alias: {

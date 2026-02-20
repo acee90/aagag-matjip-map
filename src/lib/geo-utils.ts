@@ -56,7 +56,7 @@ export function extractCategories(restaurants: Restaurant[]): string[] {
 }
 
 /** Zoom level below which clustering is enabled */
-export const CLUSTER_ZOOM_THRESHOLD = 15
+export const CLUSTER_ZOOM_THRESHOLD = Number(import.meta.env.VITE_CLUSTER_ZOOM_THRESHOLD) || 16
 
 /** Cluster restaurants into grid cells based on zoom level */
 export function clusterRestaurants(
@@ -94,4 +94,4 @@ export function clusterRestaurants(
 
 /** Default center: 강남구 */
 export const DEFAULT_CENTER = { lat: 37.4979, lng: 127.0276 }
-export const DEFAULT_ZOOM = 15
+export const DEFAULT_ZOOM = Number(import.meta.env.VITE_DEFAULT_ZOOM) || 16
