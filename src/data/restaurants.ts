@@ -44,14 +44,46 @@ export const getInitialRestaurants = createServerFn({ method: 'GET' }).handler(
   }
 )
 
-/** 클라이언트용: 전체 레스토랑 반환 */
-export const getRestaurants = createServerFn({ method: 'GET' }).handler(
-  async () => {
+/** 뷰포트 bounds 기반 레스토랑 반환 (30% 패딩 포함) */
+export const getRestaurantsByBounds = createServerFn({ method: 'GET' })
+  .inputValidator(
+    (data: {
+      south: number
+      north: number
+      west: number
+      east: number
+    }) => data
+  )
+  .handler(async ({ data }) => {
     const db = (env as Cloudflare.Env).DB
+    const latPad = (data.north - data.south) * 0.3
+    const lngPad = (data.east - data.west) * 0.3
     const { results } = await db
-      .prepare('SELECT name, address, link, recommendation, categories, region, lat, lng FROM restaurants')
+      .prepare(
+        'SELECT name, address, link, recommendation, categories, region, lat, lng FROM restaurants WHERE lat BETWEEN ? AND ? AND lng BETWEEN ? AND ?'
+      )
+      .bind(
+        data.south - latPad,
+        data.north + latPad,
+        data.west - lngPad,
+        data.east + lngPad
+      )
       .all<RestaurantRow>()
 
     return results.map(toRestaurant)
+  })
+
+/** 전체 카테고리 목록 (경량) */
+export const getAllCategories = createServerFn({ method: 'GET' }).handler(
+  async () => {
+    const db = (env as Cloudflare.Env).DB
+    const { results } = await db
+      .prepare('SELECT DISTINCT categories FROM restaurants')
+      .all<{ categories: string }>()
+    const set = new Set<string>()
+    results.forEach((r) =>
+      JSON.parse(r.categories).forEach((c: string) => set.add(c))
+    )
+    return Array.from(set).sort()
   }
 )
