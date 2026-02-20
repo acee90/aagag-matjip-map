@@ -20,17 +20,20 @@ function toRad(deg: number) {
   return (deg * Math.PI) / 180
 }
 
-/** Filter restaurants within map bounds */
+/** Filter restaurants within map bounds (with optional padding ratio) */
 export function filterByBounds(
   restaurants: Restaurant[],
-  bounds: MapBounds
+  bounds: MapBounds,
+  padding = 0
 ): Restaurant[] {
+  const latPad = (bounds.north - bounds.south) * padding
+  const lngPad = (bounds.east - bounds.west) * padding
   return restaurants.filter(
     (r) =>
-      r.lat >= bounds.south &&
-      r.lat <= bounds.north &&
-      r.lng >= bounds.west &&
-      r.lng <= bounds.east
+      r.lat >= bounds.south - latPad &&
+      r.lat <= bounds.north + latPad &&
+      r.lng >= bounds.west - lngPad &&
+      r.lng <= bounds.east + lngPad
   )
 }
 

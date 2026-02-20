@@ -61,14 +61,19 @@ function App() {
     [categoryFiltered, currentZoom, isClusterMode]
   )
 
-  // Visible restaurants = category + map bounds (for list, synced with map)
+  // Restaurants within current map bounds (+ 30% padding for smoother panning)
+  const boundsFiltered = useMemo(() => {
+    if (!currentBounds) return categoryFiltered
+    return filterByBounds(categoryFiltered, currentBounds, 0.3)
+  }, [categoryFiltered, currentBounds])
+
+  // Visible restaurants for list panel
   const visibleRestaurants = useMemo(() => {
     if (isClusterMode) {
       return selectedCluster ? selectedCluster.restaurants : []
     }
-    if (!currentBounds) return categoryFiltered
-    return filterByBounds(categoryFiltered, currentBounds)
-  }, [categoryFiltered, currentBounds, isClusterMode, selectedCluster])
+    return boundsFiltered
+  }, [boundsFiltered, isClusterMode, selectedCluster])
 
   const handleBoundsChange = useCallback((bounds: MapBounds) => {
     setCurrentBounds(bounds)
@@ -136,7 +141,7 @@ function App() {
           {/* Map */}
           <div className="flex-1 relative">
             <MapView
-              restaurants={categoryFiltered}
+              restaurants={boundsFiltered}
               clusters={clusters}
               currentZoom={currentZoom}
               selectedRestaurant={selectedRestaurant}

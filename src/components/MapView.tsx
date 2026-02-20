@@ -67,7 +67,7 @@ function MapContent({
   // Pan to selected restaurant
   useEffect(() => {
     if (map && selectedRestaurant) {
-      map.panTo(new navermaps.LatLng(selectedRestaurant.lat, selectedRestaurant.lng))
+      map.setCenter(new navermaps.LatLng(selectedRestaurant.lat, selectedRestaurant.lng))
     }
   }, [map, selectedRestaurant, navermaps])
 
