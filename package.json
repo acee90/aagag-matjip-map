@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "deploy": "bun run build && wrangler deploy",
     "cf-typegen": "wrangler types",
-    "test": "vitest run",
+    "test": "npx vitest run",
     "parse": "bun run scripts/parse-sheets.ts",
     "parse:list": "bun run scripts/parse-sheets.ts --list",
     "geocode": "bun run scripts/geocode-restaurants.ts",

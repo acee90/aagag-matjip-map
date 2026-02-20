@@ -41,9 +41,16 @@ export const getReports = createServerFn({ method: 'GET' }).handler(
 export const fixReportLocation = createServerFn({ method: 'POST' })
   .inputValidator((data: { reportId: number }) => data)
   .handler(async ({ data }) => {
-    const db = (env as Cloudflare.Env).DB
-    const ncpKeyId = (env as Cloudflare.Env).VITE_NAVER_MAP_CLIENT_ID
-    const ncpKey = (env as Cloudflare.Env).NAVER_MAP_CLIENT_SECRET
+    const cfEnv = env as Cloudflare.Env
+    const db = cfEnv.DB
+    const ncpKeyId = cfEnv.VITE_NAVER_MAP_CLIENT_ID
+    const ncpKey = cfEnv.NAVER_MAP_CLIENT_SECRET
+
+    if (!ncpKeyId || !ncpKey) {
+      throw new Error(
+        `NCP 키 미설정: keyId=${ncpKeyId ? 'OK' : 'MISSING'}, secret=${ncpKey ? 'OK' : 'MISSING'}`
+      )
+    }
 
     // 1. 리포트 조회
     const report = await db
@@ -54,13 +61,16 @@ export const fixReportLocation = createServerFn({ method: 'POST' })
 
     // 2. 레스토랑 조회
     const restaurant = await db
-      .prepare('SELECT id, lat, lng FROM restaurants WHERE name = ? AND address = ?')
+      .prepare(
+        'SELECT id, lat, lng FROM restaurants WHERE name = ? AND address = ?'
+      )
       .bind(report.restaurant_name, report.restaurant_address)
       .first<{ id: number; lat: number; lng: number }>()
     if (!restaurant) throw new Error('해당 맛집을 찾을 수 없습니다.')
 
-    // 3. NCP Geocoding API로 suggested_address 지오코딩
-    const geocodeUrl = `https://maps.apigw.ntruss.com/map-geocode/v2/geocode?query=${encodeURIComponent(report.suggested_address)}`
+    // 3. NCP Geocoding API로 restaurant_address 재지오코딩
+    //    (suggested_address는 "지도 위치 불일치" 등 설명 텍스트일 수 있음)
+    const geocodeUrl = `https://maps.apigw.ntruss.com/map-geocode/v2/geocode?query=${encodeURIComponent(report.restaurant_address)}`
     const res = await fetch(geocodeUrl, {
       headers: {
         'x-ncp-apigw-api-key-id': ncpKeyId,
@@ -68,7 +78,10 @@ export const fixReportLocation = createServerFn({ method: 'POST' })
         Accept: 'application/json',
       },
     })
-    if (!res.ok) throw new Error(`Geocoding API 오류: ${res.status}`)
+    if (!res.ok) {
+      const body = await res.text()
+      throw new Error(`Geocoding API 오류 ${res.status}: ${body.slice(0, 200)}`)
+    }
 
     const geoData = (await res.json()) as {
       status: string

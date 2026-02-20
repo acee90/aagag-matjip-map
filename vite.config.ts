@@ -20,7 +20,7 @@ const config = defineConfig({
       process.env.VITE_DEFAULT_ZOOM || '16'
     ),
     'import.meta.env.VITE_CLUSTER_ZOOM_THRESHOLD': JSON.stringify(
-      process.env.VITE_CLUSTER_ZOOM_THRESHOLD || '16'
+      process.env.VITE_CLUSTER_ZOOM_THRESHOLD || '15'
     ),
   },
   resolve: {

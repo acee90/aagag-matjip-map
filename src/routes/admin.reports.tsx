@@ -62,12 +62,18 @@ function AdminReportsPage() {
       setReports((prev) =>
         prev.map((r) => (r.id === reportId ? { ...r, status: 'fixed' } : r))
       )
-    } catch (e) {
+    } catch (e: unknown) {
+      const msg =
+        e instanceof Error
+          ? e.message
+          : typeof e === 'object' && e !== null && 'message' in e
+            ? String((e as { message: unknown }).message)
+            : JSON.stringify(e)
       setFixResults((prev) => ({
         ...prev,
         [reportId]: {
           success: false,
-          message: e instanceof Error ? e.message : '수정 실패',
+          message: msg,
         },
       }))
     } finally {
