@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useState, useMemo, useCallback, useEffect } from 'react'
 import { NavermapsProvider } from 'react-naver-maps'
-import { getRestaurants } from '@/data/restaurants'
+import { getInitialRestaurants, getRestaurants } from '@/data/restaurants'
 import { MapView } from '@/components/MapView'
 import { RestaurantList } from '@/components/RestaurantList'
 import {
@@ -24,12 +24,18 @@ import type { Restaurant, MapBounds, Cluster } from '@/types/restaurant'
 import { List, UtensilsCrossed } from 'lucide-react'
 
 export const Route = createFileRoute('/')({
-  loader: () => getRestaurants(),
+  loader: () => getInitialRestaurants(),
   component: App,
 })
 
 function App() {
-  const allRestaurants = Route.useLoaderData()
+  const initialRestaurants = Route.useLoaderData()
+  const [allRestaurants, setAllRestaurants] = useState(initialRestaurants)
+
+  // Fetch all restaurants async after mount
+  useEffect(() => {
+    getRestaurants().then(setAllRestaurants)
+  }, [])
 
   const [currentBounds, setCurrentBounds] = useState<MapBounds | null>(null)
   const [selectedCategories, setSelectedCategories] = useState<string[]>([])
