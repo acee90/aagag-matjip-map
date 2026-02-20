@@ -95,6 +95,7 @@ function App() {
 
   const handleSelectCluster = useCallback((cluster: Cluster) => {
     setSelectedCluster(cluster)
+    setMobileListOpen(true)
   }, [])
 
   const handleSelectRestaurant = useCallback((restaurant: Restaurant) => {
