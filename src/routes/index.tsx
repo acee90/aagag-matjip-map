@@ -16,8 +16,11 @@ import {
   filterByBounds,
   filterByCategories,
   extractCategories,
+  clusterRestaurants,
+  CLUSTER_ZOOM_THRESHOLD,
+  DEFAULT_ZOOM,
 } from '@/lib/geo-utils'
-import type { Restaurant, MapBounds } from '@/types/restaurant'
+import type { Restaurant, MapBounds, Cluster } from '@/types/restaurant'
 import { List, UtensilsCrossed } from 'lucide-react'
 
 export const Route = createFileRoute('/')({
@@ -33,6 +36,8 @@ function App() {
   const [selectedRestaurant, setSelectedRestaurant] =
     useState<Restaurant | null>(null)
   const [mobileListOpen, setMobileListOpen] = useState(false)
+  const [currentZoom, setCurrentZoom] = useState(DEFAULT_ZOOM)
+  const [selectedCluster, setSelectedCluster] = useState<Cluster | null>(null)
 
   const { lat: userLat, lng: userLng, loading: locationLoading, located: userLocated, requestLocation } =
     useGeolocation()
@@ -48,14 +53,37 @@ function App() {
     [allRestaurants, selectedCategories]
   )
 
+  const isClusterMode = currentZoom < CLUSTER_ZOOM_THRESHOLD
+
+  // Clusters for low zoom levels
+  const clusters = useMemo(
+    () => (isClusterMode ? clusterRestaurants(categoryFiltered, currentZoom) : []),
+    [categoryFiltered, currentZoom, isClusterMode]
+  )
+
   // Visible restaurants = category + map bounds (for list, synced with map)
   const visibleRestaurants = useMemo(() => {
+    if (isClusterMode) {
+      return selectedCluster ? selectedCluster.restaurants : []
+    }
     if (!currentBounds) return categoryFiltered
     return filterByBounds(categoryFiltered, currentBounds)
-  }, [categoryFiltered, currentBounds])
+  }, [categoryFiltered, currentBounds, isClusterMode, selectedCluster])
 
   const handleBoundsChange = useCallback((bounds: MapBounds) => {
     setCurrentBounds(bounds)
+  }, [])
+
+  const handleZoomChange = useCallback((zoom: number) => {
+    setCurrentZoom(zoom)
+    // Clear cluster selection when switching to individual mode
+    if (zoom >= CLUSTER_ZOOM_THRESHOLD) {
+      setSelectedCluster(null)
+    }
+  }, [])
+
+  const handleSelectCluster = useCallback((cluster: Cluster) => {
+    setSelectedCluster(cluster)
   }, [])
 
   const handleSelectRestaurant = useCallback((restaurant: Restaurant) => {
@@ -99,7 +127,7 @@ function App() {
             onClick={() => setMobileListOpen(true)}
           >
             <List className="size-4" />
-            목록 {visibleRestaurants.length}
+            목록 {isClusterMode && !selectedCluster ? categoryFiltered.length : visibleRestaurants.length}
           </button>
         </header>
 
@@ -109,9 +137,14 @@ function App() {
           <div className="flex-1 relative">
             <MapView
               restaurants={categoryFiltered}
+              clusters={clusters}
+              currentZoom={currentZoom}
               selectedRestaurant={selectedRestaurant}
+              selectedCluster={selectedCluster}
               onSelectRestaurant={handleSelectRestaurant}
+              onSelectCluster={handleSelectCluster}
               onBoundsChange={handleBoundsChange}
+              onZoomChange={handleZoomChange}
               locationLoading={locationLoading}
               onRequestLocation={requestLocation}
               userLat={userLat}
@@ -131,6 +164,8 @@ function App() {
               onSelectRestaurant={handleSelectFromList}
               userLat={userLat}
               userLng={userLng}
+              clusterMode={isClusterMode}
+              totalCount={categoryFiltered.length}
             />
           </aside>
         </div>
@@ -151,6 +186,8 @@ function App() {
               onSelectRestaurant={handleSelectFromList}
               userLat={userLat}
               userLng={userLng}
+              clusterMode={isClusterMode}
+              totalCount={categoryFiltered.length}
             />
           </SheetContent>
         </Sheet>

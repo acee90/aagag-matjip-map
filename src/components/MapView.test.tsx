@@ -51,9 +51,14 @@ const makeRestaurant = (overrides: Partial<Restaurant> = {}): Restaurant => ({
 
 const defaultProps = {
   restaurants: [makeRestaurant()],
+  clusters: [],
+  currentZoom: 14,
   selectedRestaurant: null as Restaurant | null,
+  selectedCluster: null,
   onSelectRestaurant: vi.fn(),
+  onSelectCluster: vi.fn(),
   onBoundsChange: vi.fn(),
+  onZoomChange: vi.fn(),
   locationLoading: false,
   onRequestLocation: vi.fn(),
 }

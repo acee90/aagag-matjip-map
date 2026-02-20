@@ -1,4 +1,4 @@
-import type { MapBounds, Restaurant } from '@/types/restaurant'
+import type { MapBounds, Restaurant, Cluster } from '@/types/restaurant'
 
 /** Haversine distance in km between two points */
 export function getDistance(
@@ -50,6 +50,43 @@ export function extractCategories(restaurants: Restaurant[]): string[] {
   const set = new Set<string>()
   restaurants.forEach((r) => r.categories.forEach((c) => set.add(c)))
   return Array.from(set).sort()
+}
+
+/** Zoom level below which clustering is enabled */
+export const CLUSTER_ZOOM_THRESHOLD = 15
+
+/** Cluster restaurants into grid cells based on zoom level */
+export function clusterRestaurants(
+  restaurants: Restaurant[],
+  zoom: number
+): Cluster[] {
+  if (restaurants.length === 0) return []
+
+  // Grid cell size in degrees — larger cells at lower zoom
+  const cellSize = 360 / Math.pow(2, zoom)
+
+  const grid = new Map<string, Restaurant[]>()
+
+  for (const r of restaurants) {
+    const cellX = Math.floor(r.lng / cellSize)
+    const cellY = Math.floor(r.lat / cellSize)
+    const key = `${cellX}:${cellY}`
+    const list = grid.get(key)
+    if (list) {
+      list.push(r)
+    } else {
+      grid.set(key, [r])
+    }
+  }
+
+  const clusters: Cluster[] = []
+  for (const group of grid.values()) {
+    const lat = group.reduce((s, r) => s + r.lat, 0) / group.length
+    const lng = group.reduce((s, r) => s + r.lng, 0) / group.length
+    clusters.push({ lat, lng, restaurants: group, count: group.length })
+  }
+
+  return clusters
 }
 
 /** Default center: South Korea center */

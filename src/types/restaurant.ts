@@ -16,6 +16,13 @@ export interface MapBounds {
   west: number
 }
 
+export interface Cluster {
+  lat: number
+  lng: number
+  restaurants: Restaurant[]
+  count: number
+}
+
 export interface AddressReport {
   id: number
   restaurant_name: string
