@@ -1,18 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <rect width="128" height="128" rx="24" fill="#f97316"/>
-  <g transform="translate(64,64)" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Fork left -->
-    <g transform="translate(-18,0)">
-      <line x1="0" y1="-32" x2="0" y2="32"/>
-      <line x1="-8" y1="-32" x2="-8" y2="-12"/>
-      <line x1="8" y1="-32" x2="8" y2="-12"/>
-      <line x1="0" y1="-32" x2="0" y2="-12"/>
-      <path d="M-8,-12 Q-8,-4 0,-4 Q8,-4 8,-12" fill="#fff"/>
-    </g>
-    <!-- Knife right -->
-    <g transform="translate(18,0)">
-      <line x1="0" y1="-8" x2="0" y2="32"/>
-      <path d="M0,-32 Q12,-20 0,-8" fill="#fff"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#f97316"/>
+  <g fill="#fff">
+    <rect x="10" y="6" width="3" height="10" rx="1"/>
+    <rect x="15" y="6" width="3" height="10" rx="1"/>
+    <rect x="20" y="6" width="3" height="10" rx="1"/>
+    <rect x="14" y="14" width="5" height="13" rx="2"/>
   </g>
 </svg>
