@@ -1,4 +1,4 @@
-import { useCallback, useState, useEffect, useRef } from 'react'
+import { useCallback, useState, useEffect, useRef, useMemo } from 'react'
 import {
   Container,
   NaverMap,
@@ -67,23 +67,29 @@ function MapContent({
   // Pan to selected restaurant
   useEffect(() => {
     if (map && selectedRestaurant) {
-      map.setCenter(new navermaps.LatLng(selectedRestaurant.lat, selectedRestaurant.lng))
+      map.panTo(new navermaps.LatLng(selectedRestaurant.lat, selectedRestaurant.lng))
     }
   }, [map, selectedRestaurant, navermaps])
 
-  const handleBoundsChanged = useCallback(
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (bounds: any) => {
-      if (!bounds) return
-      const sw = bounds.getSW()
-      const ne = bounds.getNE()
-      onBoundsChange({
-        south: sw.lat(),
-        north: ne.lat(),
-        west: sw.lng(),
-        east: ne.lng(),
-      })
-    },
+  const boundsTimer = useRef<ReturnType<typeof setTimeout>>(null)
+
+  const handleBoundsChanged = useMemo(
+    () =>
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (bounds: any) => {
+        if (!bounds) return
+        if (boundsTimer.current) clearTimeout(boundsTimer.current)
+        boundsTimer.current = setTimeout(() => {
+          const sw = bounds.getSW()
+          const ne = bounds.getNE()
+          onBoundsChange({
+            south: sw.lat(),
+            north: ne.lat(),
+            west: sw.lng(),
+            east: ne.lng(),
+          })
+        }, 200)
+      },
     [onBoundsChange]
   )
 
