@@ -39,11 +39,12 @@ function MapContent({
   const [map, setMap] = useState<any>(null)
   const hasPanned = useRef(false)
 
-  // Pan to user location once it's available
+  // Pan to user location when available
   useEffect(() => {
     if (map && userLocated && userLat && userLng && !hasPanned.current) {
       hasPanned.current = true
-      map.panTo(new navermaps.LatLng(userLat, userLng))
+      const coord = new navermaps.LatLng(userLat, userLng)
+      map.setCenter(coord)
       map.setZoom(USER_ZOOM)
     }
   }, [map, userLocated, userLat, userLng, navermaps])
