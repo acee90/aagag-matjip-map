@@ -3,7 +3,7 @@ import type { Restaurant } from '@/types/restaurant'
 import { RestaurantCard } from './RestaurantCard'
 import { CategoryFilter } from './CategoryFilter'
 import { getDistance } from '@/lib/geo-utils'
-import { UtensilsCrossed, ZoomIn } from 'lucide-react'
+import { Mail, UtensilsCrossed, ZoomIn } from 'lucide-react'
 
 interface RestaurantListProps {
   restaurants: Restaurant[]
@@ -101,6 +101,13 @@ export function RestaurantList({
             />
           ))
         )}
+
+        <div className="flex items-center justify-center gap-1.5 py-6 text-xs text-muted-foreground">
+          <Mail className="size-3" />
+          <a href="mailto:contact@matjip.site" className="hover:text-foreground transition-colors">
+            contact@matjip.site
+          </a>
+        </div>
       </div>
     </div>
   )
