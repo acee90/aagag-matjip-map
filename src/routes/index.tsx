@@ -102,22 +102,25 @@ function App() {
 
   // Client-only rendering guard for NavermapsProvider
   const [isClient, setIsClient] = useState(false)
+  const [mapReady, setMapReady] = useState(false)
   useEffect(() => {
     setIsClient(true)
   }, [])
 
-  if (!isClient || initializing) {
-    return (
-      <div className="flex h-dvh items-center justify-center bg-background">
-        <div className="flex flex-col items-center gap-3">
-          <UtensilsCrossed className="size-8 text-orange-500 animate-pulse" />
-          <p className="text-sm text-muted-foreground">지도를 불러오는 중...</p>
-        </div>
-      </div>
-    )
-  }
+  const showLoading = !isClient || initializing || !mapReady
 
   return (
+    <>
+      {showLoading && (
+        <div className="fixed inset-0 z-50 flex h-dvh items-center justify-center bg-background">
+          <div className="flex flex-col items-center gap-3">
+            <UtensilsCrossed className="size-8 text-orange-500 animate-pulse" />
+            <p className="text-sm text-muted-foreground">지도를 불러오는 중...</p>
+          </div>
+        </div>
+      )}
+
+      {isClient && !initializing && (
     <NavermapsProvider ncpKeyId={import.meta.env.VITE_NAVER_MAP_CLIENT_ID}>
       <div className="flex h-dvh flex-col">
         {/* Header */}
@@ -155,6 +158,7 @@ function App() {
               userLat={userLat}
               userLng={userLng}
               userLocated={userLocated}
+              onMapReady={() => setMapReady(true)}
             />
           </div>
 
@@ -198,5 +202,7 @@ function App() {
         </Sheet>
       </div>
     </NavermapsProvider>
+      )}
+    </>
   )
 }

@@ -24,6 +24,7 @@ interface MapViewProps {
   userLat?: number
   userLng?: number
   userLocated?: boolean
+  onMapReady?: () => void
 }
 
 function MapContent({
@@ -41,11 +42,17 @@ function MapContent({
   userLat,
   userLng,
   userLocated,
+  onMapReady,
 }: MapViewProps) {
   const navermaps = useNavermaps()
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [map, setMap] = useState<any>(null)
   const manualPan = useRef(false)
+
+  // Notify parent when map is initialized
+  useEffect(() => {
+    if (map && onMapReady) onMapReady()
+  }, [map, onMapReady])
 
   // Pan only on manual request (MyLocationButton)
   useEffect(() => {
