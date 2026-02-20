@@ -151,7 +151,6 @@ function App() {
 
   const handleSelectRestaurant = useCallback((restaurant: Restaurant) => {
     setSelectedRestaurant(restaurant)
-    setMobileListOpen(true)
   }, [])
 
   const handleSelectFromList = useCallback((restaurant: Restaurant) => {
