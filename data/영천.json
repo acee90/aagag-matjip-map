@@ -6,13 +6,17 @@
     "recommendation": "�노무현, 이명박 인증 곰탕 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.98842,
+    "lng": 128.942
   },
   {
     "name": "삼송꾼만두 영천본점",
     "address": "�경북 영천시 중앙동1길 12",
     "link": "https://map.naver.com/p/entry/place/13181737?c=15.72,0,0,0,dh",
     "recommendation": "�고소하고 맛있는 군만두 원툴 맛집",
-    "categories": []
+    "categories": [],
+    "lat": 35.9754111,
+    "lng": 128.9323375
   }
 ]

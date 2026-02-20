@@ -6,7 +6,9 @@
     "recommendation": "닭발, 묵사발, 국수 저렴한 가격에 무난함",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.3524,
+    "lng": 128.697
   },
   {
     "name": "의성마늘품은찜닭",
@@ -15,7 +17,9 @@
     "recommendation": "지코바 스타일 찜닭 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.3524,
+    "lng": 128.697
   },
   {
     "name": "평양메밀냉면",
@@ -24,6 +28,8 @@
     "recommendation": "애객러 Moviebuff님 추천 냉면 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.3524,
+    "lng": 128.697
   }
 ]

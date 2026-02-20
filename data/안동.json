@@ -6,7 +6,9 @@
     "recommendation": "마늘 듬뿍 시원한 매운탕",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.5631974,
+    "lng": 128.727791
   },
   {
     "name": "청하감자탕 안동본점",
@@ -15,7 +17,9 @@
     "recommendation": "저렴한 산더미 감자탕 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.5651846,
+    "lng": 128.738457
   },
   {
     "name": "신라국밥",
@@ -24,7 +28,9 @@
     "recommendation": "애객러 바이올린 해장국님 추천 국밥 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.5586639,
+    "lng": 128.713613
   },
   {
     "name": "현대찜닭",
@@ -33,14 +39,18 @@
     "recommendation": "애객러 유동닉님 추천 찜닭 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.5647417,
+    "lng": 128.7277467
   },
   {
     "name": "일직식당",
     "address": "경북 안동시 경동로 676",
     "link": "https://map.naver.com/p/entry/place/15355074?c=14.50,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202510222340&locale=ko&svcName=map_pcv5",
     "recommendation": "애객러 유동닉님 추천 고등어 맛집",
-    "categories": []
+    "categories": [],
+    "lat": 36.5649916,
+    "lng": 128.9183289
   },
   {
     "name": "동악골 금재가든",
@@ -49,7 +59,9 @@
     "recommendation": "애객러 유동닉님 추천 닭볶음탕 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.5634886,
+    "lng": 128.7260798
   },
   {
     "name": "동대문 식당",
@@ -58,7 +70,9 @@
     "recommendation": "애객러 유동닉님 추천 오징어무침 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.5699657,
+    "lng": 128.7254202
   },
   {
     "name": "메밀꽃피면",
@@ -67,7 +81,9 @@
     "recommendation": "애객러 유동닉님 추천 황태구이정식, 메밀면 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.5634886,
+    "lng": 128.7260798
   },
   {
     "name": "헛제사밥 까치구멍집",
@@ -76,7 +92,9 @@
     "recommendation": "애객러 유동닉님 추천 헛재사밥 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.5777016,
+    "lng": 128.7581449
   },
   {
     "name": "옛날이야기",
@@ -85,7 +103,9 @@
     "recommendation": "애객러 유동닉님 추천 한우국밥 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.5697398,
+    "lng": 128.7514449
   },
   {
     "name": "서울식당",
@@ -94,7 +114,9 @@
     "recommendation": "애객러 유동닉님 추천 탕수육,중화비빔밥 맛집",
     "categories": [
       "중식"
-    ]
+    ],
+    "lat": 36.5648842,
+    "lng": 128.7349108
   },
   {
     "name": "성전식당",
@@ -103,7 +125,9 @@
     "recommendation": "애객러 유동닉님 추천 된장찌개 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.5634886,
+    "lng": 128.7260798
   },
   {
     "name": "태형식당",
@@ -112,6 +136,8 @@
     "recommendation": "애객러 유동닉님 추천 고등어 정식 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.5634886,
+    "lng": 128.7260798
   }
 ]

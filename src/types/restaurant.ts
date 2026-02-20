@@ -6,6 +6,7 @@ export interface Restaurant {
   link: string
   recommendation: string
   categories: string[]
+  region?: string
 }
 
 export interface MapBounds {

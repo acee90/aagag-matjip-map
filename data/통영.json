@@ -6,7 +6,9 @@
     "recommendation": "나물 비빔밥 추천",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 34.854254,
+    "lng": 128.433205
   },
   {
     "name": "통영생선구이",
@@ -15,7 +17,9 @@
     "recommendation": "생선구이 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 34.854254,
+    "lng": 128.433205
   },
   {
     "name": "미주뚝배기",
@@ -24,14 +28,18 @@
     "recommendation": "40년 해물뚝배기",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 34.8428507,
+    "lng": 128.4233661
   },
   {
     "name": "한일김밥본점",
     "address": "경남 통영시 통영해안로 319",
     "link": "https://map.naver.com/p/entry/place/11698488?c=15.00,0,0,0,dh&placePath=/home",
     "recommendation": "충무김밥",
-    "categories": []
+    "categories": [],
+    "lat": 34.8428507,
+    "lng": 128.4233661
   },
   {
     "name": "심가네해물짬뽕",
@@ -40,6 +48,8 @@
     "recommendation": "백짬뽕도 가능",
     "categories": [
       "중식"
-    ]
+    ],
+    "lat": 34.8413357,
+    "lng": 128.41989
   }
 ]

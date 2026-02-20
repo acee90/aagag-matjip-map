@@ -6,7 +6,9 @@
     "recommendation": "물회 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.3560264,
+    "lng": 129.0405639
   },
   {
     "name": "삼정메밀소바",
@@ -15,7 +17,9 @@
     "recommendation": "생활의 달인 나온 소바 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.4959489,
+    "lng": 129.0799516
   },
   {
     "name": "가촌가마솥추어탕",
@@ -24,7 +28,9 @@
     "recommendation": "진한 국물의 추어탕 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.3349979,
+    "lng": 129.0370582
   },
   {
     "name": "해양산국밥 양산증산점",
@@ -33,14 +39,18 @@
     "recommendation": "유퀴즈 나온 국밥 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.309554,
+    "lng": 129.0076938
   },
   {
     "name": "원조매콤이와순진이",
     "address": "경남 양산시 양주2길 33",
     "link": "https://map.naver.com/p/search/매콤이&순진이 칼국수/place/36097871?c=15.00,0,0,0,dh&placePath=?entry%3Dbmp",
     "recommendation": "어탕식 칼국수 (오래걸림)",
-    "categories": []
+    "categories": [],
+    "lat": 35.3407087,
+    "lng": 129.0286534
   },
   {
     "name": "우리농원",
@@ -49,7 +59,9 @@
     "recommendation": "갈비탕 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.3567442,
+    "lng": 129.0435652
   },
   {
     "name": "기장꼼장어",
@@ -58,6 +70,8 @@
     "recommendation": "애객러 네모대가리님 추천 꼼장어 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.3567065,
+    "lng": 129.0423128
   }
 ]

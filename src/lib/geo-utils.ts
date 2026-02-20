@@ -52,6 +52,6 @@ export function extractCategories(restaurants: Restaurant[]): string[] {
   return Array.from(set).sort()
 }
 
-/** Default center: Incheon city center */
-export const INCHEON_CENTER = { lat: 37.4563, lng: 126.7052 }
-export const DEFAULT_ZOOM = 12
+/** Default center: South Korea center */
+export const DEFAULT_CENTER = { lat: 36.5, lng: 127.5 }
+export const DEFAULT_ZOOM = 7

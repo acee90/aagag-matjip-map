@@ -6,7 +6,9 @@
     "recommendation": "애객러 펭귀니님 추천 박속낙지탕 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.8199831,
+    "lng": 126.2569459
   },
   {
     "name": "반도식당",
@@ -15,7 +17,9 @@
     "recommendation": "애객러 펭귀니님 추천 중식 맛집",
     "categories": [
       "중식"
-    ]
+    ],
+    "lat": 36.7571106,
+    "lng": 126.2962512
   },
   {
     "name": "안흥식당",
@@ -24,7 +28,9 @@
     "recommendation": "애객러 펭귀니님 추천 아나고 스끼야끼 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.7468527,
+    "lng": 126.3052669
   },
   {
     "name": "화해당",
@@ -34,14 +40,18 @@
     "categories": [
       "한식",
       "단체"
-    ]
+    ],
+    "lat": 36.729896,
+    "lng": 126.2383631
   },
   {
     "name": "원조뚝배기식당",
     "address": "충남 태안군 태안읍 시장5길 18-5",
     "link": "https://map.naver.com/p/entry/place/17455645?c=15.00,0,0,0,dh&placePath=/home",
     "recommendation": "애객러 펭귀니님 추천 게국지,우럿적국 맛집",
-    "categories": []
+    "categories": [],
+    "lat": 36.750788,
+    "lng": 126.2991902
   },
   {
     "name": "시장 맛집",
@@ -50,6 +60,8 @@
     "recommendation": "칼국수와 파전 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 36.7534653,
+    "lng": 126.2966142
   }
 ]

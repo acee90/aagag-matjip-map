@@ -6,7 +6,9 @@
     "recommendation": "애객러 LK-99님 추천 칼국수 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.6591388,
+    "lng": 129.4501281
   },
   {
     "name": "홍두깨국시",
@@ -15,7 +17,9 @@
     "recommendation": "애객러 울산맛집님 추천 국수 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.8417058,
+    "lng": 129.2206222
   },
   {
     "name": "청온채",
@@ -24,7 +28,9 @@
     "recommendation": "애객러 무릎어깨님 추천 미나리 닭한마리 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.8374726,
+    "lng": 129.2086855
   },
   {
     "name": "내사랑터키",
@@ -33,14 +39,18 @@
     "recommendation": "터키 가정식, 카이막 등 대표메뉴 4 추천",
     "categories": [
       "아시아"
-    ]
+    ],
+    "lat": 35.8556705,
+    "lng": 129.2248811
   },
   {
     "name": "기와해물집칼국수",
     "address": "경북 경주시 양남면 동해안로 367",
     "link": "https://map.naver.com/p/entry/place/20511234?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507241531&locale=ko&svcName=map_pcv5",
     "recommendation": "애객러 털팬티님 추천 칼&콩국수 맛집",
-    "categories": []
+    "categories": [],
+    "lat": 35.6591388,
+    "lng": 129.4501281
   },
   {
     "name": "박신우제면소",
@@ -49,7 +59,9 @@
     "recommendation": "애객러 왕만두님 추천 우동 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.8417058,
+    "lng": 129.2206222
   },
   {
     "name": "한봉순 할매 순두부",
@@ -58,7 +70,9 @@
     "recommendation": "애객러 레게노님 추천 순두부 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.8556705,
+    "lng": 129.2248811
   },
   {
     "name": "네코짱",
@@ -67,6 +81,8 @@
     "recommendation": "애객러 레게노님 추천 라멘 맛집",
     "categories": [
       "일식"
-    ]
+    ],
+    "lat": 35.8373148,
+    "lng": 129.2140455
   }
 ]

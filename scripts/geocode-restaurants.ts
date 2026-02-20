@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from 'fs'
+import { readFileSync, writeFileSync, readdirSync } from 'fs'
 import { resolve } from 'path'
 
 interface Restaurant {
@@ -19,33 +19,24 @@ async function geocode(
 ): Promise<{ lat: number; lng: number } | null> {
   const url = `${NOMINATIM_URL}?q=${encodeURIComponent(address)}&format=json&limit=1&countrycodes=kr`
   const res = await fetch(url, {
-    headers: {
-      'User-Agent': 'matjip-map-geocoder/1.0',
-    },
+    headers: { 'User-Agent': 'matjip-map-geocoder/1.0' },
   })
 
-  if (!res.ok) {
-    console.error(`  API error ${res.status}: ${res.statusText}`)
-    return null
-  }
+  if (!res.ok) return null
 
   const data = await res.json()
   if (data.length > 0) {
     return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) }
   }
-
   return null
 }
 
-// Fallback: try shorter address (remove building details)
 async function geocodeWithFallback(
   address: string
 ): Promise<{ lat: number; lng: number } | null> {
-  // First try full address
   let result = await geocode(address)
   if (result) return result
 
-  // Fallback: remove building/floor details (after last number)
   const simplified = address
     .replace(/\s+\d+층.*$/, '')
     .replace(/\s+[가-힣]+빌딩.*$/, '')
@@ -54,12 +45,11 @@ async function geocodeWithFallback(
     .trim()
 
   if (simplified !== address) {
-    await sleep(1100) // Nominatim rate limit: 1 req/sec
+    await sleep(1100)
     result = await geocode(simplified)
     if (result) return result
   }
 
-  // Fallback: just district-level (e.g., "인천 부평구")
   const parts = address.split(' ')
   if (parts.length >= 2) {
     const district = parts.slice(0, 2).join(' ')
@@ -75,9 +65,8 @@ function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
 
-async function main() {
-  const dataPath = resolve(import.meta.dir, '../data/인천.json')
-  const raw = readFileSync(dataPath, 'utf-8')
+async function geocodeFile(filePath: string): Promise<{ geocoded: number; skipped: number; failed: string[] }> {
+  const raw = readFileSync(filePath, 'utf-8')
   const restaurants: Restaurant[] = JSON.parse(raw)
 
   const failed: string[] = []
@@ -89,40 +78,73 @@ async function main() {
 
     if (r.lat && r.lng) {
       skipped++
-      console.log(
-        `[${i + 1}/${restaurants.length}] ⏭ ${r.name} (already geocoded)`
-      )
       continue
     }
 
-    console.log(`[${i + 1}/${restaurants.length}] 🔍 ${r.name}: ${r.address}`)
+    console.log(`  [${i + 1}/${restaurants.length}] ${r.name}: ${r.address}`)
 
     const result = await geocodeWithFallback(r.address)
     if (result) {
       r.lat = result.lat
       r.lng = result.lng
       geocoded++
-      console.log(`  ✅ ${result.lat}, ${result.lng}`)
+      console.log(`    OK ${result.lat}, ${result.lng}`)
     } else {
       failed.push(`${r.name}: ${r.address}`)
-      console.log(`  ❌ Geocoding failed`)
+      console.log(`    FAIL`)
     }
 
-    // Nominatim rate limit: 1 request per second
     await sleep(1100)
   }
 
-  writeFileSync(dataPath, JSON.stringify(restaurants, null, 2), 'utf-8')
+  writeFileSync(filePath, JSON.stringify(restaurants, null, 2), 'utf-8')
+  return { geocoded, skipped, failed }
+}
 
-  console.log('\n--- Summary ---')
-  console.log(`Total: ${restaurants.length}`)
-  console.log(`Geocoded: ${geocoded}`)
-  console.log(`Skipped (already had coords): ${skipped}`)
-  console.log(`Failed: ${failed.length}`)
+async function main() {
+  const dataDir = resolve(import.meta.dir, '../data')
+  const files = readdirSync(dataDir)
+    .filter((f: string) => f.endsWith('.json') && f !== 'restaurants-all.json')
+    .sort()
 
-  if (failed.length > 0) {
-    console.log('\nFailed addresses (need manual correction):')
-    failed.forEach((f) => console.log(`  - ${f}`))
+  let totalGeocoded = 0
+  let totalSkipped = 0
+  const allFailed: string[] = []
+  const startTime = Date.now()
+
+  for (const file of files) {
+    const filePath = resolve(dataDir, file)
+    const raw = readFileSync(filePath, 'utf-8')
+    const data: Restaurant[] = JSON.parse(raw)
+    const needsGeocode = data.some((r) => !r.lat || !r.lng)
+
+    if (!needsGeocode) {
+      totalSkipped += data.length
+      console.log(`SKIP ${file} (${data.length})`)
+      continue
+    }
+
+    const missing = data.filter((r) => !r.lat || !r.lng).length
+    console.log(`\n>> ${file} (${missing}/${data.length})`)
+
+    const result = await geocodeFile(filePath)
+    totalGeocoded += result.geocoded
+    totalSkipped += result.skipped
+    allFailed.push(...result.failed.map((f) => `[${file}] ${f}`))
+
+    const elapsed = ((Date.now() - startTime) / 1000 / 60).toFixed(1)
+    console.log(`  DONE +${result.geocoded} fail=${result.failed.length} (${elapsed}min elapsed)`)
+  }
+
+  console.log('\n\n========== FINAL ==========')
+  console.log(`Geocoded: ${totalGeocoded}`)
+  console.log(`Skipped: ${totalSkipped}`)
+  console.log(`Failed: ${allFailed.length}`)
+  console.log(`Time: ${((Date.now() - startTime) / 1000 / 60).toFixed(1)}min`)
+
+  if (allFailed.length > 0) {
+    console.log('\nFailed:')
+    allFailed.forEach((f) => console.log(`  - ${f}`))
   }
 }
 

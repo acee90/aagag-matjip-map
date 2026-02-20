@@ -88,7 +88,7 @@ function App() {
         <header className="shrink-0 flex items-center justify-between border-b bg-white px-4 py-2.5 z-20">
           <div className="flex items-center gap-2">
             <UtensilsCrossed className="size-5 text-orange-500" />
-            <h1 className="font-bold text-base">아가그 인천 맛집</h1>
+            <h1 className="font-bold text-base">애객 맛집</h1>
           </div>
           {/* Mobile list toggle */}
           <button

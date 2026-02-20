@@ -13,7 +13,7 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no',
       },
       {
-        title: '아가그 인천 맛집 지도',
+        title: '애객 맛집 지도',
       },
     ],
     links: [

@@ -6,7 +6,9 @@
     "recommendation": "애객러 carllewiz님 추천 오징어 내장탕 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 37.5069766,
+    "lng": 130.9126169
   },
   {
     "name": "천금수산",
@@ -15,7 +17,9 @@
     "recommendation": "애객러 carllewiz님 추천 독도새우 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 37.4942698,
+    "lng": 130.9058294
   },
   {
     "name": "산마을 식당",
@@ -24,7 +28,9 @@
     "recommendation": "애객러 carllewiz님 추천 산채비빔밥 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 37.4845293,
+    "lng": 130.9058854
   },
   {
     "name": "전주식당",
@@ -33,7 +39,9 @@
     "recommendation": "애객러 carllewiz님 추천 오삼불고기 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 37.5069766,
+    "lng": 130.9126169
   },
   {
     "name": "보배식당",
@@ -42,7 +50,9 @@
     "recommendation": "애객러 carllewiz님 추천 홍합밥 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 37.4838913,
+    "lng": 130.9061709
   },
   {
     "name": "봉래갈비",
@@ -51,7 +61,9 @@
     "recommendation": "애객러 carllewiz님 추천 고기 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 37.4933628,
+    "lng": 130.9091045
   },
   {
     "name": "배가네 화로구이",
@@ -60,7 +72,9 @@
     "recommendation": "애객러 carllewiz님 추천 고기 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 37.4840491,
+    "lng": 130.9050836
   },
   {
     "name": "신비섬 횟집",
@@ -69,6 +83,8 @@
     "recommendation": "애객러 M.Aech님 추천 물회 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 37.5069766,
+    "lng": 130.9126169
   }
 ]

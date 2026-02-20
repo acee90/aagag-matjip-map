@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import { INCHEON_CENTER } from '@/lib/geo-utils'
+import { DEFAULT_CENTER } from '@/lib/geo-utils'
 
 interface GeolocationState {
   lat: number
@@ -10,8 +10,8 @@ interface GeolocationState {
 
 export function useGeolocation() {
   const [state, setState] = useState<GeolocationState>({
-    lat: INCHEON_CENTER.lat,
-    lng: INCHEON_CENTER.lng,
+    lat: DEFAULT_CENTER.lat,
+    lng: DEFAULT_CENTER.lng,
     loading: false,
     error: null,
   })

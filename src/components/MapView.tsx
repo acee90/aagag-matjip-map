@@ -6,7 +6,7 @@ import {
   useNavermaps,
 } from 'react-naver-maps'
 import type { Restaurant, MapBounds } from '@/types/restaurant'
-import { INCHEON_CENTER, DEFAULT_ZOOM } from '@/lib/geo-utils'
+import { DEFAULT_CENTER, DEFAULT_ZOOM } from '@/lib/geo-utils'
 import { MyLocationButton } from './MyLocationButton'
 
 interface MapViewProps {
@@ -56,7 +56,7 @@ function MapContent({
     <div className="relative h-full w-full">
       <Container style={{ width: '100%', height: '100%' }}>
         <NaverMap
-          defaultCenter={new navermaps.LatLng(INCHEON_CENTER.lat, INCHEON_CENTER.lng)}
+          defaultCenter={new navermaps.LatLng(DEFAULT_CENTER.lat, DEFAULT_CENTER.lng)}
           defaultZoom={DEFAULT_ZOOM}
           ref={setMap}
           onBoundsChanged={handleBoundsChanged}

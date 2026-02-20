@@ -7,13 +7,17 @@
     "categories": [
       "일식",
       "데이트"
-    ]
+    ],
+    "lat": 36.1518786,
+    "lng": 127.01215
   },
   {
     "name": "강짬뽕",
     "address": "논산시 부적면 계백로 1660-8 계백휴게소 안",
     "link": "https://map.naver.com/p/entry/place/1469805093?c=17.57,0,0,0,dh",
     "recommendation": "애객러 굿바이레닌님 추천 가리비짬뽕 맛집",
-    "categories": []
+    "categories": [],
+    "lat": 36.2093582,
+    "lng": 127.1466336
   }
 ]

@@ -6,7 +6,9 @@
     "recommendation": "애객러 휘어라등골핑님 추천 순대국밥 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 34.9636602,
+    "lng": 127.4852183
   },
   {
     "name": "대대선창집",
@@ -15,7 +17,9 @@
     "recommendation": "애객러 니도곧이렇게될끼다님 추천 짱뚱어탕 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 34.889458,
+    "lng": 127.5090847
   },
   {
     "name": "해화정",
@@ -24,7 +28,9 @@
     "recommendation": "애객러 니도곧이렇게될끼다님 추천 게장정식 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 34.9557071,
+    "lng": 127.5366474
   },
   {
     "name": "삼거리서대횟집",
@@ -33,7 +39,9 @@
     "recommendation": "애객러 니도곧이렇게될끼다님 추천 회무침 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 34.9505457,
+    "lng": 127.4872992
   },
   {
     "name": "대원식당",
@@ -42,7 +50,9 @@
     "recommendation": "애객러 니도곧이렇게될끼다님 추천 한정식 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 34.9494773,
+    "lng": 127.4899752
   },
   {
     "name": "인사동",
@@ -51,7 +61,9 @@
     "recommendation": "애객러 니도곧이렇게될끼다님 추천 한식 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 34.9571821,
+    "lng": 127.4801085
   },
   {
     "name": "태경원조동경낙지",
@@ -60,7 +72,9 @@
     "recommendation": "애객러 니도곧이렇게될끼다님 추천 낙지전골 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 34.9548453,
+    "lng": 127.4814501
   },
   {
     "name": "양지쌈밥",
@@ -69,7 +83,9 @@
     "recommendation": "애객러 니도곧이렇게될끼다님 추천 쌈밥 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 34.9549983,
+    "lng": 127.4835042
   },
   {
     "name": "옛날할머니순대국밥",
@@ -78,7 +94,9 @@
     "recommendation": "막창 베이스 옛날식 순대국밥",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 34.9505457,
+    "lng": 127.4872992
   },
   {
     "name": "괴목국밥",
@@ -87,7 +105,9 @@
     "recommendation": "한끼 식사로 좋은 순대국밥집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 34.9636602,
+    "lng": 127.4852183
   },
   {
     "name": "거목순대국밥",
@@ -96,7 +116,9 @@
     "recommendation": "잡내 안나고 맛있는 순대국밥",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 34.9429809,
+    "lng": 127.493972
   },
   {
     "name": "솔가든",
@@ -106,7 +128,9 @@
     "categories": [
       "한식",
       "단체"
-    ]
+    ],
+    "lat": 34.9741847,
+    "lng": 127.4015333
   },
   {
     "name": "우미정",
@@ -115,13 +139,17 @@
     "recommendation": "애객러 이웃집토토즐님 추천 콩국수 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 34.9626465,
+    "lng": 127.4898814
   },
   {
     "name": "장대콩국수",
     "address": "전남 순천시 이수로 51",
     "link": "https://map.naver.com/p/search/순천 장대콩국수/place/17094305?c=14.47,0,0,0,dh&isCorrectAnswer=true&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202507241552&locale=ko&svcName=map_pcv5&searchText=순천 장대콩국수",
     "recommendation": "애객러 도조희대키님 추천 콩국수 맛집",
-    "categories": []
+    "categories": [],
+    "lat": 34.9492599,
+    "lng": 127.505248
   }
 ]

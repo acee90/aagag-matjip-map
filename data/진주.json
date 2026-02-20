@@ -6,7 +6,9 @@
     "recommendation": "허영만 출연 게장맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.1970802,
+    "lng": 128.0835994
   },
   {
     "name": "하연옥 본점",
@@ -15,7 +17,9 @@
     "recommendation": "진주 냉면의 원조",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.1943297,
+    "lng": 128.0595214
   },
   {
     "name": "성지원",
@@ -24,7 +28,9 @@
     "recommendation": "갈비탕과 삼계탕 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.1540921,
+    "lng": 128.0506893
   },
   {
     "name": "천수식당",
@@ -33,14 +39,18 @@
     "recommendation": "육회비빔밥,불고기 추천 (공기밥2천원에바)",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.1970802,
+    "lng": 128.0835994
   },
   {
     "name": "신토불이 가든",
     "address": "경남 진주시 내동면 삼계로 298-5",
     "link": "https://map.naver.com/p/entry/place/15750794?c=15.00,0,0,0,dh&placePath=/home",
     "recommendation": "촌닭, 옻닭, 닭도리탕",
-    "categories": []
+    "categories": [],
+    "lat": 35.1396252,
+    "lng": 128.0289538
   },
   {
     "name": "한정식 아리랑",
@@ -49,7 +59,9 @@
     "recommendation": "숨어있는 정갈한 한정식 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.1803459,
+    "lng": 128.1079953
   },
   {
     "name": "황포냉면",
@@ -58,7 +70,9 @@
     "recommendation": "냉면 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.1643027,
+    "lng": 128.1174858
   },
   {
     "name": "천황식당",
@@ -67,7 +81,9 @@
     "recommendation": "육회비빔밥 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.1963222,
+    "lng": 128.08448
   },
   {
     "name": "제일식당",
@@ -76,7 +92,9 @@
     "recommendation": "육회비빔밥 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.1943386,
+    "lng": 128.0852637
   },
   {
     "name": "명성반점",
@@ -85,7 +103,9 @@
     "recommendation": "애객러 난알아요님 추천 중식 맛집",
     "categories": [
       "중식"
-    ]
+    ],
+    "lat": 35.1728308,
+    "lng": 128.2679065
   },
   {
     "name": "순토해송돌판닭찜",
@@ -94,7 +114,9 @@
     "recommendation": "애객러 Gagaa님 추천 찜닭 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.1626699,
+    "lng": 128.115852
   },
   {
     "name": "락영루",
@@ -103,7 +125,9 @@
     "recommendation": "애객러 Gagaa님 추천 탕수육 맛집",
     "categories": [
       "중식"
-    ]
+    ],
+    "lat": 35.1803459,
+    "lng": 128.1079953
   },
   {
     "name": "진주냉면산홍 본점",
@@ -112,6 +136,8 @@
     "recommendation": "애객러 해모수님 추천 냉면 맛집",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 35.2143689,
+    "lng": 128.1466375
   }
 ]

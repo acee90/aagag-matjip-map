@@ -6,7 +6,9 @@
     "recommendation": "시원한 바지락 칼국수 (맵기조절 가능)",
     "categories": [
       "한식"
-    ]
+    ],
+    "lat": 37.7849312,
+    "lng": 127.0457771
   },
   {
     "name": "송추가마골 본관",
@@ -16,7 +18,9 @@
     "categories": [
       "한식",
       "단체"
-    ]
+    ],
+    "lat": 37.7174883,
+    "lng": 126.9721405
   },
   {
     "name": "천안문",
@@ -25,7 +29,9 @@
     "recommendation": "애객러 무릎어깨님 추천 간짜장 맛집",
     "categories": [
       "중식"
-    ]
+    ],
+    "lat": 37.7849312,
+    "lng": 127.0457771
   },
   {
     "name": "회암반점",
@@ -34,13 +40,17 @@
     "recommendation": "애객러 멍뭉이다람쥐님 추천 간짜장 맛집",
     "categories": [
       "중식"
-    ]
+    ],
+    "lat": 37.8408753,
+    "lng": 127.0918536
   },
   {
     "name": "덕계리 육회방앗간",
     "address": "경기 양주시 평화로1489번길 12 1층",
     "link": "https://map.naver.com/p/entry/place/1733087114?placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202511191414&locale=ko&svcName=map_pcv5&c=15.00,0,0,0,dh",
     "recommendation": "애객러 아항이님 추천 육회 비빔밥 맛집",
-    "categories": []
+    "categories": [],
+    "lat": 37.7849312,
+    "lng": 127.0457771
   }
 ]
