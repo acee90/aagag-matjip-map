@@ -49,6 +49,13 @@ function MapContent({
     }
   }, [map, userLocated, userLat, userLng, navermaps])
 
+  // Pan to selected restaurant
+  useEffect(() => {
+    if (map && selectedRestaurant) {
+      map.panTo(new navermaps.LatLng(selectedRestaurant.lat, selectedRestaurant.lng))
+    }
+  }, [map, selectedRestaurant, navermaps])
+
   const handleBoundsChanged = useCallback(
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     (bounds: any) => {

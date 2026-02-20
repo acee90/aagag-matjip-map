@@ -18,7 +18,7 @@ import {
   extractCategories,
 } from '@/lib/geo-utils'
 import type { Restaurant, MapBounds } from '@/types/restaurant'
-import { List, Search, UtensilsCrossed } from 'lucide-react'
+import { List, UtensilsCrossed } from 'lucide-react'
 
 export const Route = createFileRoute('/')({
   loader: () => getRestaurants(),
@@ -29,8 +29,6 @@ function App() {
   const allRestaurants = Route.useLoaderData()
 
   const [currentBounds, setCurrentBounds] = useState<MapBounds | null>(null)
-  const [searchBounds, setSearchBounds] = useState<MapBounds | null>(null)
-  const [mapMoved, setMapMoved] = useState(false)
   const [selectedCategories, setSelectedCategories] = useState<string[]>([])
   const [selectedRestaurant, setSelectedRestaurant] =
     useState<Restaurant | null>(null)
@@ -44,26 +42,21 @@ function App() {
     [allRestaurants]
   )
 
-  // Apply filters: categories → searchBounds (only when user clicks search)
-  const filteredRestaurants = useMemo(() => {
-    let result = filterByCategories(allRestaurants, selectedCategories)
-    if (searchBounds) {
-      result = filterByBounds(result, searchBounds)
-    }
-    return result
-  }, [allRestaurants, selectedCategories, searchBounds])
+  // Category filter (for map markers)
+  const categoryFiltered = useMemo(
+    () => filterByCategories(allRestaurants, selectedCategories),
+    [allRestaurants, selectedCategories]
+  )
+
+  // Visible restaurants = category + map bounds (for list, synced with map)
+  const visibleRestaurants = useMemo(() => {
+    if (!currentBounds) return categoryFiltered
+    return filterByBounds(categoryFiltered, currentBounds)
+  }, [categoryFiltered, currentBounds])
 
   const handleBoundsChange = useCallback((bounds: MapBounds) => {
     setCurrentBounds(bounds)
-    setMapMoved(true)
   }, [])
-
-  const handleSearchArea = useCallback(() => {
-    if (currentBounds) {
-      setSearchBounds(currentBounds)
-      setMapMoved(false)
-    }
-  }, [currentBounds])
 
   const handleSelectRestaurant = useCallback((restaurant: Restaurant) => {
     setSelectedRestaurant(restaurant)
@@ -106,7 +99,7 @@ function App() {
             onClick={() => setMobileListOpen(true)}
           >
             <List className="size-4" />
-            목록 {filteredRestaurants.length}
+            목록 {visibleRestaurants.length}
           </button>
         </header>
 
@@ -115,7 +108,7 @@ function App() {
           {/* Map */}
           <div className="flex-1 relative">
             <MapView
-              restaurants={filteredRestaurants}
+              restaurants={categoryFiltered}
               selectedRestaurant={selectedRestaurant}
               onSelectRestaurant={handleSelectRestaurant}
               onBoundsChange={handleBoundsChange}
@@ -125,22 +118,12 @@ function App() {
               userLng={userLng}
               userLocated={userLocated}
             />
-            {/* Search this area button */}
-            {mapMoved && (
-              <button
-                className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 flex items-center gap-1.5 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-700 shadow-lg border border-gray-200 hover:bg-gray-50 active:bg-gray-100 transition-colors"
-                onClick={handleSearchArea}
-              >
-                <Search className="size-4" />
-                이 지역 검색
-              </button>
-            )}
           </div>
 
           {/* Desktop sidebar */}
           <aside className="hidden md:flex w-80 lg:w-96 shrink-0 border-l bg-white">
             <RestaurantList
-              restaurants={filteredRestaurants}
+              restaurants={visibleRestaurants}
               categories={allCategories}
               selectedCategories={selectedCategories}
               onCategoriesChange={setSelectedCategories}
@@ -160,7 +143,7 @@ function App() {
               <SheetDescription>지도 영역 내 맛집 목록</SheetDescription>
             </SheetHeader>
             <RestaurantList
-              restaurants={filteredRestaurants}
+              restaurants={visibleRestaurants}
               categories={allCategories}
               selectedCategories={selectedCategories}
               onCategoriesChange={setSelectedCategories}

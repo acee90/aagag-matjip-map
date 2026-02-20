@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import type { Restaurant } from '@/types/restaurant'
 import { RestaurantCard } from './RestaurantCard'
 import { CategoryFilter } from './CategoryFilter'
@@ -25,6 +26,17 @@ export function RestaurantList({
   userLat,
   userLng,
 }: RestaurantListProps) {
+  const scrollContainerRef = useRef<HTMLDivElement>(null)
+
+  // Scroll to selected restaurant card
+  useEffect(() => {
+    if (!selectedRestaurant || !scrollContainerRef.current) return
+    const el = scrollContainerRef.current.querySelector(
+      `[data-restaurant="${selectedRestaurant.lat}-${selectedRestaurant.lng}"]`
+    )
+    el?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+  }, [selectedRestaurant])
+
   // Sort by distance if user location available
   const sorted = userLat && userLng
     ? [...restaurants].sort(
@@ -53,7 +65,7 @@ export function RestaurantList({
         />
       </div>
 
-      <div className="flex-1 overflow-y-auto p-3 space-y-2">
+      <div ref={scrollContainerRef} className="flex-1 overflow-y-auto p-3 space-y-2">
         {sorted.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-12 text-muted-foreground">
             <UtensilsCrossed className="size-8 mb-2 opacity-50" />

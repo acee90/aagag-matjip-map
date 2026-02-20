@@ -17,6 +17,7 @@ export function RestaurantCard({
 }: RestaurantCardProps) {
   return (
     <div
+      data-restaurant={`${restaurant.lat}-${restaurant.lng}`}
       onClick={onClick}
       className={`cursor-pointer rounded-lg border p-3 transition-all hover:shadow-md ${
         isSelected
