@@ -35,7 +35,7 @@ export const getInitialRestaurants = createServerFn({ method: 'GET' }).handler(
     // DEFAULT_CENTER(37.4979, 127.0276) 기준 ±0.025 lat, ±0.03 lng (약 3km 반경)
     const { results } = await db
       .prepare(
-        'SELECT name, address, link, recommendation, categories, region, lat, lng FROM restaurants WHERE lat BETWEEN ? AND ? AND lng BETWEEN ? AND ?'
+        'SELECT name, address, link, recommendation, categories, region, lat, lng FROM restaurants WHERE deleted_at IS NULL AND lat BETWEEN ? AND ? AND lng BETWEEN ? AND ?'
       )
       .bind(37.473, 37.523, 126.998, 127.058)
       .all<RestaurantRow>()
@@ -60,7 +60,7 @@ export const getRestaurantsByBounds = createServerFn({ method: 'GET' })
     const lngPad = (data.east - data.west) * 0.3
     const { results } = await db
       .prepare(
-        'SELECT name, address, link, recommendation, categories, region, lat, lng FROM restaurants WHERE lat BETWEEN ? AND ? AND lng BETWEEN ? AND ?'
+        'SELECT name, address, link, recommendation, categories, region, lat, lng FROM restaurants WHERE deleted_at IS NULL AND lat BETWEEN ? AND ? AND lng BETWEEN ? AND ?'
       )
       .bind(
         data.south - latPad,
@@ -92,7 +92,7 @@ export const getClustersByBounds = createServerFn({ method: 'GET' })
            AVG(lng) AS lng,
            COUNT(*) AS count
          FROM restaurants
-         WHERE lat BETWEEN ? AND ? AND lng BETWEEN ? AND ?
+         WHERE deleted_at IS NULL AND lat BETWEEN ? AND ? AND lng BETWEEN ? AND ?
          GROUP BY cellY, cellX`
       )
       .bind(
@@ -109,7 +109,7 @@ export const getAllCategories = createServerFn({ method: 'GET' }).handler(
   async () => {
     const db = (env as Cloudflare.Env).DB
     const { results } = await db
-      .prepare('SELECT DISTINCT categories FROM restaurants')
+      .prepare('SELECT DISTINCT categories FROM restaurants WHERE deleted_at IS NULL')
       .all<{ categories: string }>()
     const set = new Set<string>()
     results.forEach((r) =>
