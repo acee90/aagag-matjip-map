@@ -60,8 +60,19 @@ const log = (msg) => console.log(`[release] ${msg}`);
 
 // ── Git / GitHub helpers ─────────────────────────────────────────────────────
 
-function repoUrl() {
-  return JSON.parse(run("gh repo view --json url")).url;
+function repoInfo() {
+  const info = JSON.parse(
+    run("gh repo view --json url,nameWithOwner"),
+  );
+  return { url: info.url, slug: info.nameWithOwner };
+}
+
+/** Create a lightweight tag on the remote via GitHub API (bypasses GITHUB_TOKEN workflow permission restriction) */
+function createRemoteTag(tag, sha) {
+  const { slug } = repoInfo();
+  run(
+    `gh api repos/${slug}/git/refs -f ref="refs/tags/${tag}" -f sha="${sha}"`,
+  );
 }
 
 function currentVersion() {
@@ -191,7 +202,7 @@ function bumpFiles(ver) {
 // ── Main ─────────────────────────────────────────────────────────────────────
 
 function main() {
-  const url = repoUrl();
+  const url = repoInfo().url;
   const ver = currentVersion();
   let tag = getLatestTag();
 
@@ -199,14 +210,17 @@ function main() {
 
   // ── Bootstrap: create baseline tag if no tags exist ────────────────────────
   if (!tag) {
+    // Find the commit that first introduced the current version in package.json
     const commit =
-      tryRun(`git log --format=%H --diff-filter=A -1 -- ${MANIFEST}`) ||
+      tryRun(
+        `git log --format=%H -1 -S'"version": "${ver}"' -- package.json`,
+      ) ||
       tryRun(`git log --format=%H -1 -- ${MANIFEST}`) ||
-      "HEAD";
+      run("git rev-parse HEAD");
     const t = `v${ver}`;
     log(`No tags found — creating baseline ${t} on ${commit.slice(0, 7)}`);
-    run(`git tag ${t} ${commit}`);
-    run(`git push origin ${t}`);
+    run(`git tag ${t} ${commit}`); // local tag for git log
+    createRemoteTag(t, commit); // remote tag via API (avoids workflows permission issue)
     tag = t;
   }
 
@@ -218,10 +232,11 @@ function main() {
     const notes = buildChangelog(ver, cs, tag, url) ?? `Release ${vtag}\n`;
     writeFileSync("/tmp/release-notes.md", notes);
 
-    run(`git tag ${vtag}`);
-    run(`git push origin ${vtag}`);
+    // Use gh release create --target to create tag + release via API
+    // (avoids GITHUB_TOKEN workflows permission restriction on git push)
+    const head = run("git rev-parse HEAD");
     run(
-      `gh release create ${vtag} --title "${vtag}" --notes-file /tmp/release-notes.md`,
+      `gh release create ${vtag} --target ${head} --title "${vtag}" --notes-file /tmp/release-notes.md`,
     );
     tryRun(`git push origin --delete ${RELEASE_BRANCH}`);
     log(`Done — ${vtag} released`);
