@@ -75,8 +75,24 @@ function App() {
     const controller = new AbortController()
     abortRef.current = controller
 
+    // Always fetch restaurants (for list panel)
+    getRestaurantsByBounds({
+      data: currentBounds,
+      signal: controller.signal,
+    })
+      .then((data) => {
+        if (!controller.signal.aborted) {
+          setBoundsRestaurants(data)
+        }
+      })
+      .catch((err) => {
+        if (err.name !== 'AbortError') {
+          console.error('Failed to fetch restaurants by bounds:', err)
+        }
+      })
+
     if (isClusterMode) {
-      // Cluster mode: fetch lightweight cluster summaries from server
+      // Additionally fetch lightweight cluster summaries for map markers
       getClustersByBounds({
         data: { ...currentBounds, zoom: currentZoom },
         signal: controller.signal,
@@ -89,22 +105,6 @@ function App() {
         .catch((err) => {
           if (err.name !== 'AbortError') {
             console.error('Failed to fetch clusters:', err)
-          }
-        })
-    } else {
-      // Individual mode: fetch restaurant details
-      getRestaurantsByBounds({
-        data: currentBounds,
-        signal: controller.signal,
-      })
-        .then((data) => {
-          if (!controller.signal.aborted) {
-            setBoundsRestaurants(data)
-          }
-        })
-        .catch((err) => {
-          if (err.name !== 'AbortError') {
-            console.error('Failed to fetch restaurants by bounds:', err)
           }
         })
     }
@@ -120,11 +120,11 @@ function App() {
 
   // Visible restaurants for list panel
   const visibleRestaurants = useMemo(() => {
-    if (isClusterMode) {
-      return selectedCluster ? clusterRestaurants : []
+    if (isClusterMode && selectedCluster) {
+      return filterByCategories(clusterRestaurants, selectedCategories)
     }
     return categoryFiltered
-  }, [categoryFiltered, isClusterMode, selectedCluster, clusterRestaurants])
+  }, [categoryFiltered, isClusterMode, selectedCluster, clusterRestaurants, selectedCategories])
 
   const handleBoundsChange = useCallback((bounds: MapBounds) => {
     setCurrentBounds(bounds)
@@ -197,10 +197,7 @@ function App() {
                 onClick={() => setMobileListOpen(true)}
               >
                 <List className="size-4" />
-                목록{' '}
-                {isClusterMode && !selectedCluster
-                  ? clusters.reduce((sum, c) => sum + c.count, 0)
-                  : visibleRestaurants.length}
+                목록 {visibleRestaurants.length}
               </button>
             </header>
 
@@ -238,15 +235,13 @@ function App() {
                   onSelectRestaurant={handleSelectFromList}
                   userLat={userLat}
                   userLng={userLng}
-                  clusterMode={isClusterMode}
-                  totalCount={isClusterMode ? clusters.reduce((sum, c) => sum + c.count, 0) : categoryFiltered.length}
                 />
               </aside>
             </div>
 
             {/* Mobile bottom sheet */}
             <Sheet open={mobileListOpen} onOpenChange={setMobileListOpen}>
-              <SheetContent side="bottom" className="h-[70dvh] md:hidden p-0">
+              <SheetContent side="bottom" className="h-[70dvh] md:hidden p-0" overlayClassName="md:hidden">
                 <SheetHeader className="sr-only">
                   <SheetTitle>맛집 목록</SheetTitle>
                   <SheetDescription>지도 영역 내 맛집 목록</SheetDescription>
@@ -260,8 +255,6 @@ function App() {
                   onSelectRestaurant={handleSelectFromList}
                   userLat={userLat}
                   userLng={userLng}
-                  clusterMode={isClusterMode}
-                  totalCount={isClusterMode ? clusters.reduce((sum, c) => sum + c.count, 0) : categoryFiltered.length}
                 />
               </SheetContent>
             </Sheet>
