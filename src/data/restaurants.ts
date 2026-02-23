@@ -104,6 +104,23 @@ export const getClustersByBounds = createServerFn({ method: 'GET' })
     return results.map((r) => ({ lat: r.lat, lng: r.lng, count: r.count }))
   })
 
+/** 이름/주소 검색 (최대 20건) */
+export const searchRestaurants = createServerFn({ method: 'GET' })
+  .inputValidator((data: { query: string }) => data)
+  .handler(async ({ data }) => {
+    const q = data.query.trim()
+    if (!q) return []
+    const db = (env as Cloudflare.Env).DB
+    const like = `%${q}%`
+    const { results } = await db
+      .prepare(
+        'SELECT name, address, link, recommendation, categories, region, lat, lng FROM restaurants WHERE deleted_at IS NULL AND (name LIKE ? OR address LIKE ?) LIMIT 20'
+      )
+      .bind(like, like)
+      .all<RestaurantRow>()
+    return results.map(toRestaurant)
+  })
+
 /** 전체 카테고리 목록 (경량) */
 export const getAllCategories = createServerFn({ method: 'GET' }).handler(
   async () => {

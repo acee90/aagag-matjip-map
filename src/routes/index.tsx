@@ -8,7 +8,9 @@ import {
   getAllCategories,
 } from '@/data/restaurants'
 import { MapView } from '@/components/MapView'
+import { SearchBar } from '@/components/SearchBar'
 import { RestaurantList } from '@/components/RestaurantList'
+import { MobileRestaurantDetail } from '@/components/MobileRestaurantDetail'
 import {
   Sheet,
   SheetContent,
@@ -46,6 +48,7 @@ function App() {
   const [clusters, setClusters] = useState<ClusterSummary[]>([])
   const [selectedCluster, setSelectedCluster] = useState<ClusterSummary | null>(null)
   const [clusterRestaurants, setClusterRestaurants] = useState<Restaurant[]>([])
+  const [panTo, setPanTo] = useState<{ lat: number; lng: number; zoom?: number } | undefined>()
 
   const {
     lat: userLat,
@@ -158,6 +161,11 @@ function App() {
     setMobileListOpen(false)
   }, [])
 
+  const handleSearchSelect = useCallback((restaurant: Restaurant) => {
+    setSelectedRestaurant(restaurant)
+    setPanTo({ lat: restaurant.lat, lng: restaurant.lng, zoom: CLUSTER_ZOOM_THRESHOLD })
+  }, [])
+
   // Client-only rendering guard for NavermapsProvider
   const [isClient, setIsClient] = useState(false)
   const [mapReady, setMapReady] = useState(false)
@@ -186,11 +194,12 @@ function App() {
         >
           <div className="flex h-dvh flex-col">
             {/* Header */}
-            <header className="shrink-0 flex items-center justify-between border-b bg-white px-4 py-2.5 z-20">
-              <div className="flex items-center gap-2">
+            <header className="shrink-0 flex items-center gap-3 border-b bg-white px-4 py-2.5 z-20">
+              <div className="flex items-center gap-2 shrink-0">
                 <UtensilsCrossed className="size-5 text-orange-500" />
-                <h1 className="font-bold text-base">애객 맛집</h1>
+                <h1 className="font-bold text-base hidden sm:block">애객 맛집</h1>
               </div>
+              <SearchBar onSelect={handleSearchSelect} />
               {/* Mobile list toggle */}
               <button
                 className="flex items-center gap-1.5 rounded-lg bg-orange-50 px-3 py-1.5 text-sm font-medium text-orange-600 hover:bg-orange-100 transition-colors md:hidden"
@@ -221,7 +230,15 @@ function App() {
                   userLng={userLng}
                   userLocated={userLocated}
                   onMapReady={() => setMapReady(true)}
+                  panTo={panTo}
                 />
+                {/* Mobile bottom card for selected restaurant */}
+                {selectedRestaurant && (
+                  <MobileRestaurantDetail
+                    restaurant={selectedRestaurant}
+                    onClose={() => setSelectedRestaurant(null)}
+                  />
+                )}
               </div>
 
               {/* Desktop sidebar */}

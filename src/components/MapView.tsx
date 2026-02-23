@@ -25,6 +25,7 @@ interface MapViewProps {
   userLng?: number
   userLocated?: boolean
   onMapReady?: () => void
+  panTo?: { lat: number; lng: number; zoom?: number }
 }
 
 function MapContent({
@@ -43,6 +44,7 @@ function MapContent({
   userLng,
   userLocated,
   onMapReady,
+  panTo,
 }: MapViewProps) {
   const navermaps = useNavermaps()
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -68,6 +70,16 @@ function MapContent({
       map.panTo(new navermaps.LatLng(selectedRestaurant.lat, selectedRestaurant.lng), { duration: 200 })
     }
   }, [map, selectedRestaurant, navermaps])
+
+  // Pan to explicit coordinates (from search)
+  useEffect(() => {
+    if (map && panTo) {
+      map.panTo(new navermaps.LatLng(panTo.lat, panTo.lng), { duration: 200 })
+      if (panTo.zoom && map.getZoom() < panTo.zoom) {
+        map.setZoom(panTo.zoom)
+      }
+    }
+  }, [map, panTo, navermaps])
 
   const boundsTimer = useRef<ReturnType<typeof setTimeout>>(null)
 
