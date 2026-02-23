@@ -1,3 +1,8 @@
+User-agent: Yeti
+Allow: /
+Disallow: /admin/
+Disallow: /demo/
+
 User-agent: *
 Disallow: /admin/
 Disallow: /demo/
