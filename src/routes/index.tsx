@@ -5,6 +5,7 @@ import {
   getInitialRestaurants,
   getRestaurantsByBounds,
   getClustersByBounds,
+  getRestaurantsNearby,
   getAllCategories,
 } from '@/data/restaurants'
 import { MapView } from '@/components/MapView'
@@ -48,6 +49,10 @@ function App() {
   const [clusters, setClusters] = useState<ClusterSummary[]>([])
   const [selectedCluster, setSelectedCluster] = useState<ClusterSummary | null>(null)
   const [clusterRestaurants, setClusterRestaurants] = useState<Restaurant[]>([])
+  const [listRestaurants, setListRestaurants] = useState<Restaurant[]>([])
+  const [listHasMore, setListHasMore] = useState(false)
+  const [listOffset, setListOffset] = useState(0)
+  const [listLoading, setListLoading] = useState(false)
   const [panTo, setPanTo] = useState<{ lat: number; lng: number; zoom?: number } | undefined>()
 
   const {
@@ -69,65 +74,107 @@ function App() {
 
   const isClusterMode = currentZoom < CLUSTER_ZOOM_THRESHOLD
 
-  // Fetch clusters or restaurants based on zoom level
+  // Abort controller for bounds-based fetch
+  const listAbortRef = useRef<AbortController | null>(null)
+
+  // Fetch map markers (bounds-based) and clusters
   useEffect(() => {
     if (!currentBounds) return
 
-    // Cancel previous in-flight request
     abortRef.current?.abort()
     const controller = new AbortController()
     abortRef.current = controller
 
-    // Always fetch restaurants (for list panel)
+    // Fetch restaurants for map markers
     getRestaurantsByBounds({
       data: currentBounds,
       signal: controller.signal,
     })
       .then((data) => {
-        if (!controller.signal.aborted) {
-          setBoundsRestaurants(data)
-        }
+        if (!controller.signal.aborted) setBoundsRestaurants(data)
       })
       .catch((err) => {
-        if (err.name !== 'AbortError') {
+        if (err.name !== 'AbortError')
           console.error('Failed to fetch restaurants by bounds:', err)
-        }
       })
 
     if (isClusterMode) {
-      // Additionally fetch lightweight cluster summaries for map markers
       getClustersByBounds({
         data: { ...currentBounds, zoom: currentZoom },
         signal: controller.signal,
       })
         .then((data) => {
-          if (!controller.signal.aborted) {
-            setClusters(data)
-          }
+          if (!controller.signal.aborted) setClusters(data)
         })
         .catch((err) => {
-          if (err.name !== 'AbortError') {
+          if (err.name !== 'AbortError')
             console.error('Failed to fetch clusters:', err)
-          }
         })
     }
 
     return () => controller.abort()
   }, [currentBounds, isClusterMode, currentZoom])
 
-  // Category filter (client-side on bounds data)
+  // Reset list when bounds or categories change
+  useEffect(() => {
+    setListOffset(0)
+    setListRestaurants([])
+    setListHasMore(false)
+  }, [currentBounds, selectedCategories])
+
+  // Fetch list restaurants (distance-based, paginated)
+  useEffect(() => {
+    if (!currentBounds) return
+
+    listAbortRef.current?.abort()
+    const controller = new AbortController()
+    listAbortRef.current = controller
+
+    const centerLat = (currentBounds.north + currentBounds.south) / 2
+    const centerLng = (currentBounds.east + currentBounds.west) / 2
+
+    setListLoading(true)
+    getRestaurantsNearby({
+      data: {
+        lat: centerLat,
+        lng: centerLng,
+        categories: selectedCategories.length > 0 ? selectedCategories : undefined,
+        offset: listOffset,
+      },
+      signal: controller.signal,
+    })
+      .then((data) => {
+        if (!controller.signal.aborted) {
+          setListRestaurants((prev) =>
+            listOffset === 0 ? data.items : [...prev, ...data.items]
+          )
+          setListHasMore(data.hasMore)
+        }
+      })
+      .catch((err) => {
+        if (err.name !== 'AbortError')
+          console.error('Failed to fetch nearby restaurants:', err)
+      })
+      .finally(() => {
+        if (!controller.signal.aborted) setListLoading(false)
+      })
+
+    return () => controller.abort()
+  }, [currentBounds, selectedCategories, listOffset])
+
+  // Map markers: viewport-based with client-side category filter
   const categoryFiltered = useMemo(
     () => filterByCategories(boundsRestaurants, selectedCategories),
     [boundsRestaurants, selectedCategories]
   )
 
-  // Visible restaurants for list panel
+  // List panel: distance-based from entire DB (cluster mode uses cluster-specific fetch)
   const visibleRestaurants = useMemo(() => {
     if (isClusterMode && selectedCluster) {
       return filterByCategories(clusterRestaurants, selectedCategories)
     }
-    return categoryFiltered
-  }, [categoryFiltered, isClusterMode, selectedCluster, clusterRestaurants, selectedCategories])
+    return listRestaurants
+  }, [listRestaurants, isClusterMode, selectedCluster, clusterRestaurants, selectedCategories])
 
   const handleBoundsChange = useCallback((bounds: MapBounds) => {
     setCurrentBounds(bounds)
@@ -159,6 +206,10 @@ function App() {
   const handleSelectFromList = useCallback((restaurant: Restaurant) => {
     setSelectedRestaurant(restaurant)
     setMobileListOpen(false)
+  }, [])
+
+  const handleLoadMore = useCallback(() => {
+    setListOffset((prev) => prev + 20)
   }, [])
 
   const handleSearchSelect = useCallback((restaurant: Restaurant) => {
@@ -252,6 +303,9 @@ function App() {
                   onSelectRestaurant={handleSelectFromList}
                   userLat={userLat}
                   userLng={userLng}
+                  hasMore={listHasMore}
+                  loading={listLoading}
+                  onLoadMore={handleLoadMore}
                 />
               </aside>
             </div>
@@ -272,6 +326,9 @@ function App() {
                   onSelectRestaurant={handleSelectFromList}
                   userLat={userLat}
                   userLng={userLng}
+                  hasMore={listHasMore}
+                  loading={listLoading}
+                  onLoadMore={handleLoadMore}
                 />
               </SheetContent>
             </Sheet>
