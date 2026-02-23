@@ -104,6 +104,59 @@ export const getClustersByBounds = createServerFn({ method: 'GET' })
     return results.map((r) => ({ lat: r.lat, lng: r.lng, count: r.count }))
   })
 
+/** 뷰포트 중심 기준 거리순 맛집 반환 (전체 DB, 카테고리 필터 포함, 페이지네이션) */
+export const getRestaurantsNearby = createServerFn({ method: 'GET' })
+  .inputValidator(
+    (data: { lat: number; lng: number; categories?: string[]; offset?: number }) => data
+  )
+  .handler(async ({ data }) => {
+    const db = (env as Cloudflare.Env).DB
+    const params: (string | number)[] = []
+    const limit = 20
+    const offset = data.offset ?? 0
+
+    let sql =
+      'SELECT name, address, link, recommendation, categories, region, lat, lng FROM restaurants WHERE deleted_at IS NULL'
+
+    if (data.categories && data.categories.length > 0) {
+      const placeholders = data.categories.map(() => '?').join(',')
+      sql += ` AND EXISTS (SELECT 1 FROM json_each(categories) WHERE json_each.value IN (${placeholders}))`
+      params.push(...data.categories)
+    }
+
+    // Fetch limit+1 to determine hasMore
+    sql += ' ORDER BY ((lat - ?) * (lat - ?) + (lng - ?) * (lng - ?)) LIMIT ? OFFSET ?'
+    params.push(data.lat, data.lat, data.lng, data.lng, limit + 1, offset)
+
+    const { results } = await db
+      .prepare(sql)
+      .bind(...params)
+      .all<RestaurantRow>()
+
+    const hasMore = results.length > limit
+    return {
+      items: results.slice(0, limit).map(toRestaurant),
+      hasMore,
+    }
+  })
+
+/** 이름/주소 검색 (최대 20건) */
+export const searchRestaurants = createServerFn({ method: 'GET' })
+  .inputValidator((data: { query: string }) => data)
+  .handler(async ({ data }) => {
+    const q = data.query.trim()
+    if (!q) return []
+    const db = (env as Cloudflare.Env).DB
+    const like = `%${q}%`
+    const { results } = await db
+      .prepare(
+        'SELECT name, address, link, recommendation, categories, region, lat, lng FROM restaurants WHERE deleted_at IS NULL AND (name LIKE ? OR address LIKE ?) LIMIT 20'
+      )
+      .bind(like, like)
+      .all<RestaurantRow>()
+    return results.map(toRestaurant)
+  })
+
 /** 전체 카테고리 목록 (경량) */
 export const getAllCategories = createServerFn({ method: 'GET' }).handler(
   async () => {

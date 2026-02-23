@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useCallback } from 'react'
 import type { Restaurant } from '@/types/restaurant'
 import { RestaurantCard } from './RestaurantCard'
 import { CategoryFilter } from './CategoryFilter'
@@ -14,6 +14,9 @@ interface RestaurantListProps {
   onSelectRestaurant: (restaurant: Restaurant) => void
   userLat?: number
   userLng?: number
+  hasMore?: boolean
+  loading?: boolean
+  onLoadMore?: () => void
 }
 
 export function RestaurantList({
@@ -25,6 +28,9 @@ export function RestaurantList({
   onSelectRestaurant,
   userLat,
   userLng,
+  hasMore,
+  loading,
+  onLoadMore,
 }: RestaurantListProps) {
   const scrollContainerRef = useRef<HTMLDivElement>(null)
 
@@ -36,6 +42,25 @@ export function RestaurantList({
     )
     el?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
   }, [selectedRestaurant])
+
+  // Infinite scroll sentinel
+  const sentinelRef = useCallback(
+    (node: HTMLDivElement | null) => {
+      if (!node || !hasMore || loading || !onLoadMore) return
+      const observer = new IntersectionObserver(
+        (entries) => {
+          if (entries[0].isIntersecting) {
+            onLoadMore()
+            observer.disconnect()
+          }
+        },
+        { rootMargin: '200px' }
+      )
+      observer.observe(node)
+      return () => observer.disconnect()
+    },
+    [hasMore, loading, onLoadMore]
+  )
 
   // Sort by distance if user location available
   const sorted = userLat && userLng
@@ -86,6 +111,14 @@ export function RestaurantList({
               onClick={() => onSelectRestaurant(r)}
             />
           ))
+        )}
+
+        {hasMore && (
+          <div ref={sentinelRef} className="flex items-center justify-center py-4">
+            {loading && (
+              <UtensilsCrossed className="size-4 text-orange-400 animate-pulse" />
+            )}
+          </div>
         )}
 
         <div className="flex items-center justify-center gap-1.5 py-6 text-xs text-muted-foreground">
