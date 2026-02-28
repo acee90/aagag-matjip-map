@@ -1,9 +1,18 @@
+# Naver
 User-agent: Yeti
 Allow: /
 Disallow: /admin/
 Disallow: /demo/
 
+# Google
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /demo/
+
+# All others
 User-agent: *
+Allow: /
 Disallow: /admin/
 Disallow: /demo/
 
