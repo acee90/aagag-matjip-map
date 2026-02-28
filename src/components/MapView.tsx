@@ -50,11 +50,25 @@ function MapContent({
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [map, setMap] = useState<any>(null)
   const manualPan = useRef(false)
+  const initialBoundsFired = useRef(false)
 
-  // Notify parent when map is initialized
+  // Notify parent when map is initialized and fire initial bounds once
   useEffect(() => {
-    if (map && onMapReady) onMapReady()
-  }, [map, onMapReady])
+    if (!map || initialBoundsFired.current) return
+    initialBoundsFired.current = true
+    if (onMapReady) onMapReady()
+    const bounds = map.getBounds()
+    if (bounds) {
+      const sw = bounds.getSW()
+      const ne = bounds.getNE()
+      onBoundsChange({
+        south: sw.lat(),
+        north: ne.lat(),
+        west: sw.lng(),
+        east: ne.lng(),
+      })
+    }
+  }, [map, onMapReady, onBoundsChange])
 
   // Pan only on manual request (MyLocationButton)
   useEffect(() => {

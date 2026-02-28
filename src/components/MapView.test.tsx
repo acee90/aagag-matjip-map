@@ -7,8 +7,14 @@ const mockPanTo = vi.fn()
 const mockLatLng = vi.fn((lat: number, lng: number) => ({ lat, lng }))
 const mockPoint = vi.fn((x: number, y: number) => ({ x, y }))
 
+const mockGetBounds = vi.fn(() => ({
+  getSW: () => ({ lat: () => 37.49, lng: () => 127.03 }),
+  getNE: () => ({ lat: () => 37.52, lng: () => 127.07 }),
+}))
+
 const mockMap = {
   panTo: mockPanTo,
+  getBounds: mockGetBounds,
 }
 
 const mockNavermaps = {
@@ -113,6 +119,34 @@ describe('MapView', () => {
     render(<MapView {...defaultProps} onMapReady={onMapReady} />)
 
     expect(onMapReady).toHaveBeenCalled()
+  })
+
+  it('지도 초기화 시 onBoundsChange에 초기 bounds 전달', () => {
+    const onBoundsChange = vi.fn()
+
+    render(<MapView {...defaultProps} onBoundsChange={onBoundsChange} />)
+
+    expect(onBoundsChange).toHaveBeenCalledWith({
+      south: 37.49,
+      north: 37.52,
+      west: 127.03,
+      east: 127.07,
+    })
+  })
+
+  it('지도 초기화 시 onBoundsChange는 한 번만 호출 (무한 루프 방지)', () => {
+    const onBoundsChange = vi.fn()
+
+    const { rerender } = render(
+      <MapView {...defaultProps} onBoundsChange={onBoundsChange} />
+    )
+
+    const callCount = onBoundsChange.mock.calls.length
+
+    // 리렌더 해도 초기 bounds는 다시 전달하지 않음
+    rerender(<MapView {...defaultProps} onBoundsChange={onBoundsChange} />)
+
+    expect(onBoundsChange).toHaveBeenCalledTimes(callCount)
   })
 
   it('마커 클릭 시 onSelectRestaurant 호출', () => {

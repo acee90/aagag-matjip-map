@@ -28,16 +28,21 @@ function toRestaurant(row: RestaurantRow): Restaurant {
   }
 }
 
-/** SSR용: 초기 뷰포트(강남구 zoom 15) 근처 레스토랑만 반환 */
+/** SSR용: 전국 지역별 대표 맛집 샘플 (SEO/AEO용, 지역별 최대 5개) */
 export const getInitialRestaurants = createServerFn({ method: 'GET' }).handler(
   async () => {
     const db = (env as Cloudflare.Env).DB
-    // DEFAULT_CENTER(37.4979, 127.0276) 기준 ±0.025 lat, ±0.03 lng (약 3km 반경)
     const { results } = await db
       .prepare(
-        'SELECT name, address, link, recommendation, categories, region, lat, lng FROM restaurants WHERE deleted_at IS NULL AND lat BETWEEN ? AND ? AND lng BETWEEN ? AND ?'
+        `SELECT name, address, link, recommendation, categories, region, lat, lng
+         FROM (
+           SELECT *, ROW_NUMBER() OVER (PARTITION BY region ORDER BY name) AS rn
+           FROM restaurants
+           WHERE deleted_at IS NULL AND lat IS NOT NULL AND lng IS NOT NULL
+         )
+         WHERE rn <= 5
+         LIMIT 100`
       )
-      .bind(37.473, 37.523, 126.998, 127.058)
       .all<RestaurantRow>()
 
     return results.map(toRestaurant)
